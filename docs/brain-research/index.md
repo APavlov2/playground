@@ -11,7 +11,7 @@ workflow, [`taxonomy.md`](./taxonomy.md) for the 12 neural channels, and
 ## Phase progress
 
 - [x] **Phase 0 — Scaffold.** Directory tree, taxonomy, rubric, template, this board.
-- [~] **Phase 1 — Compound track** (Track A) — **48 of seed list done**, ongoing.
+- [~] **Phase 1 — Compound track** (Track A) — **55 of seed list done**, ongoing.
 - [ ] **Phase 2 — Habit track** (Track B).
 - [ ] **Phase 3 — Cross-link** — generate `synthesis/channel-matrix.json` + `channel-briefs.md`.
 - [ ] **Phase 4 — Synthesis** — `synthesis/stacks-by-goal.md`.
@@ -19,7 +19,7 @@ workflow, [`taxonomy.md`](./taxonomy.md) for the 12 neural channels, and
 
 ## Track A — Compounds
 
-_48 entries. All `draft` pending Phase 5 review. Evidence = `evidence_overall` badge._
+_55 entries. All `draft` pending Phase 5 review. Evidence = `evidence_overall` badge._
 
 | id | Name | klass | Evidence | Status | Channels (grade) |
 |----|------|-------|:--------:|:------:|------------------|
@@ -71,11 +71,17 @@ _48 entries. All `draft` pending Phase 5 review. Evidence = `evidence_overall` b
 | [lecithin](./compounds/lecithin.md) | Lecithin / Phosphatidylcholine | Cholinergic (dietary) | 1 | draft | ach(1), ntrophic(1) |
 | [pterostilbene](./compounds/pterostilbene.md) | Pterostilbene | Polyphenol | 1 | draft | inflam(2↓), ntrophic(1) |
 | [cordyceps](./compounds/cordyceps.md) | Cordyceps | Mushroom / adaptogen | 1 | draft | mito(2), inflam(2↓) |
+| [aniracetam](./compounds/aniracetam.md) | Aniracetam *(research-grade)* | Racetam (AMPA PAM) | 2 | draft | glu(3), ach(2), da(2), ser(2) |
+| [piracetam](./compounds/piracetam.md) | Piracetam *(research-grade)* | Racetam | 2 | draft | glu(2), cbf(2), mito(2) |
+| [oxiracetam](./compounds/oxiracetam.md) | Oxiracetam *(research-grade)* | Racetam | 2 | draft | glu(2), ach(2), cbf(1) |
+| [phenylpiracetam](./compounds/phenylpiracetam.md) | Phenylpiracetam *(research-grade, WADA-banned)* | Racetam (stimulant) | 2 | draft | da(2), ne(2), glu(1) |
+| [noopept](./compounds/noopept.md) | Noopept *(research-grade)* | Peptide-analog nootropic | 2 | draft | ntrophic(2), glu(2), inflam(2↓) |
+| [pramiracetam](./compounds/pramiracetam.md) | Pramiracetam *(research-grade)* | Racetam | 1 | draft | ach(2), glu(1) |
+| [coluracetam](./compounds/coluracetam.md) | Coluracetam *(investigational)* | Racetam (HACU) | 1 | draft | ach(1) |
 
-_Seed queue (next):_ centrophenoxine · nicotine · racetams (piracetam/aniracetam/oxiracetam/pramiracetam/phenylpiracetam) ·
-noopept · coluracetam · modafinil/armodafinil/adrafinil · amphetamine/methylphenidate · melatonin · apigenin ·
-spermidine · fisetin · sulforaphane · lithium · probiotics · prebiotic-fiber · krill-oil · algal-dha ·
-semax · selank · cerebrolysin · dihexa · psilocybin (full set in `BRIEF.md` §8A)
+_Seed queue (next):_ centrophenoxine · nicotine · modafinil/armodafinil/adrafinil · amphetamine/methylphenidate ·
+melatonin · apigenin · spermidine · fisetin · sulforaphane · lithium · probiotics · prebiotic-fiber ·
+krill-oil · algal-dha · semax · selank · cerebrolysin · dihexa · psilocybin (full set in `BRIEF.md` §8A)
 
 ## Track B — Habits
 
