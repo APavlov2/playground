@@ -11,7 +11,7 @@ workflow, [`taxonomy.md`](./taxonomy.md) for the 12 neural channels, and
 ## Phase progress
 
 - [x] **Phase 0 — Scaffold.** Directory tree, taxonomy, rubric, template, this board.
-- [~] **Phase 1 — Compound track** (Track A) — **24 of seed list done**, ongoing.
+- [~] **Phase 1 — Compound track** (Track A) — **32 of seed list done**, ongoing.
 - [ ] **Phase 2 — Habit track** (Track B).
 - [ ] **Phase 3 — Cross-link** — generate `synthesis/channel-matrix.json` + `channel-briefs.md`.
 - [ ] **Phase 4 — Synthesis** — `synthesis/stacks-by-goal.md`.
@@ -19,7 +19,7 @@ workflow, [`taxonomy.md`](./taxonomy.md) for the 12 neural channels, and
 
 ## Track A — Compounds
 
-_24 entries. All `draft` pending Phase 5 review. Evidence = `evidence_overall` badge._
+_32 entries. All `draft` pending Phase 5 review. Evidence = `evidence_overall` badge._
 
 | id | Name | klass | Evidence | Status | Channels (grade) |
 |----|------|-------|:--------:|:------:|------------------|
@@ -47,10 +47,21 @@ _24 entries. All `draft` pending Phase 5 review. Evidence = `evidence_overall` b
 | [gotu-kola](./compounds/gotu-kola.md) | Gotu kola (Centella asiatica) | Botanical | 2 | draft | hpa(2), ntrophic(1), inflam(1↓), gaba(1) |
 | [eleuthero](./compounds/eleuthero.md) | Eleuthero | Adaptogen | 2 | draft | hpa(2), mito(1) |
 | [holy-basil](./compounds/holy-basil.md) | Holy basil (Tulsi) | Adaptogen | 2 | draft | hpa(2), inflam(2↓), gaba(1) |
+| [l-tyrosine](./compounds/l-tyrosine.md) | L-Tyrosine (NALT) | NT precursor (catecholamine) | 3 | draft | da(3), ne(3) — conditional on acute stress |
+| [l-tryptophan-5-htp](./compounds/l-tryptophan-5-htp.md) | L-Tryptophan / 5-HTP | NT precursor (serotonin) | 2 | draft | ser(2), glymph(2) |
+| [taurine](./compounds/taurine.md) | Taurine | Inhibitory neuromodulator | 2 | draft | gaba(2↓), inflam(1↓) |
+| [glycine](./compounds/glycine.md) | Glycine | Amino acid (sleep / NMDA) | 2 | draft | glu(2), gaba(1), cbf(1) |
+| [gaba](./compounds/gaba.md) | GABA (oral) | Inhibitory (BBB-disputed) | 2 | draft | gaba(2), hpa(2↓) |
+| [magnesium-l-threonate](./compounds/magnesium-l-threonate.md) | Magnesium L-threonate | Mineral | 2 | draft | glu(2), ntrophic(1), gaba(1) |
+| [zinc](./compounds/zinc.md) | Zinc | Mineral (cofactor) | 2 | draft | glu(3), inflam(2↓), ser(2), ntrophic(1) |
+| [b-vitamins-homocysteine](./compounds/b-vitamins-homocysteine.md) | B6 / Folate / B12 (homocysteine) | Vitamin cofactor | 2 | draft | cbf(3), inflam(2↓), mito(1) |
 
-_Seed queue (next):_ l-tyrosine · l-tryptophan/5-htp · taurine · glycine · gaba · magnesium-l-threonate ·
-zinc · b-vitamins · vitamin-d3 · vitamin-e · vitamin-c · iron · nmn · nicotinamide-riboside ·
-methylene-blue · choline-bitartrate · lecithin · sage · vinpocetine · racetams · modafinil · … (full set in `BRIEF.md` §8A)
+_Seed queue (next):_ vitamin-d3 · vitamin-e · vitamin-c · iron · nmn · nicotinamide-riboside ·
+methylene-blue · choline-bitartrate · lecithin · sage · vinpocetine · resveratrol · pterostilbene · egcg ·
+cordyceps · schisandra · racetams (piracetam/aniracetam/…) · noopept · modafinil/armodafinil/adrafinil ·
+amphetamine/methylphenidate · nicotine · centrophenoxine · melatonin · apigenin · spermidine · fisetin ·
+sulforaphane · lithium · probiotics · prebiotic-fiber · krill-oil · algal-dha · semax · selank · cerebrolysin ·
+dihexa · psilocybin (full set in `BRIEF.md` §8A)
 
 ## Track B — Habits
 
