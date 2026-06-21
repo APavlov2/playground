@@ -11,7 +11,7 @@ workflow, [`taxonomy.md`](./taxonomy.md) for the 12 neural channels, and
 ## Phase progress
 
 - [x] **Phase 0 — Scaffold.** Directory tree, taxonomy, rubric, template, this board.
-- [~] **Phase 1 — Compound track** (Track A) — **16 of seed list done**, ongoing.
+- [~] **Phase 1 — Compound track** (Track A) — **24 of seed list done**, ongoing.
 - [ ] **Phase 2 — Habit track** (Track B).
 - [ ] **Phase 3 — Cross-link** — generate `synthesis/channel-matrix.json` + `channel-briefs.md`.
 - [ ] **Phase 4 — Synthesis** — `synthesis/stacks-by-goal.md`.
@@ -19,7 +19,7 @@ workflow, [`taxonomy.md`](./taxonomy.md) for the 12 neural channels, and
 
 ## Track A — Compounds
 
-_16 entries. All `draft` pending Phase 5 review. Evidence = `evidence_overall` badge._
+_24 entries. All `draft` pending Phase 5 review. Evidence = `evidence_overall` badge._
 
 | id | Name | klass | Evidence | Status | Channels (grade) |
 |----|------|-------|:--------:|:------:|------------------|
@@ -39,10 +39,18 @@ _16 entries. All `draft` pending Phase 5 review. Evidence = `evidence_overall` b
 | [pqq](./compounds/pqq.md) | PQQ | Mitochondrial / antioxidant | 2 | draft | mito(2), inflam(2↓), cbf(2), ntrophic(1) |
 | [coq10-ubiquinol](./compounds/coq10-ubiquinol.md) | CoQ10 / Ubiquinol | Mitochondrial | 1 | draft | mito(1), inflam(1↓) |
 | [dmae](./compounds/dmae.md) | DMAE | Cholinergic (disputed) | 1 | draft | ach(1) |
+| [ashwagandha](./compounds/ashwagandha.md) | Ashwagandha | Adaptogen | 3 | draft | hpa(3↓), gaba(2), ntrophic(2) |
+| [saffron](./compounds/saffron.md) | Saffron (Crocus sativus) | Botanical mood | 3 | draft | ser(2), inflam(2↓), da(1) |
+| [panax-ginseng](./compounds/panax-ginseng.md) | Panax ginseng | Adaptogen | 2 | draft | cbf(2), ach(1), mito(1), inflam(1↓) |
+| [ginkgo-biloba](./compounds/ginkgo-biloba.md) | Ginkgo biloba (EGb 761) | Botanical circulation | 2 | draft | cbf(2), inflam(1), ach(1) |
+| [curcumin](./compounds/curcumin.md) | Curcumin | Polyphenol / anti-inflammatory | 2 | draft | inflam(2↓), ser(2), ntrophic(1) |
+| [gotu-kola](./compounds/gotu-kola.md) | Gotu kola (Centella asiatica) | Botanical | 2 | draft | hpa(2), ntrophic(1), inflam(1↓), gaba(1) |
+| [eleuthero](./compounds/eleuthero.md) | Eleuthero | Adaptogen | 2 | draft | hpa(2), mito(1) |
+| [holy-basil](./compounds/holy-basil.md) | Holy basil (Tulsi) | Adaptogen | 2 | draft | hpa(2), inflam(2↓), gaba(1) |
 
-_Seed queue (next):_ ashwagandha · panax-ginseng · ginkgo-biloba · curcumin · saffron ·
-gotu-kola · eleuthero · holy-basil · l-tyrosine · l-tryptophan/5-htp · magnesium-l-threonate ·
-b-vitamins · vitamin-d3 · racetams · modafinil · … (full set in `BRIEF.md` §8A)
+_Seed queue (next):_ l-tyrosine · l-tryptophan/5-htp · taurine · glycine · gaba · magnesium-l-threonate ·
+zinc · b-vitamins · vitamin-d3 · vitamin-e · vitamin-c · iron · nmn · nicotinamide-riboside ·
+methylene-blue · choline-bitartrate · lecithin · sage · vinpocetine · racetams · modafinil · … (full set in `BRIEF.md` §8A)
 
 ## Track B — Habits
 
