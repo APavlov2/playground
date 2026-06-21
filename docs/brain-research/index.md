@@ -11,7 +11,7 @@ workflow, [`taxonomy.md`](./taxonomy.md) for the 12 neural channels, and
 ## Phase progress
 
 - [x] **Phase 0 — Scaffold.** Directory tree, taxonomy, rubric, template, this board.
-- [~] **Phase 1 — Compound track** (Track A) — **63 of seed list done**, ongoing.
+- [x] **Phase 1 — Compound track** (Track A) — **76 seed compounds done.**
 - [ ] **Phase 2 — Habit track** (Track B).
 - [ ] **Phase 3 — Cross-link** — generate `synthesis/channel-matrix.json` + `channel-briefs.md`.
 - [ ] **Phase 4 — Synthesis** — `synthesis/stacks-by-goal.md`.
@@ -19,7 +19,7 @@ workflow, [`taxonomy.md`](./taxonomy.md) for the 12 neural channels, and
 
 ## Track A — Compounds
 
-_63 entries. All `draft` pending Phase 5 review. Evidence = `evidence_overall` badge._
+_76 entries — **Track A seed list complete.** All `draft` pending Phase 5 review. Evidence = `evidence_overall` badge._
 
 | id | Name | klass | Evidence | Status | Channels (grade) |
 |----|------|-------|:--------:|:------:|------------------|
@@ -86,9 +86,21 @@ _63 entries. All `draft` pending Phase 5 review. Evidence = `evidence_overall` b
 | [centrophenoxine](./compounds/centrophenoxine.md) | Centrophenoxine *(research-grade)* | Cholinergic / antioxidant | 2 | draft | ach(2), inflam(2↓) |
 | [krill-oil](./compounds/krill-oil.md) | Krill oil | Omega-3 (phospholipid) | 2 | draft | ntrophic(2), inflam(2↓) |
 | [algal-dha](./compounds/algal-dha.md) | Algal DHA (vegan) | Omega-3 (structural) | 2 | draft | ntrophic(2), inflam(2) |
+| [melatonin](./compounds/melatonin.md) | Melatonin | Sleep / circadian | 3 | draft | glymph(3), inflam(2↓) |
+| [spermidine](./compounds/spermidine.md) | Spermidine | Longevity (autophagy) | 2 | draft | ntrophic(2), inflam(1↓) |
+| [sulforaphane](./compounds/sulforaphane.md) | Sulforaphane | Nrf2 activator | 2 | draft | inflam(3↓), glu(2) |
+| [lithium-low-dose](./compounds/lithium-low-dose.md) | Lithium (low-dose) | Longevity / neurotrophic | 2 | draft | ntrophic(2), inflam(1↓) |
+| [probiotics](./compounds/probiotics.md) | Probiotics (psychobiotics) | Gut-brain | 2 | draft | hpa(2↓), ser(2), inflam(2↓) |
+| [prebiotic-fiber](./compounds/prebiotic-fiber.md) | Prebiotic fiber | Gut-brain | 2 | draft | hpa(2↓), inflam(1↓) |
+| [cerebrolysin](./compounds/cerebrolysin.md) | Cerebrolysin *(IV Rx)* | Peptide neurotrophic | 2 | draft | ntrophic(2), inflam(1) |
+| [semax](./compounds/semax.md) | Semax *(research-grade)* | Peptide nootropic | 2 | draft | ntrophic(2), da(1), inflam(1↓) |
+| [selank](./compounds/selank.md) | Selank *(research-grade)* | Peptide anxiolytic | 2 | draft | gaba(2), ser(2), hpa(2↓), ntrophic(2) |
+| [apigenin](./compounds/apigenin.md) | Apigenin | Flavonoid | 1 | draft | gaba(2), inflam(2↓), ntrophic(1) |
+| [fisetin](./compounds/fisetin.md) | Fisetin | Senolytic flavonoid | 1 | draft | inflam(1↓), ntrophic(1) |
+| [dihexa](./compounds/dihexa.md) | Dihexa *(experimental research-chemical)* | Peptide (HGF/c-Met) | 1 | draft | ntrophic(1), glu(1) |
+| [psilocybin-microdosing](./compounds/psilocybin-microdosing.md) | Psilocybin (microdosing) *(Schedule I)* | Psychedelic | 1 | draft | ser(2), ntrophic(1) |
 
-_Seed queue (remaining):_ melatonin · apigenin · spermidine · fisetin · sulforaphane · lithium ·
-probiotics · prebiotic-fiber · semax · selank · cerebrolysin · dihexa · psilocybin (full set in `BRIEF.md` §8A)
+**Track A seed list complete (76 compounds).** Additions beyond the seed set can be appended here.
 
 ## Track B — Habits
 
