@@ -14,12 +14,12 @@ channels:
   - channel: mito
     mechanism: "Acetyl group transferred to/from CoA via carnitine acetyltransferase; carnitine shuttle supports mitochondrial fatty-acid beta-oxidation and acetyl-CoA buffering / energy metabolism"
     evidence: 2
-    population: impaired/aged (mechanistic + indirect clinical)
+    population: impaired
     direction: up
   - channel: ach
     mechanism: "Acetyl donor — can contribute acetyl groups toward acetylcholine synthesis; reviews describe enhanced cholinergic activity"
     evidence: 2
-    population: impaired/aged
+    population: impaired
     direction: up
   - channel: ntrophic
     mechanism: "Neurotrophic effects reported (e.g., NGF-related signaling); preclinical only"
@@ -27,11 +27,9 @@ channels:
     population: preclinical
     direction: up
 safety:
-  tolerability: generally well tolerated in trials
-  common_ae: [GI upset, nausea, restlessness/agitation, "fishy" body odor (rare), insomnia if dosed late]
-  serious: "Phase III taxane-CIPN prevention trial found ALCAR WORSENED neuropathy and function vs placebo at 24 wks (PMID:23733756) — net harm signal in that setting"
+  contraindications: ["pregnancy/lactation — insufficient data"]
   interactions: ["thyroid hormone (theoretical reduced effect)", "anticoagulants (theoretical INR effect with carnitine)", "may add to acetylcholinergic load"]
-  pregnancy: insufficient data
+  notable_risks: ["Generally well tolerated; common AEs: GI upset, nausea, restlessness/agitation, rare fishy body odor, late-dose insomnia", "HARM SIGNAL: Phase III taxane-CIPN prevention trial found ALCAR WORSENED neuropathy vs placebo at 24 wks (PMID:23733756)"]
 sources:
   - "Montgomery SA, Thal LJ, Amrein R. Int Clin Psychopharmacol, 2003 — PMID:12598816 (DOI:10.1097/00004850-200303000-00001)"
   - "Veronese N, et al. Psychosom Med, 2018 — PMID:29076953 (DOI:10.1097/PSY.0000000000000537)"

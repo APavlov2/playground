@@ -14,12 +14,12 @@ channels:
   - channel: hpa
     mechanism: "Adaptogenic modulation of the stress axis; standardized extract reduced the salivary cortisol response to awakening vs placebo in stress-related fatigue, alongside anti-fatigue effects"
     evidence: 2
-    population: healthy-stressed (fatigue syndrome / stress-related fatigue; burnout)
+    population: healthy
     direction: modulate  # net direction is normalization; cortisol-awakening response reduced in Olsson 2009, but evidence is limited and from small/biased trials
   - channel: mito
     mechanism: "Cellular-energy / anti-fatigue. Salidroside upregulates mitochondrial biogenesis markers (PGC-1a, TFAM) and activates AMPK in vitro/animal models. Weight of evidence here is PRECLINICAL; human anti-fatigue trials do not directly measure mitochondrial endpoints"
     evidence: 2  # strong preclinical mechanistic signal, no direct human mitochondrial outcome data -> capped at 2
-    population: preclinical (in vitro / animal); human fatigue data indirect
+    population: preclinical
     direction: up
   - channel: ser
     mechanism: "Preclinical monoamine modulation (reported effects on serotonergic signaling in rodent models); no robust human confirmation"

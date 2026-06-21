@@ -14,17 +14,17 @@ channels:
   - channel: ach
     mechanism: "Cholinergic modulation; human RCT showed reduced serum/plasma acetylcholinesterase (AChE) activity, consistent with enhanced cholinergic tone — PMID:23320031. Preclinical work supports AChE inhibition."
     evidence: 2
-    population: healthy elderly (human AChE data); broader cholinergic mechanism partly preclinical
+    population: healthy
     direction: modulate
   - channel: ntrophic
     mechanism: "Dendritic arborization, synaptogenesis and BDNF/neurotrophic signaling — demonstrated in rodent/in-vitro models only; no human confirmation. Largely preclinical."
     evidence: 1
-    population: preclinical (rodent/in-vitro)
+    population: preclinical
     direction: up
   - channel: inflam
     mechanism: "Antioxidant and anti-inflammatory activity (free-radical scavenging, reduced lipid peroxidation, metal chelation) attributed to bacosides — predominantly preclinical; not the primary basis of human cognitive findings."
     evidence: 1
-    population: preclinical (rodent/in-vitro)
+    population: preclinical
     direction: modulate
 safety:
   contraindications: []

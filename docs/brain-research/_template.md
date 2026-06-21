@@ -14,7 +14,8 @@ channels:                        # SOURCE OF TRUTH for the Atlas — ids must ma
   - channel: ach                 # one of the 12 ids in taxonomy.md
     mechanism: ""                # the molecular/physiological pathway, not the claimed benefit
     evidence: 2                  # 1–4, graded for THIS channel
-    population: both             # healthy | deficient | impaired | both
+    population: both             # healthy | deficient | impaired | both | preclinical
+                                 #   preclinical = effect shown only in cell/animal models (no human population yet)
     direction: up                # up | down | modulate
 safety:
   contraindications: []

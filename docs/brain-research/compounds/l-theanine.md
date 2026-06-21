@@ -14,17 +14,17 @@ channels:
   - channel: hpa
     mechanism: "Attenuation of acute stress reactivity; reduced subjective stress and salivary cortisol response to a cognitive stressor (acute). Chronic basal-cortisol effects not established (one 28-day RCT null)."
     evidence: 3
-    population: healthy adults under acute/moderate stress
+    population: healthy
     direction: down
   - channel: gaba
     mechanism: "Promotion of occipital/frontal alpha-band EEG activity ('wakeful relaxation'); inhibition of cortical neuron over-excitation. GABAergic involvement is mechanistically plausible but not directly demonstrated in humans."
     evidence: 2
-    population: healthy adults (resting and task EEG/MEG)
+    population: healthy
     direction: modulate
   - channel: glu
     mechanism: "Structural glutamate/glutamine analogue; binds ionotropic glutamate receptors at low affinity, modest NMDA/AMPA and glutamate-transporter interactions, partial glutaminase competition. Direction is modulatory (not simple agonism/antagonism); human glutamatergic data are largely preclinical or schizophrenia-adjunct."
     evidence: 2
-    population: preclinical; limited human (schizophrenia adjunct)
+    population: preclinical
     direction: modulate
 safety:
   contraindications: []
