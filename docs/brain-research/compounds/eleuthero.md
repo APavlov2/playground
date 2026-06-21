@@ -29,7 +29,7 @@ channels:
     direction: up
 safety:
   contraindications:
-    - poorly controlled hypertension (precautionary per WHO; note: "hypertension" contraindication is disputed and not firmly evidence-based)
+    - 'poorly controlled hypertension (precautionary per WHO; note: the "hypertension" contraindication is disputed and not firmly evidence-based)'
     - insomnia / sleep disturbance (precaution; avoid late-day dosing)
   interactions:
     - digoxin (documented rise in serum digoxin levels; likely P-glycoprotein / absorption effect)
