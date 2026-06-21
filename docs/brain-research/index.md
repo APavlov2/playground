@@ -11,7 +11,7 @@ workflow, [`taxonomy.md`](./taxonomy.md) for the 12 neural channels, and
 ## Phase progress
 
 - [x] **Phase 0 — Scaffold.** Directory tree, taxonomy, rubric, template, this board.
-- [~] **Phase 1 — Compound track** (Track A) — **55 of seed list done**, ongoing.
+- [~] **Phase 1 — Compound track** (Track A) — **63 of seed list done**, ongoing.
 - [ ] **Phase 2 — Habit track** (Track B).
 - [ ] **Phase 3 — Cross-link** — generate `synthesis/channel-matrix.json` + `channel-briefs.md`.
 - [ ] **Phase 4 — Synthesis** — `synthesis/stacks-by-goal.md`.
@@ -19,7 +19,7 @@ workflow, [`taxonomy.md`](./taxonomy.md) for the 12 neural channels, and
 
 ## Track A — Compounds
 
-_55 entries. All `draft` pending Phase 5 review. Evidence = `evidence_overall` badge._
+_63 entries. All `draft` pending Phase 5 review. Evidence = `evidence_overall` badge._
 
 | id | Name | klass | Evidence | Status | Channels (grade) |
 |----|------|-------|:--------:|:------:|------------------|
@@ -78,10 +78,17 @@ _55 entries. All `draft` pending Phase 5 review. Evidence = `evidence_overall` b
 | [noopept](./compounds/noopept.md) | Noopept *(research-grade)* | Peptide-analog nootropic | 2 | draft | ntrophic(2), glu(2), inflam(2↓) |
 | [pramiracetam](./compounds/pramiracetam.md) | Pramiracetam *(research-grade)* | Racetam | 1 | draft | ach(2), glu(1) |
 | [coluracetam](./compounds/coluracetam.md) | Coluracetam *(investigational)* | Racetam (HACU) | 1 | draft | ach(1) |
+| [amphetamine-methylphenidate](./compounds/amphetamine-methylphenidate.md) | Amphetamine / Methylphenidate *(Rx, Schedule II)* | Stimulant | 4 | draft | da(4 imp / 3 healthy), ne(4 imp / 3 healthy) |
+| [modafinil](./compounds/modafinil.md) | Modafinil *(Rx)* | Eugeroic | 3 | draft | da(3), ne(2) |
+| [nicotine](./compounds/nicotine.md) | Nicotine (non-smoked) | nAChR agonist | 3 | draft | ach(4), da(4), ne(2) |
+| [armodafinil](./compounds/armodafinil.md) | Armodafinil *(Rx)* | Eugeroic | 2 | draft | da(2), ne(2) |
+| [adrafinil](./compounds/adrafinil.md) | Adrafinil *(research-grade, WADA)* | Eugeroic prodrug | 2 | draft | ne(2), da(2) |
+| [centrophenoxine](./compounds/centrophenoxine.md) | Centrophenoxine *(research-grade)* | Cholinergic / antioxidant | 2 | draft | ach(2), inflam(2↓) |
+| [krill-oil](./compounds/krill-oil.md) | Krill oil | Omega-3 (phospholipid) | 2 | draft | ntrophic(2), inflam(2↓) |
+| [algal-dha](./compounds/algal-dha.md) | Algal DHA (vegan) | Omega-3 (structural) | 2 | draft | ntrophic(2), inflam(2) |
 
-_Seed queue (next):_ centrophenoxine · nicotine · modafinil/armodafinil/adrafinil · amphetamine/methylphenidate ·
-melatonin · apigenin · spermidine · fisetin · sulforaphane · lithium · probiotics · prebiotic-fiber ·
-krill-oil · algal-dha · semax · selank · cerebrolysin · dihexa · psilocybin (full set in `BRIEF.md` §8A)
+_Seed queue (remaining):_ melatonin · apigenin · spermidine · fisetin · sulforaphane · lithium ·
+probiotics · prebiotic-fiber · semax · selank · cerebrolysin · dihexa · psilocybin (full set in `BRIEF.md` §8A)
 
 ## Track B — Habits
 
