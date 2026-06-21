@@ -11,7 +11,7 @@ workflow, [`taxonomy.md`](./taxonomy.md) for the 12 neural channels, and
 ## Phase progress
 
 - [x] **Phase 0 — Scaffold.** Directory tree, taxonomy, rubric, template, this board.
-- [~] **Phase 1 — Compound track** (Track A) — **32 of seed list done**, ongoing.
+- [~] **Phase 1 — Compound track** (Track A) — **40 of seed list done**, ongoing.
 - [ ] **Phase 2 — Habit track** (Track B).
 - [ ] **Phase 3 — Cross-link** — generate `synthesis/channel-matrix.json` + `channel-briefs.md`.
 - [ ] **Phase 4 — Synthesis** — `synthesis/stacks-by-goal.md`.
@@ -19,7 +19,7 @@ workflow, [`taxonomy.md`](./taxonomy.md) for the 12 neural channels, and
 
 ## Track A — Compounds
 
-_32 entries. All `draft` pending Phase 5 review. Evidence = `evidence_overall` badge._
+_40 entries. All `draft` pending Phase 5 review. Evidence = `evidence_overall` badge._
 
 | id | Name | klass | Evidence | Status | Channels (grade) |
 |----|------|-------|:--------:|:------:|------------------|
@@ -55,13 +55,20 @@ _32 entries. All `draft` pending Phase 5 review. Evidence = `evidence_overall` b
 | [magnesium-l-threonate](./compounds/magnesium-l-threonate.md) | Magnesium L-threonate | Mineral | 2 | draft | glu(2), ntrophic(1), gaba(1) |
 | [zinc](./compounds/zinc.md) | Zinc | Mineral (cofactor) | 2 | draft | glu(3), inflam(2↓), ser(2), ntrophic(1) |
 | [b-vitamins-homocysteine](./compounds/b-vitamins-homocysteine.md) | B6 / Folate / B12 (homocysteine) | Vitamin cofactor | 2 | draft | cbf(3), inflam(2↓), mito(1) |
+| [iron](./compounds/iron.md) | Iron (if deficient) | Mineral (deficiency) | 3 | draft | da(3), mito(2) |
+| [vitamin-d3](./compounds/vitamin-d3.md) | Vitamin D3 | Vitamin (deficiency) | 2 | draft | ntrophic(2), inflam(2) |
+| [vitamin-c](./compounds/vitamin-c.md) | Vitamin C | Vitamin / antioxidant | 2 | draft | ne(2), inflam(2), da(1) |
+| [vitamin-e](./compounds/vitamin-e.md) | Vitamin E | Antioxidant | 2 | draft | inflam(2) |
+| [nicotinamide-riboside](./compounds/nicotinamide-riboside.md) | Nicotinamide Riboside | NAD⁺ precursor | 2 | draft | mito(2), ntrophic(1) |
+| [methylene-blue](./compounds/methylene-blue.md) | Methylene blue (low-dose) | Mitochondrial (research-grade) | 2 | draft | mito(2), cbf(2), inflam(1↓) |
+| [nmn](./compounds/nmn.md) | NMN | NAD⁺ precursor | 1 | draft | mito(2), ntrophic(1) |
+| [choline-bitartrate](./compounds/choline-bitartrate.md) | Choline bitartrate | Cholinergic (poor CNS delivery) | 1 | draft | ach(1), ntrophic(1) |
 
-_Seed queue (next):_ vitamin-d3 · vitamin-e · vitamin-c · iron · nmn · nicotinamide-riboside ·
-methylene-blue · choline-bitartrate · lecithin · sage · vinpocetine · resveratrol · pterostilbene · egcg ·
-cordyceps · schisandra · racetams (piracetam/aniracetam/…) · noopept · modafinil/armodafinil/adrafinil ·
-amphetamine/methylphenidate · nicotine · centrophenoxine · melatonin · apigenin · spermidine · fisetin ·
-sulforaphane · lithium · probiotics · prebiotic-fiber · krill-oil · algal-dha · semax · selank · cerebrolysin ·
-dihexa · psilocybin (full set in `BRIEF.md` §8A)
+_Seed queue (next):_ lecithin · sage · vinpocetine · resveratrol · pterostilbene · egcg ·
+cordyceps · schisandra · centrophenoxine · nicotine · racetams (piracetam/aniracetam/oxiracetam/pramiracetam/phenylpiracetam) ·
+noopept · coluracetam · modafinil/armodafinil/adrafinil · amphetamine/methylphenidate · melatonin · apigenin ·
+spermidine · fisetin · sulforaphane · lithium · probiotics · prebiotic-fiber · krill-oil · algal-dha ·
+semax · selank · cerebrolysin · dihexa · psilocybin (full set in `BRIEF.md` §8A)
 
 ## Track B — Habits
 
