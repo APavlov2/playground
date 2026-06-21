@@ -11,7 +11,7 @@ workflow, [`taxonomy.md`](./taxonomy.md) for the 12 neural channels, and
 ## Phase progress
 
 - [x] **Phase 0 — Scaffold.** Directory tree, taxonomy, rubric, template, this board.
-- [~] **Phase 1 — Compound track** (Track A) — **8 of seed list done**, ongoing.
+- [~] **Phase 1 — Compound track** (Track A) — **16 of seed list done**, ongoing.
 - [ ] **Phase 2 — Habit track** (Track B).
 - [ ] **Phase 3 — Cross-link** — generate `synthesis/channel-matrix.json` + `channel-briefs.md`.
 - [ ] **Phase 4 — Synthesis** — `synthesis/stacks-by-goal.md`.
@@ -19,7 +19,7 @@ workflow, [`taxonomy.md`](./taxonomy.md) for the 12 neural channels, and
 
 ## Track A — Compounds
 
-_8 entries. All `draft` pending Phase 5 review. Evidence = `evidence_overall` badge._
+_16 entries. All `draft` pending Phase 5 review. Evidence = `evidence_overall` badge._
 
 | id | Name | klass | Evidence | Status | Channels (grade) |
 |----|------|-------|:--------:|:------:|------------------|
@@ -27,14 +27,22 @@ _8 entries. All `draft` pending Phase 5 review. Evidence = `evidence_overall` ba
 | [citicoline](./compounds/citicoline.md) | Citicoline (CDP-choline) | Cholinergic | 3 | draft | ach(2), ntrophic(2), da(1) |
 | [creatine](./compounds/creatine.md) | Creatine monohydrate | Neuroenergetic | 3 | draft | mito(3) |
 | [l-theanine](./compounds/l-theanine.md) | L-Theanine | Relaxant / glutamate analogue | 3 | draft | hpa(3), gaba(2), glu(2) |
+| [alpha-gpc](./compounds/alpha-gpc.md) | Alpha-GPC | Cholinergic | 3 | draft | ach(3), ntrophic(2) |
 | [bacopa-monnieri](./compounds/bacopa-monnieri.md) | Bacopa monnieri | Botanical memory | 3 | draft | ach(2), ntrophic(1), inflam(1) |
 | [lions-mane](./compounds/lions-mane.md) | Lion's Mane | Botanical neurotrophic | 2 | draft | ntrophic(2), ser(1), inflam(1) |
 | [omega-3-epa-dha](./compounds/omega-3-epa-dha.md) | Omega-3 (EPA/DHA) | Structural lipid / anti-inflammatory | 2 | draft | ser(3, impaired), inflam(2), ntrophic(2) |
 | [rhodiola-rosea](./compounds/rhodiola-rosea.md) | Rhodiola rosea | Adaptogen | 2 | draft | hpa(2), mito(2), ser(1), da(1), ne(1) |
+| [phosphatidylserine](./compounds/phosphatidylserine.md) | Phosphatidylserine | Phospholipid / cholinergic | 2 | draft | ntrophic(2), ach(2), hpa(2↓) |
+| [huperzine-a](./compounds/huperzine-a.md) | Huperzine A | Cholinergic (AChE inhibitor) | 2 | draft | ach(3), glu(1↓) |
+| [acetyl-l-carnitine](./compounds/acetyl-l-carnitine.md) | Acetyl-L-Carnitine (ALCAR) | Neuroenergetic | 2 | draft | mito(2), ach(2), ntrophic(1) |
+| [alpha-lipoic-acid](./compounds/alpha-lipoic-acid.md) | Alpha-Lipoic Acid | Mitochondrial / antioxidant | 2 | draft | mito(2), inflam(2↓) |
+| [pqq](./compounds/pqq.md) | PQQ | Mitochondrial / antioxidant | 2 | draft | mito(2), inflam(2↓), cbf(2), ntrophic(1) |
+| [coq10-ubiquinol](./compounds/coq10-ubiquinol.md) | CoQ10 / Ubiquinol | Mitochondrial | 1 | draft | mito(1), inflam(1↓) |
+| [dmae](./compounds/dmae.md) | DMAE | Cholinergic (disputed) | 1 | draft | ach(1) |
 
-_Seed queue (next):_ alpha-gpc · phosphatidylserine · ginkgo-biloba · panax-ginseng ·
-ashwagandha · acetyl-l-carnitine · l-tyrosine · magnesium-l-threonate · huperzine-a ·
-vitamin-d3 · b-vitamins (B6/folate/B12) · curcumin · … (full set in `BRIEF.md` §8A)
+_Seed queue (next):_ ashwagandha · panax-ginseng · ginkgo-biloba · curcumin · saffron ·
+gotu-kola · eleuthero · holy-basil · l-tyrosine · l-tryptophan/5-htp · magnesium-l-threonate ·
+b-vitamins · vitamin-d3 · racetams · modafinil · … (full set in `BRIEF.md` §8A)
 
 ## Track B — Habits
 
