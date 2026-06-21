@@ -11,7 +11,7 @@ workflow, [`taxonomy.md`](./taxonomy.md) for the 12 neural channels, and
 ## Phase progress
 
 - [x] **Phase 0 — Scaffold.** Directory tree, taxonomy, rubric, template, this board.
-- [~] **Phase 1 — Compound track** (Track A) — **40 of seed list done**, ongoing.
+- [~] **Phase 1 — Compound track** (Track A) — **48 of seed list done**, ongoing.
 - [ ] **Phase 2 — Habit track** (Track B).
 - [ ] **Phase 3 — Cross-link** — generate `synthesis/channel-matrix.json` + `channel-briefs.md`.
 - [ ] **Phase 4 — Synthesis** — `synthesis/stacks-by-goal.md`.
@@ -19,7 +19,7 @@ workflow, [`taxonomy.md`](./taxonomy.md) for the 12 neural channels, and
 
 ## Track A — Compounds
 
-_40 entries. All `draft` pending Phase 5 review. Evidence = `evidence_overall` badge._
+_48 entries. All `draft` pending Phase 5 review. Evidence = `evidence_overall` badge._
 
 | id | Name | klass | Evidence | Status | Channels (grade) |
 |----|------|-------|:--------:|:------:|------------------|
@@ -63,9 +63,16 @@ _40 entries. All `draft` pending Phase 5 review. Evidence = `evidence_overall` b
 | [methylene-blue](./compounds/methylene-blue.md) | Methylene blue (low-dose) | Mitochondrial (research-grade) | 2 | draft | mito(2), cbf(2), inflam(1↓) |
 | [nmn](./compounds/nmn.md) | NMN | NAD⁺ precursor | 1 | draft | mito(2), ntrophic(1) |
 | [choline-bitartrate](./compounds/choline-bitartrate.md) | Choline bitartrate | Cholinergic (poor CNS delivery) | 1 | draft | ach(1), ntrophic(1) |
+| [sage](./compounds/sage.md) | Sage (Salvia officinalis/lavandulaefolia) | Botanical (AChE) | 2 | draft | ach(3), inflam(1) |
+| [vinpocetine](./compounds/vinpocetine.md) | Vinpocetine | Vasoactive (Rx-adjacent) | 2 | draft | cbf(2), inflam(2↓) |
+| [resveratrol](./compounds/resveratrol.md) | Resveratrol | Polyphenol | 2 | draft | cbf(3), inflam(1↓), mito(1) |
+| [egcg](./compounds/egcg.md) | EGCG (green tea catechin) | Polyphenol / catechin | 2 | draft | inflam(2↓), cbf(2), gaba(2), da(1) |
+| [schisandra](./compounds/schisandra.md) | Schisandra chinensis | Adaptogen | 2 | draft | hpa(2), inflam(2↓), ach(2) |
+| [lecithin](./compounds/lecithin.md) | Lecithin / Phosphatidylcholine | Cholinergic (dietary) | 1 | draft | ach(1), ntrophic(1) |
+| [pterostilbene](./compounds/pterostilbene.md) | Pterostilbene | Polyphenol | 1 | draft | inflam(2↓), ntrophic(1) |
+| [cordyceps](./compounds/cordyceps.md) | Cordyceps | Mushroom / adaptogen | 1 | draft | mito(2), inflam(2↓) |
 
-_Seed queue (next):_ lecithin · sage · vinpocetine · resveratrol · pterostilbene · egcg ·
-cordyceps · schisandra · centrophenoxine · nicotine · racetams (piracetam/aniracetam/oxiracetam/pramiracetam/phenylpiracetam) ·
+_Seed queue (next):_ centrophenoxine · nicotine · racetams (piracetam/aniracetam/oxiracetam/pramiracetam/phenylpiracetam) ·
 noopept · coluracetam · modafinil/armodafinil/adrafinil · amphetamine/methylphenidate · melatonin · apigenin ·
 spermidine · fisetin · sulforaphane · lithium · probiotics · prebiotic-fiber · krill-oil · algal-dha ·
 semax · selank · cerebrolysin · dihexa · psilocybin (full set in `BRIEF.md` §8A)
