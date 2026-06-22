@@ -13,7 +13,7 @@ workflow, [`taxonomy.md`](./taxonomy.md) for the 12 neural channels, and
 - [x] **Phase 0 — Scaffold.** Directory tree, taxonomy, rubric, template, this board.
 - [x] **Phase 1 — Compound track** (Track A) — **76 seed compounds done.**
 - [ ] **Phase 2 — Habit track** (Track B).
-- [ ] **Phase 3 — Cross-link** — generate `synthesis/channel-matrix.json` + `channel-briefs.md`.
+- [~] **Phase 3 — Cross-link** — `channel-matrix.json` + `channel-briefs.md` **done (compounds-only; regenerate after Phase 2)**.
 - [ ] **Phase 4 — Synthesis** — `synthesis/stacks-by-goal.md`.
 - [ ] **Phase 5 — Review pass** — dedupe, verify citations, flip statuses.
 
@@ -114,6 +114,10 @@ _No entries yet._
 
 | File | Purpose | Status |
 |------|---------|:------:|
-| `synthesis/channel-matrix.json` | Aggregated agent×channel — regenerates the Atlas | pending |
-| `synthesis/channel-briefs.md` | Per-channel: what moves it, ranked; convergence + gaps | pending |
-| `synthesis/stacks-by-goal.md` | Minimum-effective levers per goal | pending |
+| `synthesis/generate_matrix.py` | Reproducible generator (parses frontmatter → matrix + briefs) | done |
+| `synthesis/channel-matrix.json` | Aggregated agent×channel — regenerates the Atlas | done (76 compounds) |
+| `synthesis/channel-briefs.md` | Per-channel: what moves it, ranked; convergence + gaps | done (compounds-only) |
+| `synthesis/stacks-by-goal.md` | Minimum-effective levers per goal | pending (Phase 4) |
+
+> The matrix + briefs are **compounds-only** for now. Re-run `python3 docs/brain-research/synthesis/generate_matrix.py`
+> after the Phase 2 habit track lands to fold habits in and finalize the convergence/gap analysis.

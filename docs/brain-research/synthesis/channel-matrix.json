@@ -1,0 +1,963 @@
+{
+  "channels": [
+    {
+      "id": "ach",
+      "name": "Cholinergic (ACh)",
+      "domain": "Encoding, attention, memory",
+      "color": "#F4B63A"
+    },
+    {
+      "id": "da",
+      "name": "Dopaminergic",
+      "domain": "Drive, working memory, executive",
+      "color": "#E0533D"
+    },
+    {
+      "id": "ser",
+      "name": "Serotonergic",
+      "domain": "Mood, affect, impulse control",
+      "color": "#7FB069"
+    },
+    {
+      "id": "glu",
+      "name": "Glutamatergic / NMDA",
+      "domain": "Plasticity, LTP, learning",
+      "color": "#5B8DEF"
+    },
+    {
+      "id": "gaba",
+      "name": "GABAergic",
+      "domain": "Inhibition, calm, anxiolysis",
+      "color": "#9B6BDF"
+    },
+    {
+      "id": "ne",
+      "name": "Noradrenergic",
+      "domain": "Arousal, vigilance, alertness",
+      "color": "#E08A3C"
+    },
+    {
+      "id": "cbf",
+      "name": "Cerebral blood flow",
+      "domain": "Perfusion, O2 & nutrient delivery",
+      "color": "#D94F70"
+    },
+    {
+      "id": "mito",
+      "name": "Mitochondrial / bioenergetic",
+      "domain": "ATP supply, metabolic resilience",
+      "color": "#46B5A4"
+    },
+    {
+      "id": "ntrophic",
+      "name": "Neurotrophic / neurogenesis",
+      "domain": "BDNF/NGF, growth & repair",
+      "color": "#56A86C"
+    },
+    {
+      "id": "inflam",
+      "name": "Neuroinflammation / oxidative",
+      "domain": "Microglial tone, ROS control",
+      "color": "#C8923A"
+    },
+    {
+      "id": "glymph",
+      "name": "Glymphatic / sleep clearance",
+      "domain": "Waste, amyloid/tau clearance",
+      "color": "#4C6EDB"
+    },
+    {
+      "id": "hpa",
+      "name": "HPA axis / stress",
+      "domain": "Cortisol regulation, allostatic load",
+      "color": "#B5566E"
+    }
+  ],
+  "agents": [
+    {
+      "id": "acetyl-l-carnitine",
+      "name": "Acetyl-L-Carnitine (ALCAR)",
+      "type": "compound",
+      "klass": "mitochondrial cofactor / acetyl-carnitine ester (nootropic-adjacent)",
+      "ev": 2,
+      "ch": {
+        "mito": "Acetyl group transferred to/from CoA via carnitine acetyltransferase; carnitine shuttle supports mitochondrial fatty-acid beta-oxidation and acetyl-CoA buffering / energy metabolism",
+        "ach": "Acetyl donor — can contribute acetyl groups toward acetylcholine synthesis; reviews describe enhanced cholinergic activity",
+        "ntrophic": "Neurotrophic effects reported (e.g., NGF-related signaling); preclinical only"
+      }
+    },
+    {
+      "id": "adrafinil",
+      "name": "Adrafinil",
+      "type": "compound",
+      "klass": "eugeroic (wakefulness-promoting); prodrug of modafinil",
+      "ev": 2,
+      "ch": {
+        "ne": "Adrafinil/modafinil increase noradrenergic / catecholaminergic tone and arousal; early pharmacology described an alpha-adrenergic component. Net wake-promoting effect is adrenergic-dependent. Direct human noradrenergic data for adrafinil are sparse; largely read-across from modafinil",
+        "da": "Acts via its metabolite modafinil, a weak/atypical dopamine transporter (DAT) blocker that raises extracellular dopamine including nucleus accumbens (Volkow 2009, PMID: 19293415). Adrafinil-specific human dopamine data are essentially absent; inferred from modafinil"
+      }
+    },
+    {
+      "id": "algal-dha",
+      "name": "Algal DHA",
+      "type": "compound",
+      "klass": "Omega-3 long-chain PUFA (plant/microalgal-derived)",
+      "ev": 2,
+      "ch": {
+        "ntrophic": "DHA is the dominant brain n-3 LC-PUFA, esterified into synaptic membrane phospholipids (phosphatidylethanolamine/phosphatidylserine); supports membrane fluidity, neuronal phosphatidylserine synthesis, synaptogenesis and synaptic plasticity. Algal DHA raises blood/erythrocyte DHA equivalently to fish oil, supplying the same structural substrate.",
+        "inflam": "DHA is a precursor to specialized pro-resolving mediators (resolvins, protectins) and shifts membrane fatty-acid composition; this anti-inflammatory/resolution mechanism is the broader DHA/omega-3 read-across, not algal-specific. Modest and largely status-dependent in humans."
+      }
+    },
+    {
+      "id": "alpha-gpc",
+      "name": "Alpha-GPC",
+      "type": "compound",
+      "klass": "cholinergic precursor (choline source)",
+      "ev": 3,
+      "ch": {
+        "ach": "Hydrolyzed to free choline and glycerophosphate; supplies choline for acetylcholine synthesis, increasing central cholinergic tone (precursor loading)",
+        "ntrophic": "Preclinical reports of increased neurotrophic signaling / nerve growth factor receptor expression and reduced age-related neural changes in rodents; not established in humans"
+      }
+    },
+    {
+      "id": "alpha-lipoic-acid",
+      "name": "Alpha-Lipoic Acid (ALA)",
+      "type": "compound",
+      "klass": "Antioxidant / mitochondrial cofactor",
+      "ev": 2,
+      "ch": {
+        "mito": "Essential cofactor (as lipoamide) for mitochondrial pyruvate dehydrogenase and alpha-ketoglutarate dehydrogenase complexes, linking glycolysis to the TCA cycle; supplemental ALA/DHLA also acts as a redox-active bioenergetic modulator. Mechanism is well established biochemically, but a downstream cognitive benefit from this channel is NOT demonstrated in humans.",
+        "inflam": "ALA and its reduced form DHLA are amphipathic antioxidants that scavenge ROS, chelate transition metals, and regenerate other antioxidants (glutathione, vitamin C, vitamin E); modulate NF-kB signalling. Antioxidant/anti-inflammatory action is well characterised in vitro and in metabolic/peripheral-nerve contexts; central anti-inflammatory cognitive benefit in healthy brains is unproven."
+      }
+    },
+    {
+      "id": "amphetamine-methylphenidate",
+      "name": "Prescription stimulants (amphetamines & methylphenidate)",
+      "type": "compound",
+      "klass": "psychostimulant (CNS stimulant, Schedule II controlled substance)",
+      "ev": 4,
+      "ch": {
+        "da": "Increases synaptic dopamine: amphetamines reverse DAT and promote vesicular release (also VMAT2/MAO effects); methylphenidate blocks DAT reuptake. Drives arousal and executive/striatal-prefrontal signaling; In healthy non-ADHD users, dopaminergic up-modulation yields modest, inconsistent cognitive effects with an inverted-U dependence on baseline performance (low performers gain more; high performers may show no change or decrement).",
+        "ne": "Increases synaptic norepinephrine via NET blockade (methylphenidate) and reverse transport/release (amphetamines); contributes to prefrontal arousal, alertness, and sympathetic activation; Noradrenergic arousal contributes to subjective alertness/energy in healthy users; objective cognitive benefit is modest and task-dependent."
+      }
+    },
+    {
+      "id": "aniracetam",
+      "name": "Aniracetam",
+      "type": "compound",
+      "klass": "racetam / AMPA-receptor positive allosteric modulator (ampakine-like)",
+      "ev": 2,
+      "ch": {
+        "glu": "Positive allosteric modulator of AMPA-type glutamate receptors; slows desensitization/deactivation, prolonging and amplifying fast excitatory (AMPA) synaptic currents.",
+        "ach": "Metabolite N-anisoyl-GABA implicated in acting on nicotinic acetylcholine receptors; cholinergic mechanism contributes to downstream monoamine release (animal microdialysis).",
+        "da": "Site-specific increase in extracellular dopamine in prefrontal cortex, basolateral amygdala, dorsal hippocampus (not striatum/NAc shell) in rats; blocked by nicotinic antagonist.",
+        "ser": "Parallel site-specific increase in cortical/limbic serotonin release in rats via cholinergic/glutamatergic mechanisms."
+      }
+    },
+    {
+      "id": "apigenin",
+      "name": "Apigenin",
+      "type": "compound",
+      "klass": "flavonoid (flavone aglycone)",
+      "ev": 1,
+      "ch": {
+        "gaba": "Competitive ligand at the central benzodiazepine (BZD) site of the GABA-A receptor (inhibits flunitrazepam binding, Ki ~4 uM); behaves as a weak partial/low-efficacy modulator with anxiolytic and slight sedative but not anticonvulsant or myorelaxant effects in mice. Profile is complex and species-dependent (anxiolytic in mice; inverse-agonist-like/sedative in some rat work). Preclinical only.",
+        "inflam": "Antioxidant and anti-neuroinflammatory actions in cell and rodent models: scavenges ROS, inhibits NF-kB activation, lowers pro-inflammatory cytokines, attenuates microglial activation, downregulates NLRP3/iNOS/COX-2. No human brain confirmation. Preclinical only.",
+        "ntrophic": "Increases hippocampal BDNF/CREB signaling and reportedly potentiates BDNF-TrkB receptor signaling (direct apigenin-BDNF binding in vitro); increased hippocampal neurogenesis and improved memory in mice. All preclinical."
+      }
+    },
+    {
+      "id": "armodafinil",
+      "name": "Armodafinil (Nuvigil)",
+      "type": "compound",
+      "klass": "eugeroic (wakefulness-promoting agent); prescription (Rx); R-enantiomer of modafinil",
+      "ev": 2,
+      "ch": {
+        "da": "Weak dopamine transporter (DAT) inhibitor; raises extracellular striatal dopamine. Direct human PET DAT-occupancy/dopamine-increase data are for modafinil (Volkow 2009, PMID 19293415); armodafinil is the R-enantiomer and is assumed to share this mechanism.",
+        "ne": "Promotes cortical arousal/wakefulness via downstream noradrenergic and orexinergic/histaminergic wake-promoting circuitry (class mechanism shared with modafinil; precise human target engagement for armodafinil specifically is largely inferred)."
+      }
+    },
+    {
+      "id": "ashwagandha",
+      "name": "Ashwagandha",
+      "type": "compound",
+      "klass": "adaptogen (botanical)",
+      "ev": 3,
+      "ch": {
+        "hpa": "Reduces serum cortisol and self-reported stress/anxiety vs placebo; primary and best-supported axis. Multiple RCTs and meta-analyses in stressed but otherwise healthy adults.",
+        "gaba": "Withania somnifera extract shows direct GABAergic activity at ionotropic GABA-A/GABA-rho receptors in vitro; proposed GABA-mimetic/anxiolytic mechanism. Cell/animal only; the responsible constituent is unidentified (withaferin A and withanolide A did not activate these receptors).",
+        "ntrophic": "Root extract (withanolide A) elevated BDNF and enhanced downstream BDNF signaling, reversing chronic-stress depression-like behavior in rodents. Preclinical only; no human neurotrophic biomarker data."
+      }
+    },
+    {
+      "id": "b-vitamins-homocysteine",
+      "name": "B-vitamins for homocysteine lowering (B6 + folate/B9 + B12)",
+      "type": "compound",
+      "klass": "vitamin / methyl-donor cofactor (homocysteine axis)",
+      "ev": 2,
+      "ch": {
+        "cbf": "Homocysteine is an independent vascular risk factor; B6/B9/B12 lower plasma homocysteine, reducing endothelial dysfunction and small-vessel/vascular contribution to cerebral atrophy. In high-Hcy MCI, the regimen slowed whole-brain and regional grey-matter atrophy.",
+        "inflam": "Elevated homocysteine is associated with oxidative stress, endothelial inflammation, and accelerated brain atrophy; lowering Hcy via remethylation/transsulfuration cofactors is the proposed protective route. Mechanistically plausible and tied to the atrophy signal, but anti-inflammatory effect is inferred rather than directly the trial endpoint.",
+        "mito": "B-vitamins are one-carbon/methylation and energy-metabolism cofactors (folate/B12 in remethylation, B6 in transsulfuration toward cysteine/glutathione); impaired one-carbon metabolism with hyperhomocysteinemia may compromise mitochondrial/redox function. Speculative for cognition; not a directly demonstrated cognitive mechanism."
+      }
+    },
+    {
+      "id": "bacopa-monnieri",
+      "name": "Bacopa monnieri (Brahmi)",
+      "type": "compound",
+      "klass": "Botanical memory",
+      "ev": 3,
+      "ch": {
+        "ach": "Cholinergic modulation; human RCT showed reduced serum/plasma acetylcholinesterase (AChE) activity, consistent with enhanced cholinergic tone — PMID:23320031. Preclinical work supports AChE inhibition.",
+        "ntrophic": "Dendritic arborization, synaptogenesis and BDNF/neurotrophic signaling — demonstrated in rodent/in-vitro models only; no human confirmation. Largely preclinical.",
+        "inflam": "Antioxidant and anti-inflammatory activity (free-radical scavenging, reduced lipid peroxidation, metal chelation) attributed to bacosides — predominantly preclinical; not the primary basis of human cognitive findings."
+      }
+    },
+    {
+      "id": "caffeine-l-theanine",
+      "name": "Caffeine + L-theanine",
+      "type": "compound",
+      "klass": "Stimulant + relaxant synergy",
+      "ev": 3,
+      "ch": {
+        "ne": "Caffeine is a non-selective adenosine A1/A2A receptor antagonist; blocking adenosine's tonic inhibition disinhibits noradrenergic, dopaminergic and cholinergic tone, raising arousal/alertness. In habitual users much of the acute alertness gain is reversal of overnight caffeine withdrawal rather than net enhancement.",
+        "da": "Adenosine A2A receptors are co-localized and functionally antagonistic with dopamine D2 receptors (striatal A2A-D2 heteromers); caffeine's A2A blockade increases dopaminergic signalling tone. Mechanistic/indirect human evidence; contributes to mood/motivation and part of caffeine's reinforcing effect.",
+        "gaba": "L-theanine (the relaxant component) crosses the BBB and is associated with increased EEG alpha-band activity (relaxed-but-alert state) and reduced stress reactivity; proposed mechanisms include modest GABA increase and glutamate/NMDA modulation (theanine is a structural glutamate analogue). Direction described as modulate — promotes calm without sedation; the GABAergic contribution specifically is mechanistic/preclinical.",
+        "glu": "L-theanine is a structural analogue of glutamate/glutamine and weakly modulates glutamatergic (NMDA/AMPA) and glutamate transporter activity; proposed basis for its anti-stress/neuromodulatory profile. Largely preclinical/mechanistic in humans.",
+        "cbf": "Caffeine ACUTELY REDUCES resting cerebral blood flow via adenosine-antagonist cerebral vasoconstriction (reduced oxy-Hb, increased deoxy-Hb on NIRS), most pronounced in non-habitual users. L-theanine added at tea-equivalent doses attenuates/eliminates this vasoconstriction. Net direction of caffeine on resting CBF is DOWN; the combination blunts that reduction."
+      }
+    },
+    {
+      "id": "centrophenoxine",
+      "name": "Centrophenoxine (Meclofenoxate)",
+      "type": "compound",
+      "klass": "cholinergic nootropic / DMAE ester (research-grade; Rx in some countries)",
+      "ev": 2,
+      "ch": {
+        "ach": "An ester of DMAE (dimethylaminoethanol) and para-chlorophenoxyacetic acid (pCPA); after hydrolysis it liberates DMAE. Marketed as a cholinergic/\"choline-related\" nootropic on the inherited DMAE rationale (putative acetylcholine precursor). That DMAE cholinergic mechanism is DISPUTED and largely unsupported (see the DMAE entry); the ACh channel is included only to flag the historical, DMAE-derived claim, not a confirmed pro-cholinergic action in humans.",
+        "inflam": "Antioxidant / free-radical-scavenger action and reduction of neuronal lipofuscin (\"age pigment\") accumulation. In aged rodents and neuronal cultures centrophenoxine lowers lipofuscin and lipid peroxidation and is proposed to improve membrane fluidity and intracellular hydration. This is a PRECLINICAL antioxidant/anti-lipofuscin story; no human population has been shown to derive cognitive benefit from this pathway."
+      }
+    },
+    {
+      "id": "cerebrolysin",
+      "name": "Cerebrolysin",
+      "type": "compound",
+      "klass": "neurotrophic-mimetic peptide preparation (porcine brain-derived)",
+      "ev": 2,
+      "ch": {
+        "ntrophic": "Neurotrophic-mimetic: low-molecular-weight peptides proposed to mimic endogenous neurotrophic factors (BDNF/GDNF/NGF-like signaling), promoting neuronal survival, plasticity and neurogenesis (mechanistic/preclinical)",
+        "inflam": "Putative neuroprotective/anti-inflammatory and anti-apoptotic effects in ischemic/injury models (preclinical; not established as a driver of clinical benefit)"
+      }
+    },
+    {
+      "id": "choline-bitartrate",
+      "name": "Choline bitartrate",
+      "type": "compound",
+      "klass": "choline-precursor",
+      "ev": 1,
+      "ch": {
+        "ach": "Dietary choline is an acetylcholine precursor, but the bitartrate salt is a POOR CNS-choline delivery vehicle (low brain bioavailability vs alpha-GPC/citicoline); acute cognitive effect in healthy adults weak/null",
+        "ntrophic": "Choline is a substrate for phosphatidylcholine (membrane phospholipid) synthesis; relevant to dietary adequacy and structural integrity rather than acute nootropic neurotrophic signaling"
+      }
+    },
+    {
+      "id": "citicoline",
+      "name": "Citicoline (CDP-choline)",
+      "type": "compound",
+      "klass": "Cholinergic",
+      "ev": 3,
+      "ch": {
+        "ach": "Hydrolysed to choline, raising substrate availability for acetylcholine synthesis; supports cholinergic membrane integrity",
+        "ntrophic": "Supplies cytidine (→ uridine/CTP) and choline for the Kennedy pathway, driving phosphatidylcholine and structural membrane phospholipid synthesis & neuronal repair",
+        "da": "Preclinical and review literature report increased striatal dopamine release/levels and possible upregulation of dopamine receptor density; not directly demonstrated in healthy human cognition trials"
+      }
+    },
+    {
+      "id": "coluracetam",
+      "name": "Coluracetam",
+      "type": "compound",
+      "klass": "racetam / high-affinity choline uptake (HACU) enhancer",
+      "ev": 1,
+      "ch": {
+        "ach": "Enhances high-affinity choline uptake (HACU) via the CHT1 transporter, increasing acetylcholine synthesis and release; preclinical evidence shows it directly affects CHT1 trafficking and raises transporter numbers at the synaptic membrane."
+      }
+    },
+    {
+      "id": "coq10-ubiquinol",
+      "name": "Coenzyme Q10 / Ubiquinol",
+      "type": "compound",
+      "klass": "Mitochondrial cofactor / lipophilic antioxidant",
+      "ev": 1,
+      "ch": {
+        "mito": "Obligatory electron carrier in the inner-mitochondrial-membrane electron transport chain, shuttling electrons from complex I and II to complex III; supports oxidative phosphorylation/ATP synthesis. Mechanistically real and central to bioenergetics, but cognitive read-through in humans is unproven and the large high-dose neurodegeneration trials (which directly tested a bioenergetic-rescue hypothesis) were null.",
+        "inflam": "Reduced (ubiquinol) form is a lipid-phase chain-breaking antioxidant that scavenges peroxyl radicals and regenerates vitamin E, limiting lipid peroxidation; indirectly anti-inflammatory. Plausible redox role, but no demonstrated neuroinflammatory cognitive endpoint in humans; the antioxidant rationale did not translate into clinical benefit in the neurodegeneration RCTs."
+      }
+    },
+    {
+      "id": "cordyceps",
+      "name": "Cordyceps",
+      "type": "compound",
+      "klass": "medicinal fungus / nucleoside analog (cordycepin)",
+      "ev": 1,
+      "ch": {
+        "mito": "Promotes cellular energy/ATP production (ATP-generation pathway biomarkers; proposed PPAR-γ / mitochondrial-biogenesis involvement); associated anti-fatigue and aerobic-capacity effects in exercise studies — peripheral/muscle data, not brain-specific",
+        "inflam": "Cordycepin reduces neuroinflammation and oxidative stress in rodent CNS injury/disease models — inhibits microglial pro-inflammatory polarization (NF-κB / Notch1), lowers brain oxidative markers, raises antioxidant enzymes; preclinical only"
+      }
+    },
+    {
+      "id": "creatine",
+      "name": "Creatine (creatine monohydrate)",
+      "type": "compound",
+      "klass": "Neuroenergetic",
+      "ev": 3,
+      "ch": {
+        "mito": "Phosphocreatine/creatine-kinase system buffers cytosolic ATP/ADP in neurons; supplementation raises brain total creatine and phosphocreatine, supporting rapid ATP regeneration during high metabolic demand or energetic stress (sleep deprivation, hypoxia, aging)"
+      }
+    },
+    {
+      "id": "curcumin",
+      "name": "Curcumin",
+      "type": "compound",
+      "klass": "polyphenol (curcuminoid)",
+      "ev": 2,
+      "ch": {
+        "inflam": "Inhibition of NF-kB signaling, reduction of pro-inflammatory cytokines (TNF-a, IL-6), and direct antioxidant/free-radical scavenging; preclinically reduces amyloid aggregation and microglial activation. Primary mechanism, strongest preclinically.",
+        "ser": "Antidepressant-like / serotonergic-monoaminergic modulation; meta-analytic signal for reduced depressive symptoms in clinical trials (adjunctive and standalone). Mechanism partly attributed to anti-inflammatory and monoamine effects.",
+        "ntrophic": "Upregulation of BDNF and neurotrophic signaling; reverses stress-induced BDNF reductions in rodent models. Largely preclinical; not directly demonstrated in human brain."
+      }
+    },
+    {
+      "id": "dihexa",
+      "name": "Dihexa",
+      "type": "compound",
+      "klass": "synthetic angiotensin IV-derived oligopeptide; proposed HGF/c-Met activator (experimental research chemical)",
+      "ev": 1,
+      "ch": {
+        "ntrophic": "Proposed to bind hepatocyte growth factor (HGF) and potentiate HGF/c-Met receptor signaling at subthreshold HGF concentrations, augmenting hippocampal spinogenesis and synaptogenesis in rodent models (preclinical; key mechanism paper later RETRACTED — see Evidence)",
+        "glu": "Synaptogenic/spinogenic actions imply increased excitatory (glutamatergic) synaptic connectivity downstream of c-Met-driven dendritic arborization in rodent hippocampus (preclinical; indirect/inferred)"
+      }
+    },
+    {
+      "id": "dmae",
+      "name": "DMAE",
+      "type": "compound",
+      "klass": "aminoalcohol (choline analog / putative cholinergic precursor — disputed)",
+      "ev": 1,
+      "ch": {
+        "ach": "Historically marketed as an acetylcholine precursor (\"raises ACh\"). This mechanism is DISPUTED and largely unsupported: DMAE competitively inhibits high-affinity choline transport across the blood–brain barrier and is NOT reliably methylated to choline in vivo; rodent studies failed to show consistent increases in brain ACh. Net cholinergic effect is uncertain and possibly null or even anticholinergic."
+      }
+    },
+    {
+      "id": "egcg",
+      "name": "EGCG",
+      "type": "compound",
+      "klass": "polyphenol (flavan-3-ol catechin)",
+      "ev": 2,
+      "ch": {
+        "inflam": "Direct antioxidant / radical scavenging; modulation of NF-kB and pro-inflammatory signalling (largely preclinical/in-vitro).",
+        "cbf": "Acute oral EGCG modulates cerebral blood flow (frontal cortex), measured by NIRS; effect not linked to cognitive change.",
+        "gaba": "Proposed calming / relaxation effect; acute EEG shift (increased alpha/beta/theta) and self-rated calmness. Mechanism inferred, not directly demonstrated; caffeine/L-theanine confound when delivered as green tea.",
+        "da": "Preclinical / mechanistic reports of dopaminergic modulation (e.g., COMT inhibition, MAO effects). Human cognitive relevance unclear."
+      }
+    },
+    {
+      "id": "eleuthero",
+      "name": "Eleuthero",
+      "type": "compound",
+      "klass": "adaptogen (herbal extract; not Panax ginseng)",
+      "ev": 2,
+      "ch": {
+        "hpa": "Proposed adaptogenic modulation of the HPA/stress axis and cellular stress response (cortisol, Hsp70, stress-activated protein kinases); largely preclinical and mechanistic.",
+        "mito": "Anti-fatigue effects attributed to shifts in energy/substrate metabolism (increased fat utilization, reduced lactate/BUN accumulation) in loaded-swimming animal models; mitochondrial/energetic interpretation is inferential."
+      }
+    },
+    {
+      "id": "fisetin",
+      "name": "Fisetin",
+      "type": "compound",
+      "klass": "senolytic flavonoid (flavonol)",
+      "ev": 1,
+      "ch": {
+        "inflam": "Senolytic clearance of senescent cells and reduction of SASP/pro-inflammatory cytokines; antioxidant (Nrf2/glutathione), NF-kB downregulation, anti-neuroinflammatory — preclinical only",
+        "ntrophic": "Neuroprotection in rodent models (reduced neurodegeneration/apoptosis, pro-autophagy via mTORC1 inhibition / TFEB / AMPK, mitochondrial support) — preclinical only"
+      }
+    },
+    {
+      "id": "gaba",
+      "name": "GABA (gamma-aminobutyric acid)",
+      "type": "compound",
+      "klass": "amino acid / inhibitory neurotransmitter (oral supplement)",
+      "ev": 2,
+      "ch": {
+        "gaba": "Endogenous primary inhibitory neurotransmitter; the supplement aims to raise GABAergic tone, BUT central action is the disputed core issue — oral GABA's blood-brain-barrier permeability in humans is unestablished, so observed EEG/relaxation effects may be peripheral (enteric nervous system / vagal gut-brain signaling) rather than direct CNS GABA elevation.",
+        "hpa": "Acute stress-marker changes reported under mental-task load (mood, autonomic/EEG indices), consistent with reduced stress reactivity; mechanism likely autonomic/peripheral rather than confirmed central HPA-axis modulation."
+      }
+    },
+    {
+      "id": "ginkgo-biloba",
+      "name": "Ginkgo biloba (EGb 761)",
+      "type": "compound",
+      "klass": "Botanical vasoactive/antioxidant",
+      "ev": 2,
+      "ch": {
+        "cbf": "Primary putative mechanism. Vasoactive/hemorheologic effects attributed to terpene trilactones (ginkgolides, bilobalide) and flavonol glycosides: ginkgolide B is a platelet-activating-factor (PAF) antagonist, with reported increases in microcirculation and reduced blood viscosity. Cerebral-perfusion changes are documented mechanistically, but the cognition read-through is graded down: the two large dementia-PREVENTION RCTs (GEM, GuidAge) were null, so improved CBF does not translate into prevention of cognitive decline.",
+        "inflam": "Antioxidant / free-radical scavenging and anti-inflammatory activity of flavonoid glycosides (quercetin, kaempferol) and terpenoids; reduction of oxidative stress and mitochondrial-protective effects reported. Predominantly preclinical / mechanistic; not established as the basis of any human cognitive benefit.",
+        "ach": "Possible cholinergic modulation (increased hippocampal acetylcholine release, muscarinic/nicotinic receptor effects) reported in rodent models. No human confirmation; speculative for the cognitive signal."
+      }
+    },
+    {
+      "id": "glycine",
+      "name": "Glycine",
+      "type": "compound",
+      "klass": "Amino acid / NMDA co-agonist",
+      "ev": 2,
+      "ch": {
+        "glu": "Glycine is an obligatory co-agonist at the strychnine-insensitive glycine modulatory site (GlyB) of the NMDA receptor; raising synaptic glycine potentiates NMDA-receptor function. Basis of the schizophrenia-adjunct hypothesis. Direction is modulate (co-agonist that gates, rather than simply driving, NMDA current); net clinical effect on cognition in healthy people is unproven",
+        "gaba": "Glycine is also the major fast inhibitory neurotransmitter at strychnine-sensitive glycine receptors (GlyR, Cl- channels) in spinal cord and brainstem (grouped here under the inhibitory/gaba channel as the nearest schema fit). Relevance to oral-supplement brain effects is uncertain; the mechanistic work on glycine's sleep action specifically excluded GlyR and implicated NMDA receptors instead",
+        "cbf": "Pre-clinical (rat) work shows the sleep-promoting and hypothermic effect of oral glycine is mediated by NMDA receptors in the suprachiasmatic-nucleus shell, driving peripheral (cutaneous) vasodilation, heat loss and a core-body-temperature drop that shortens sleep-onset latency. This is the proposed mechanism for the human bedtime-sleep finding. NOT classic regional cerebral-blood-flow enhancement, and demonstrated in animals only; graded low and population preclinical. (The glymphatic channel is deliberately not used: no human glymphatic data exist for glycine; the sleep effect is via thermoregulatory peripheral vasodilation/core-temp drop, not a demonstrated glymphatic action.)"
+      }
+    },
+    {
+      "id": "gotu-kola",
+      "name": "Gotu kola",
+      "type": "compound",
+      "klass": "herbal extract (triterpenoid saponins)",
+      "ev": 2,
+      "ch": {
+        "ntrophic": "Preclinical: extract and triterpenoids (asiaticoside, asiatic acid, madecassoside) promote neurite outgrowth, axodendritic maturation, dendritic arborization and spine density; some signals via TrkA/BDNF-related pathways. No human neurotrophic biomarker confirmation.",
+        "inflam": "Preclinical antioxidant / anti-inflammatory and anti-amyloid neuroprotective effects in cell and rodent models; not demonstrated as a clinical cognitive mechanism in humans.",
+        "hpa": "Acute attenuation of acoustic startle response in healthy adults (single dose), consistent with an anxiolytic/stress-reactivity effect; mechanism and HPA-axis specificity not established.",
+        "gaba": "GABAergic/anxiolytic mechanism proposed from preclinical anxiety models to explain startle attenuation; no direct human GABA evidence. (largely unsourced mechanistic attribution)"
+      }
+    },
+    {
+      "id": "holy-basil",
+      "name": "Holy basil",
+      "type": "compound",
+      "klass": "Adaptogen",
+      "ev": 2,
+      "ch": {
+        "hpa": "Adaptogenic modulation of the stress axis. In an 8-week RCT (Holixer 250 mg/day) salivary cortisol, salivary amylase, blood pressure, and subjective stress fell vs placebo, with lower hair cortisol at week 8 (Lopresti 2022, PMID:36185698). Direction is best described as normalization of an elevated stress response in stressed-but-healthy adults.",
+        "inflam": "Tulsi constituents (eugenol, ursolic acid, rosmarinic acid) show anti-inflammatory and immunomodulatory activity in vitro and in animal models; human anti-inflammatory endpoints are not robustly established. Weight of evidence is PRECLINICAL.",
+        "gaba": "Anxiolytic effect reported in a small controlled GAD trial (Bhattacharyya 2008, PMID:19253862); a GABAergic/anxiolytic mechanism is plausible and invoked for related Ocimum species but is NOT directly demonstrated in humans for O. tenuiflorum. Speculative channel."
+      }
+    },
+    {
+      "id": "huperzine-a",
+      "name": "Huperzine A",
+      "type": "compound",
+      "klass": "Acetylcholinesterase inhibitor (reversible, selective) — research/Rx-adjacent",
+      "ev": 2,
+      "ch": {
+        "ach": "Potent, reversible, selective inhibition of acetylcholinesterase, raising synaptic acetylcholine — the same drug-class mechanism as donepezil/rivastigmine/galantamine ('donepezil-lite'). This is a pharmacological DRUG action, not a nutrient/substrate effect",
+        "glu": "Weak, non-competitive NMDA-receptor antagonist (IC50 ~65-82 micromolar) that attenuates glutamate-/NMDA-mediated calcium influx and excitotoxicity in preclinical models; proposed neuroprotection. Affinity is low relative to clinical exposures, so relevance in humans is uncertain"
+      }
+    },
+    {
+      "id": "iron",
+      "name": "Iron (only if deficient)",
+      "type": "compound",
+      "klass": "essential trace mineral (oxygen transport / enzymatic cofactor)",
+      "ev": 3,
+      "ch": {
+        "da": "Iron is an obligate cofactor (Fe2+) for tyrosine hydroxylase, the rate-limiting enzyme of catecholamine (dopamine/noradrenaline) synthesis, and supports D1/D2 receptor expression, dopamine transporter function and oligodendrocyte myelination. Brain iron deficiency in development produces dopaminergic dysfunction and hypomyelination (PMID 12730445; 16770951). Mechanistic basis for attention/cognition deficits in deficiency; benefit is correction, not enhancement.",
+        "mito": "Iron underpins oxygen transport (hemoglobin) and oxidative metabolism — heme and Fe-S cluster cofactors of the mitochondrial electron transport chain and aconitase. Deficiency impairs cerebral oxidative energy metabolism; this is the metabolic substrate for cognitive/fatigue effects. Repletion restores capacity; excess iron instead drives Fenton-reaction oxidative damage (PMID 26545340)."
+      }
+    },
+    {
+      "id": "krill-oil",
+      "name": "Krill oil (phospholipid EPA/DHA + astaxanthin)",
+      "type": "compound",
+      "klass": "Structural lipid / anti-inflammatory (phospholipid-bound marine omega-3)",
+      "ev": 2,
+      "ch": {
+        "ntrophic": "Delivers DHA (and EPA) that incorporate into neuronal/synaptic membranes; DHA is the dominant structural n-3 PUFA of synaptic membranes supporting fluidity, receptor/signal-transduction efficiency and synaptogenesis. This is a read-across from the omega-3 evidence base, not krill-specific structural data. Phospholipid carrier may aid membrane incorporation (bioavailability claim, evidence mixed/modest). Structural role solid; cognitive benefit in replete adults unproven.",
+        "inflam": "EPA/DHA are precursors of specialised pro-resolving mediators (resolvins, protectins, maresins) and displace arachidonic-acid eicosanoids; krill oil additionally carries astaxanthin, a carotenoid antioxidant with anti-inflammatory activity. Mechanistically plausible for dampening neuroinflammation but human brain-inflammation cognitive endpoints are not demonstrated; astaxanthin dose in krill oil is small. Read-across from omega-3 plus thin krill-specific antioxidant data."
+      }
+    },
+    {
+      "id": "l-theanine",
+      "name": "L-Theanine",
+      "type": "compound",
+      "klass": "Relaxant / glutamate analogue",
+      "ev": 3,
+      "ch": {
+        "hpa": "Attenuation of acute stress reactivity; reduced subjective stress and salivary cortisol response to a cognitive stressor (acute). Chronic basal-cortisol effects not established (one 28-day RCT null).",
+        "gaba": "Promotion of occipital/frontal alpha-band EEG activity ('wakeful relaxation'); inhibition of cortical neuron over-excitation. GABAergic involvement is mechanistically plausible but not directly demonstrated in humans.",
+        "glu": "Structural glutamate/glutamine analogue; binds ionotropic glutamate receptors at low affinity, modest NMDA/AMPA and glutamate-transporter interactions, partial glutaminase competition. Direction is modulatory (not simple agonism/antagonism); human glutamatergic data are largely preclinical or schizophrenia-adjunct."
+      }
+    },
+    {
+      "id": "l-tryptophan-5-htp",
+      "name": "L-Tryptophan and 5-HTP",
+      "type": "compound",
+      "klass": "serotonin precursor (amino acid / amino-acid metabolite)",
+      "ev": 2,
+      "ch": {
+        "ser": "Both are direct serotonin precursors. L-tryptophan is the rate-limiting dietary precursor converted by tryptophan hydroxylase to 5-HTP, then decarboxylated to serotonin (5-HT); 5-HTP bypasses the rate-limiting hydroxylation step and crosses the blood-brain barrier without a transporter, raising central 5-HT synthesis. Rationale is biochemically sound; human clinical efficacy data are old, small, and low-quality.",
+        "glymph": "Serotonin is a precursor to melatonin (via N-acetylserotonin), providing a plausible sleep/circadian pathway. L-tryptophan reduced sleep-onset latency in small insomnia trials, but direct evidence for melatonin-mediated or glymphatic effects in humans is absent. (unsourced for glymphatic clearance specifically)"
+      }
+    },
+    {
+      "id": "l-tyrosine",
+      "name": "L-Tyrosine",
+      "type": "compound",
+      "klass": "Amino acid (catecholamine precursor)",
+      "ev": 3,
+      "ch": {
+        "da": "Tyrosine is the rate-limited precursor for dopamine synthesis (tyrosine -> L-DOPA via tyrosine hydroxylase -> dopamine). Supplying substrate supports catecholamine synthesis specifically when neurons fire at high rates and deplete stores; under those demand conditions tyrosine repletes dopamine-dependent cognitive-control functions (e.g. N-back updating). Does NOT force-feed dopamine at rest",
+        "ne": "Same precursor pathway continues: dopamine -> norepinephrine via dopamine beta-hydroxylase. Acute stressors (cold, sleep deprivation, military stress) drive high noradrenergic output and deplete brain catecholamines in animal models; tyrosine prevents the associated cognitive/psychomotor decrement and lowers stress-related blood-pressure rise in one military trial"
+      }
+    },
+    {
+      "id": "lecithin",
+      "name": "Lecithin / Phosphatidylcholine",
+      "type": "compound",
+      "klass": "choline-precursor",
+      "ev": 1,
+      "ch": {
+        "ach": "Phosphatidylcholine is a dietary choline source feeding the acetylcholine precursor pool; theoretical cholinergic boost in dementia was the original rationale, but RCTs did NOT translate plasma choline rises into cognitive benefit",
+        "ntrophic": "PC is a core membrane phospholipid and a substrate for membrane phospholipid synthesis/turnover (Kennedy pathway); relevant to structural membrane integrity and dietary adequacy rather than a demonstrated acute neurotrophic/cognitive signal in humans"
+      }
+    },
+    {
+      "id": "lions-mane",
+      "name": "Lion's Mane (Hericium erinaceus)",
+      "type": "compound",
+      "klass": "Botanical neurotrophic",
+      "ev": 2,
+      "ch": {
+        "ntrophic": "Hericenones (fruiting body) and erinacines (mycelium) stimulate NGF synthesis in cultured glial cells and raise NGF/neurite outgrowth in animal models. NOTE: effect is strong in vitro/animal but human evidence is weak — no direct demonstration that supplement doses raise CNS NGF in humans; one small RCT raised serum BDNF/NPY but this is indirect and unreplicated.",
+        "ser": "Possible mood/anxiety benefit (e.g. CES-D depression and anxiety scores) in one very small menopausal trial; serotonergic mechanism is inferred/preclinical, not directly demonstrated in humans.",
+        "inflam": "Antioxidant and anti-inflammatory activity (ROS scavenging, cytokine modulation) reported in vitro and in animal models; no dedicated human inflammatory-endpoint RCT establishing CNS relevance."
+      }
+    },
+    {
+      "id": "lithium-low-dose",
+      "name": "Lithium (low-dose / microdose)",
+      "type": "compound",
+      "klass": "alkali metal / mood-stabilizer (subtherapeutic dosing)",
+      "ev": 2,
+      "ch": {
+        "ntrophic": "GSK-3-beta inhibition (direct and via Akt-mediated inhibitory phosphorylation), reduced tau hyperphosphorylation, increased BDNF signaling, neuroprotection and gray-matter/N-acetylaspartate effects reported at therapeutic doses; in MCI low-dose RCT associated with reduced CSF p-tau and slowed cognitive decline.",
+        "inflam": "GSK-3-beta inhibition is anti-inflammatory in preclinical models (reduced microglial activation, pro-inflammatory cytokines); human-specific anti-inflammatory data for low-dose lithium on cognition is (unsourced)."
+      }
+    },
+    {
+      "id": "magnesium-l-threonate",
+      "name": "Magnesium L-threonate",
+      "type": "compound",
+      "klass": "mineral / chelated magnesium salt",
+      "ev": 2,
+      "ch": {
+        "glu": "Proposed elevation of brain magnesium enhances NMDA-receptor (NR2B-containing) signaling and synaptic plasticity / LTP. Mechanism demonstrated in rats; not directly confirmed in humans.",
+        "ntrophic": "Increased hippocampal synaptic density (synaptophysin/synaptobrevin puncta) and functional presynaptic release sites reported in rodents. Marketed as a synapse density enhancer; human synaptic-density evidence absent.",
+        "gaba": "Magnesium broadly modulates neuronal excitability and is implicated in GABAergic tone / sleep and anxiety endpoints, mostly via deficiency-correction and epidemiology rather than a threonate-specific effect. (unsourced) for a threonate-specific GABA mechanism."
+      }
+    },
+    {
+      "id": "melatonin",
+      "name": "Melatonin",
+      "type": "compound",
+      "klass": "indoleamine hormone / chronobiotic",
+      "ev": 3,
+      "ch": {
+        "glymph": "Endogenous circadian signal; exogenous dosing shifts circadian phase (advances DLMO) and modestly shortens sleep-onset latency. Sleep/circadian timing is the well-supported human effect. Direct enhancement of glymphatic amyloid-beta clearance is demonstrated only in animal models.",
+        "inflam": "Direct free-radical scavenging plus induction of antioxidant enzymes (SOD, catalase, glutathione peroxidase); reduces circulating pro-inflammatory cytokines in clinical trials. CNS-specific neuroinflammation/neuroprotection benefit is largely preclinical."
+      }
+    },
+    {
+      "id": "methylene-blue",
+      "name": "Methylene blue (low-dose)",
+      "type": "compound",
+      "klass": "mitochondrial electron cycler / redox antioxidant",
+      "ev": 2,
+      "ch": {
+        "mito": "Alternative electron carrier in the ETC: at low dose accepts electrons from NADH and donates to cytochrome c, bypassing complex I/III blockade; enhances cytochrome c oxidase activity and oxygen consumption (preclinical).",
+        "inflam": "Redox cycler / free-radical scavenger; reduces ROS and oxidative stress, with reported anti-neuroinflammatory effects (preclinical).",
+        "cbf": "Single human multimodal fMRI study reported increased task-evoked fMRI response (memory, vigilance) and altered functional connectivity; BOLD/CBF-coupled signal change, not a validated perfusion endpoint. Small n."
+      }
+    },
+    {
+      "id": "modafinil",
+      "name": "Modafinil",
+      "type": "compound",
+      "klass": "eugeroic (wakefulness-promoting agent)",
+      "ev": 3,
+      "ch": {
+        "da": "Atypical dopamine transporter (DAT) inhibition raising extracellular dopamine in caudate, putamen and nucleus accumbens (human PET, Volkow 2009)",
+        "ne": "Noradrenergic/arousal promotion; maps orexin-histamine wake-promoting drive and elevated cortical arousal (proposed mechanism for eugeroic action)"
+      }
+    },
+    {
+      "id": "nicotinamide-riboside",
+      "name": "Nicotinamide Riboside",
+      "type": "compound",
+      "klass": "NAD+ precursor (vitamin B3 form)",
+      "ev": 2,
+      "ch": {
+        "mito": "Salvage-pathway precursor that raises whole-blood/PBMC NAD+ and the NAD+ metabolome, supporting NAD+-dependent bioenergetics, sirtuin and PARP activity. NAD+ elevation is robustly proven; read-through to improved brain bioenergetics or cognition is NOT demonstrated.",
+        "ntrophic": "Preclinical models suggest NAD+ repletion supports mitochondrial biogenesis, axonal/neuronal resilience and may modulate neurotrophic signaling; no human evidence of neurotrophic effect."
+      }
+    },
+    {
+      "id": "nicotine",
+      "name": "Nicotine",
+      "type": "compound",
+      "klass": "Nicotinic acetylcholine receptor (nAChR) agonist / stimulant — high dependence liability",
+      "ev": 3,
+      "ch": {
+        "ach": "Nicotine is an agonist at neuronal nicotinic acetylcholine receptors (nAChRs), principally the high-affinity alpha4-beta2 subtype (also alpha7). Activation of nAChRs on cortical/thalamic and presynaptic terminals enhances cholinergic signalling and downstream release of multiple neurotransmitters, the proximate basis for acute attention/working-memory effects. Chronic exposure causes receptor desensitization and upregulation (neuroadaptation).",
+        "da": "Via alpha4-beta2 (often with alpha6) nAChRs on ventral tegmental area dopamine neurons, nicotine increases DA neuron firing and phasic burst firing, raising dopamine release in the nucleus accumbens — the core reward/reinforcement circuit driving ADDICTION/dependence, and also implicated in motivation and working-memory effects. This channel is the mechanistic basis of nicotine's high abuse liability, flagged prominently.",
+        "ne": "Nicotinic stimulation increases noradrenergic/sympathetic tone and central arousal (also peripheral catecholamine release contributing to cardiovascular effects). Supports the acute alerting/arousal component of attention effects; human cognitive attribution is mechanistic/indirect."
+      }
+    },
+    {
+      "id": "nmn",
+      "name": "NMN",
+      "type": "compound",
+      "klass": "NAD+ precursor (vitamin B3-related nucleotide)",
+      "ev": 1,
+      "ch": {
+        "mito": "NMN is an NAD+ precursor; raises tissue/blood NAD+ supporting mitochondrial bioenergetics, sirtuin activity, and redox metabolism. Human RCTs confirm blood NAD+ elevation, but downstream brain-bioenergetic benefit is not demonstrated in humans.",
+        "ntrophic": "Preclinical: NMN rescued cerebromicrovascular endothelial function and neurovascular coupling and improved cognition in aged mice; protected against β-amyloid-oligomer-induced cognitive impairment and neuronal death in rodents. Neuroprotection is PRECLINICAL only; no human neurotrophic/neuroprotection endpoint."
+      }
+    },
+    {
+      "id": "noopept",
+      "name": "Noopept",
+      "type": "compound",
+      "klass": "proline-containing dipeptide nootropic (piracetam analogue)",
+      "ev": 2,
+      "ch": {
+        "ntrophic": "Increases mRNA/expression of NGF and BDNF in rat hippocampus after acute dosing; chronic dosing potentiates rather than tolerizes the BDNF effect (hippocampus, hypothalamus). Preclinical (rodent) only.",
+        "glu": "Proposed prodrug of endogenous dipeptide cycloprolylglycine, an AMPA-receptor modulator; direct radioligand binding shows weak AMPA-site interaction (IC50 ~80 microM, ~10x weaker than nooglutil). Preclinical.",
+        "inflam": "Antioxidant / anti-inflammatory and anti-apoptotic actions reported in cellular and rodent neurodegeneration models (e.g., attenuation of amyloid-beta toxicity, oxidative stress, calcium overload, tau hyperphosphorylation). Preclinical only."
+      }
+    },
+    {
+      "id": "omega-3-epa-dha",
+      "name": "Omega-3 (EPA/DHA, fish oil)",
+      "type": "compound",
+      "klass": "Structural lipid / anti-inflammatory",
+      "ev": 2,
+      "ch": {
+        "inflam": "EPA and DHA are precursors of specialised pro-resolving mediators (resolvins, protectins/neuroprotectin D1, maresins) that actively drive resolution of inflammation and can dampen neuroinflammation; partly displace arachidonic-acid-derived pro-inflammatory eicosanoids. Strong mechanistic/preclinical basis; human neuroinflammatory cognitive endpoints not robustly demonstrated.",
+        "ntrophic": "DHA is the dominant n-3 fatty acid in neuronal membranes (~35% of synaptic-membrane fatty acids, esterified to PE/PS/PC); supports membrane fluidity, receptor/signal-transduction efficiency, synaptogenesis, neurite outgrowth and neurotransmitter release; preclinically raises BDNF. Structural role is well established; downstream cognitive benefit in replete humans is not.",
+        "ser": "EPA-predominant formulations reduce depressive symptoms in meta-analysis (mechanism likely anti-inflammatory and membrane/monoaminergic modulation rather than a direct, demonstrated serotonergic effect — channel assignment reflects mood outcome, not a proven 5-HT mechanism). DHA-only formulations are not effective for mood."
+      }
+    },
+    {
+      "id": "oxiracetam",
+      "name": "Oxiracetam",
+      "type": "compound",
+      "klass": "racetam (pyrrolidinone nootropic)",
+      "ev": 2,
+      "ch": {
+        "glu": "Positive allosteric modulation of AMPA-type glutamate receptors / enhancement of glutamatergic transmission and hippocampal field potentials (preclinical)",
+        "ach": "Increases hippocampal acetylcholine release in vivo (microdialysis, rat) and counteracts scopolamine-induced ACh decline; likely indirect via glutamatergic drive",
+        "cbf": "(S)-oxiracetam increases cerebral blood flow and reverses deficits in chronic cerebral hypoperfusion (rat); no quantitative human CBF data"
+      }
+    },
+    {
+      "id": "panax-ginseng",
+      "name": "Panax ginseng",
+      "type": "compound",
+      "klass": "adaptogen / botanical (Araliaceae; saponin glycosides)",
+      "ev": 2,
+      "ch": {
+        "cbf": "Putative vasoactive/glucoregulatory support of cerebral metabolism during sustained mental load; acute single doses lowered blood glucose while improving performance, hypothesized (not proven) to involve cerebral substrate/perfusion effects.",
+        "ach": "Preclinical reports of ginsenoside modulation of cholinergic signaling and acetylcholine release; no human cholinergic biomarker confirmation.",
+        "mito": "Preclinical antioxidant/mitochondrial-protective effects of ginsenosides (Rb1, Rg1, Rg3); no human bioenergetic endpoints.",
+        "inflam": "Preclinical anti-inflammatory / NF-kB modulation by ginsenosides; not validated against human neuroinflammatory cognitive endpoints."
+      }
+    },
+    {
+      "id": "phenylpiracetam",
+      "name": "Phenylpiracetam",
+      "type": "compound",
+      "klass": "Racetam / phenylated piracetam analog (psychostimulant nootropic)",
+      "ev": 2,
+      "ch": {
+        "da": "Enantiomer-dependent dopamine transporter (DAT) inhibition; (S)-enantiomer selective DAT inhibitor, (R)-enantiomer dual NE-DA reuptake inhibitor (NDRI) — preclinical/rodent only",
+        "ne": "(R)-phenylpiracetam acts as norepinephrine-dopamine reuptake inhibitor (NDRI), ~11-fold lower NET than DAT affinity — preclinical/rodent only; consistent with observed psychostimulant profile",
+        "glu": "Putative AMPA receptor potentiation (class effect attributed to racetams); direct phenylpiracetam-specific human data absent"
+      }
+    },
+    {
+      "id": "phosphatidylserine",
+      "name": "Phosphatidylserine (PS)",
+      "type": "compound",
+      "klass": "Membrane phospholipid",
+      "ev": 2,
+      "ch": {
+        "ntrophic": "PS is a major anionic membrane phospholipid concentrated in the inner leaflet of neuronal membranes; supplementation is proposed to support membrane fluidity, phospholipid composition, and synaptic/membrane-associated signalling (e.g. recruitment of Akt, PKC). Mechanistic/structural rationale; not a measured neurotrophic endpoint in humans",
+        "ach": "Preclinical work (esp. with bovine-cortex PS) reports restoration of age-impaired acetylcholine release and cholinergic function; invoked to explain memory effects but not demonstrated as a measured cholinergic mechanism in human cognition trials",
+        "hpa": "Chronic oral PS blunts the ACTH and cortisol response to physical/exercise stress in healthy men; proposed dampening of HPA-axis stress reactivity. Small, short, brain-cortex/soy PS studies"
+      }
+    },
+    {
+      "id": "piracetam",
+      "name": "Piracetam (Nootropil)",
+      "type": "compound",
+      "klass": "racetam (cyclic GABA derivative; prototype nootropic / metabolic-cerebral enhancer)",
+      "ev": 2,
+      "ch": {
+        "glu": "Positive allosteric modulation of AMPA-type glutamate receptors and facilitation of glutamatergic neurotransmission/LTP; low or no defined receptor affinity, effect attributed partly to membrane interaction",
+        "cbf": "Rheological/microvascular: reduces erythrocyte adhesion to vascular endothelium, decreases platelet aggregation, improves red-cell deformability and microcirculation, hinders vasospasm",
+        "mito": "Restores neuronal membrane fluidity (selectively in aged/oxidatively-stressed membranes), enhancing mobility of respiratory-chain complexes; improves mitochondrial membrane potential and ATP production, reduces caspase-9 activity"
+      }
+    },
+    {
+      "id": "pqq",
+      "name": "Pyrroloquinoline quinone",
+      "type": "compound",
+      "klass": "redox cofactor / mitochondrial biogenesis modulator (quinone)",
+      "ev": 2,
+      "ch": {
+        "mito": "Stimulates mitochondrial biogenesis via CREB phosphorylation and increased PGC-1alpha expression (also reported SIRT1/PGC-1alpha and AMPK pathways); increases mtDNA content, citrate synthase and cytochrome-c oxidase activity, cellular respiration",
+        "inflam": "Redox-active antioxidant; one small human crossover study reported decreased plasma CRP and IL-6 and shifts in oxidative-stress metabolites",
+        "cbf": "NIRS/cerebral-oxygenation signals suggest increased prefrontal cortex blood flow and oxygen metabolism in small RCTs; mechanism unclear, possibly secondary to mitochondrial/metabolic effects",
+        "ntrophic": "One small RCT in elderly MCI reported elevated serum BDNF after dihydrogen-PQQ vs no change in placebo; not replicated, confounded by co-administered molecular hydrogen"
+      }
+    },
+    {
+      "id": "pramiracetam",
+      "name": "Pramiracetam",
+      "type": "compound",
+      "klass": "racetam nootropic",
+      "ev": 1,
+      "ch": {
+        "ach": "Increases sodium-dependent high-affinity choline uptake (HACU) in rat hippocampal synaptosomes; accelerates septo-hippocampal cholinergic impulse flow (preclinical only).",
+        "glu": "Possible downstream glutamatergic/hippocampal modulation proposed in racetam literature; mechanism for pramiracetam specifically not established (unsourced)."
+      }
+    },
+    {
+      "id": "prebiotic-fiber",
+      "name": "Prebiotic fiber",
+      "type": "compound",
+      "klass": "dietary fiber / fermentable prebiotic (gut-brain axis)",
+      "ev": 2,
+      "ch": {
+        "hpa": "Reduced waking/cortisol-awakening response after 3 weeks B-GOS; proposed via microbiota-gut-brain and vagal/SCFA signaling",
+        "inflam": "SCFA (esp. butyrate) from fiber fermentation modulate microglia and pro-inflammatory cytokines and support gut-barrier integrity; largely preclinical, mechanistic"
+      }
+    },
+    {
+      "id": "probiotics",
+      "name": "Probiotics (Psychobiotics)",
+      "type": "compound",
+      "klass": "live microbial supplement (gut-brain axis)",
+      "ev": 2,
+      "ch": {
+        "hpa": "Gut-brain axis modulation of HPA-axis output. Meta-analysis (46 RCTs) shows a modest cortisol reduction (low certainty); a separate healthy-volunteer meta-analysis found reduced subjective stress but NO significant cortisol change. Effect is strain-specific and heterogeneous; much mechanistic detail (vagal afferent signaling, microbial metabolites acting on the HPA axis) is preclinical.",
+        "ser": "Proposed modulation of serotonergic signaling via gut-derived serotonin (enterochromaffin cells produce most body 5-HT), tryptophan/kynurenine metabolism, and short-chain fatty acids (SCFAs); links to small antidepressant/anxiolytic effects in meta-analyses. The serotonergic pathway itself is largely inferred/preclinical, not demonstrated by human central 5-HT biomarkers.",
+        "inflam": "Strengthened gut-barrier integrity and reduced systemic/neuro-inflammation (lowered LPS translocation, altered cytokines) is a leading proposed route to mood and cognition effects. In humans this is mostly biomarker/secondary-endpoint and mechanistic; the anti-inflammatory-to-cognition causal chain is preclinical-leaning."
+      }
+    },
+    {
+      "id": "psilocybin-microdosing",
+      "name": "Psilocybin (microdosing)",
+      "type": "compound",
+      "klass": "Serotonergic (classic) psychedelic — tryptamine 5-HT2A agonist; sub-perceptual MICRODOSING regimen (distinct from macrodose/therapeutic dosing). Schedule I controlled substance.",
+      "ev": 1,
+      "ch": {
+        "ser": "Primary pharmacology: psilocin is an agonist at serotonin 5-HT2A receptors (with activity at other 5-HT subtypes incl. 5-HT2C, 5-HT1A). 5-HT2A agonism is the established receptor mechanism for classic psychedelics. At MICRODOSES the question is whether sub-perceptual 5-HT2A engagement yields cognitive benefit — controlled human trials do not demonstrate a reliable cognitive effect over placebo, so the human cognitive-OUTCOME grade is low even though the receptor mechanism itself is well characterized.",
+        "ntrophic": "Psychedelics act as 'psychoplastogens': 5-HT2A activation (incl. intracellular 5-HT2A) drives BDNF-TrkB and mTOR signaling and rapid/persistent dendritic spine growth in rodent frontal cortex (Shao 2021 PMID:34228959). CRITICAL caveat: these neuroplasticity signals are mostly ACUTE and PRECLINICAL, and largely demonstrated at full/MACRO doses, not at sub-perceptual human microdoses. Translation of a neuroplasticity signal into microdose cognitive enhancement in humans is unproven."
+      }
+    },
+    {
+      "id": "pterostilbene",
+      "name": "Pterostilbene",
+      "type": "compound",
+      "klass": "stilbenoid polyphenol",
+      "ev": 1,
+      "ch": {
+        "inflam": "Antioxidant / anti-neuroinflammatory; suppresses microglial ROS/NF-kB signaling and inflammatory cytokine expression; SIRT1/Nrf2 modulation (rodent)",
+        "ntrophic": "Increases synaptic markers in dentate gyrus and modulates BDNF in rodent models of cognitive decline; supports memory consolidation/neuroplasticity (rodent)"
+      }
+    },
+    {
+      "id": "resveratrol",
+      "name": "Resveratrol",
+      "type": "compound",
+      "klass": "polyphenol stilbenoid",
+      "ev": 2,
+      "ch": {
+        "cbf": "Increased cerebral blood flow / cerebrovascular responsiveness, likely via eNOS-mediated nitric oxide signaling; acute dose-dependent CBF rise in healthy adults and chronic improvement in cerebrovascular responsiveness in postmenopausal women",
+        "inflam": "Antioxidant and putative SIRT1/AMPK activation reducing oxidative and inflammatory signaling; largely preclinical, not validated as a cognitive mechanism in humans",
+        "mito": "Proposed SIRT1/PGC-1alpha-driven mitochondrial biogenesis and improved bioenergetics; preclinical/mechanistic only, no human cognitive confirmation"
+      }
+    },
+    {
+      "id": "rhodiola-rosea",
+      "name": "Rhodiola rosea",
+      "type": "compound",
+      "klass": "Adaptogen",
+      "ev": 2,
+      "ch": {
+        "hpa": "Adaptogenic modulation of the stress axis; standardized extract reduced the salivary cortisol response to awakening vs placebo in stress-related fatigue, alongside anti-fatigue effects",
+        "mito": "Cellular-energy / anti-fatigue. Salidroside upregulates mitochondrial biogenesis markers (PGC-1a, TFAM) and activates AMPK in vitro/animal models. Weight of evidence here is PRECLINICAL; human anti-fatigue trials do not directly measure mitochondrial endpoints",
+        "ser": "Preclinical monoamine modulation (reported effects on serotonergic signaling in rodent models); no robust human confirmation",
+        "da": "Preclinical monoamine modulation (reported effects on dopaminergic signaling in rodent models); no robust human confirmation",
+        "ne": "Preclinical monoamine modulation (reported effects on noradrenergic signaling in rodent models); no robust human confirmation"
+      }
+    },
+    {
+      "id": "saffron",
+      "name": "Saffron",
+      "type": "compound",
+      "klass": "Botanical / spice-derived extract (carotenoid glycosides)",
+      "ev": 3,
+      "ch": {
+        "ser": "Serotonergic modulation is the most-cited mechanism: crocin/safranal reported to inhibit serotonin reuptake at synapses and to modulate monoamines (with additional reported MAO-A/B inhibition and NMDA antagonism). This is the leading explanation for the antidepressant effect, but the direct reuptake-inhibition data are largely PRECLINICAL (animal/in vitro); the exact human mechanism is unconfirmed.",
+        "inflam": "Anti-inflammatory / antioxidant activity of crocin and safranal (reduced oxidative-stress and inflammatory markers) is proposed to underlie neuroprotective and AD-adjunct effects; one adjunct AD trial reported reductions in some inflammation/oxidative-stress markers. Mostly preclinical plus limited human marker data.",
+        "da": "Possible dopaminergic involvement invoked for ADHD signal and mood; preclinical/mechanistic only, not established in humans."
+      }
+    },
+    {
+      "id": "sage",
+      "name": "Sage",
+      "type": "compound",
+      "klass": "Herbal extract / essential oil with acetylcholinesterase-inhibiting monoterpenoids (cholinergic herb)",
+      "ev": 2,
+      "ch": {
+        "ach": "Sage extracts (both S. officinalis and S. lavandulaefolia) and their monoterpenoid constituents inhibit acetylcholinesterase (and butyrylcholinesterase) in vitro, raising synaptic acetylcholine — the proposed basis for memory/attention effects and for AD relevance. The S. lavandulaefolia monoterpenoid extract was confirmed a potent human-AChE inhibitor (PMID:20937617). Mechanistically plausible and supported by several small acute RCTs, but human in-vivo confirmation of central AChE inhibition is indirect",
+        "inflam": "Sage is rich in rosmarinic acid, carnosic acid and other phenolic/terpenoid antioxidants with anti-inflammatory and free-radical-scavenging activity in vitro and in animal models; proposed contributor to any neuroprotective effect. No human cognitive RCT isolates this pathway — preclinical/indirect only"
+      }
+    },
+    {
+      "id": "schisandra",
+      "name": "Schisandra chinensis",
+      "type": "compound",
+      "klass": "adaptogen (dibenzocyclooctadiene lignan-bearing botanical)",
+      "ev": 2,
+      "ch": {
+        "hpa": "Classified as an adaptogen; proposed stress-axis / mental-fatigue modulation, but human evidence is in fixed combinations with Rhodiola + Eleutherococcus (confounded).",
+        "inflam": "Schizandrin A suppresses microglia-mediated neuroinflammation (NO, TNF-alpha, IL-6) via TRAF6-NF-kB and Jak2-Stat3 inhibition; broad antioxidant lignan activity. Preclinical only.",
+        "ach": "Schisandrin B suppressed scopolamine-induced rise in acetylcholinesterase (AChE) activity and preserved acetylcholine in mice. Preclinical only."
+      }
+    },
+    {
+      "id": "selank",
+      "name": "Selank",
+      "type": "compound",
+      "klass": "synthetic peptide (tuftsin analog), intranasal anxiolytic/nootropic",
+      "ev": 2,
+      "ch": {
+        "gaba": "Alters expression of GABA-A receptor subunit and GABAergic neurotransmission genes in rodent frontal cortex and IMR-32 cells; proposed indirect/allosteric GABAergic modulation rather than direct receptor binding",
+        "ser": "Enhances serotonin (5-HT) metabolism in rat brainstem; region-specific changes in 5-HT turnover (preclinical)",
+        "hpa": "Anxiolytic/anti-stress effects in generalized anxiety disorder and neurasthenia (Russian clinical trials) and chronic mild stress models; net effect framed as reduced anxiety/stress reactivity (HPA mechanism not directly characterized)",
+        "ntrophic": "Increases BDNF mRNA and protein in rat hippocampus after intranasal administration; normalizes BDNF in ethanol-induced memory impairment models (preclinical only)"
+      }
+    },
+    {
+      "id": "semax",
+      "name": "Semax",
+      "type": "compound",
+      "klass": "synthetic melanocortin / ACTH(4-10) analog peptide (heptapeptide)",
+      "ev": 2,
+      "ch": {
+        "ntrophic": "Upregulates BDNF/NGF and trkB expression in rodent hippocampus/brain; activates transcription of neurotrophins and their receptors after cerebral ischemia (preclinical)",
+        "da": "Modulates brain dopaminergic system; neuroprotective in MPTP-lesioned rats; reported to augment psychostimulant-induced dopamine release (preclinical)",
+        "inflam": "Reported reduction of pro-inflammatory mediators (e.g., IL-1b, TNF-a, IL-6) and modulation of immune gene networks in rodent cerebral ischemia models (preclinical)"
+      }
+    },
+    {
+      "id": "spermidine",
+      "name": "Spermidine",
+      "type": "compound",
+      "klass": "natural polyamine (autophagy inducer)",
+      "ev": 2,
+      "ch": {
+        "ntrophic": "Induction of macroautophagy (epigenetic HAT inhibition, histone H3 hypoacetylation; clearance of damaged proteins/organelles) promoting neuronal maintenance and synaptic/active-zone health. In flies and mice spermidine feeding restores age-declined polyamine levels and rescues age-induced memory impairment in an autophagy-dependent manner. Human translation is mixed: a small pilot was positive but the larger confirmatory RCT was null for memory.",
+        "inflam": "Anti-inflammatory / immunometabolic effects attributed to autophagy induction and polyamine signaling (reduced pro-inflammatory cytokines, enhanced anti-inflammatory macrophage phenotype, T-cell autophagy). This is preclinical/mechanistic; no human cognitive outcome has been attributed to an anti-inflammatory action of spermidine."
+      }
+    },
+    {
+      "id": "sulforaphane",
+      "name": "Sulforaphane",
+      "type": "compound",
+      "klass": "phytochemical / Nrf2 pathway activator (isothiocyanate)",
+      "ev": 2,
+      "ch": {
+        "inflam": "Nrf2/Keap1 pathway activation upregulates antioxidant-response-element (ARE) genes (NQO1, HO-1, glutathione synthesis), reducing oxidative stress and neuroinflammatory signaling. This is the primary, well-established mechanism.",
+        "glu": "Theoretical/preclinical: attenuation of oxidative-glutamatergic toxicity and modulation of redox-sensitive glutamate handling; proposed relevance to schizophrenia adjunct rationale. Human glutamatergic effects not demonstrated."
+      }
+    },
+    {
+      "id": "taurine",
+      "name": "Taurine",
+      "type": "compound",
+      "klass": "Inhibitory neuromodulator / sulfonic amino acid (osmolyte)",
+      "ev": 2,
+      "ch": {
+        "gaba": "Endogenous inhibitory neuromodulator; partial/full agonist at GABA-A receptors (notably extrasynaptic alpha4-beta-delta subtype in thalamus) and at glycine receptors, gating chloride conductance. Also acts as an osmolyte. Strengthens GABAergic/glycinergic inhibitory tone in CNS. Mechanism is well established at the cellular/preclinical level; a corresponding inhibitory cognitive/anxiolytic effect is NOT demonstrated in healthy humans.",
+        "inflam": "Antioxidant and anti-inflammatory actions: scavenges hypochlorous acid via taurine chloramine, attenuates microglial pro-inflammatory cytokine release (TNF-alpha, IL-1beta, IL-6), reduces oxidative stress and apoptosis in models of stroke, neuroinflammation, TBI, and retinal degeneration. Evidence is rodent/in-vitro; human CNS anti-inflammatory effects are not established."
+      }
+    },
+    {
+      "id": "vinpocetine",
+      "name": "Vinpocetine",
+      "type": "compound",
+      "klass": "vinca-alkaloid-derivative (semisynthetic vincamine derivative; cerebral vasodilator / PDE1 inhibitor)",
+      "ev": 2,
+      "ch": {
+        "cbf": "PDE1 inhibition raising cAMP/cGMP plus voltage-gated Na+-channel block; smooth-muscle relaxation and selective cerebral vasodilation increasing regional cerebral blood flow and O2/glucose utilization",
+        "inflam": "IKK-dependent, PDE-independent inhibition of NF-kB-driven proinflammatory signaling; Na+-channel block reducing Ca2+ influx and excitotoxicity (neuroprotection, largely preclinical)"
+      }
+    },
+    {
+      "id": "vitamin-c",
+      "name": "Vitamin C",
+      "type": "compound",
+      "klass": "Water-soluble vitamin / antioxidant / enzymatic cofactor",
+      "ev": 2,
+      "ch": {
+        "ne": "Obligate electron donor (cofactor) for dopamine-beta-hydroxylase, converting dopamine to norepinephrine in neurosecretory vesicles; supports catecholamine synthesis.",
+        "da": "Ascorbate participates in catecholamine pathway regulation and protects dopaminergic neurons from dopamine-derived oxidative stress; modulatory rather than a direct dopamine-raising effect.",
+        "inflam": "Major brain antioxidant and free-radical scavenger; regenerates other antioxidants (vitamin E, glutathione) and limits oxidative stress. Brain maintains high, homeostatically regulated ascorbate."
+      }
+    },
+    {
+      "id": "vitamin-d3",
+      "name": "Vitamin D3 (cholecalciferol)",
+      "type": "compound",
+      "klass": "fat-soluble vitamin / secosteroid prohormone",
+      "ev": 2,
+      "ch": {
+        "ntrophic": "VDR-mediated neurotrophic/neuroprotective signaling: vitamin D receptors are expressed in hippocampus and cortex; calcitriol upregulates neurotrophins (e.g., NGF) and supports neuronal calcium homeostasis and amyloid clearance in preclinical models. Human cognitive translation is unproven.",
+        "inflam": "Immunomodulatory / anti-neuroinflammatory: calcitriol downregulates pro-inflammatory cytokines and shifts microglial/T-cell phenotype. Mechanistically plausible link to neuroinflammation but no demonstrated cognitive benefit from supplementation."
+      }
+    },
+    {
+      "id": "vitamin-e",
+      "name": "Vitamin E (alpha-tocopherol)",
+      "type": "compound",
+      "klass": "fat-soluble vitamin / lipid-phase antioxidant",
+      "ev": 2,
+      "ch": {
+        "inflam": "Lipid-phase (membrane) antioxidant; scavenges peroxyl radicals and limits lipid peroxidation. In mild-moderate AD, 2000 IU/day alpha-tocopherol slowed functional decline (TEAM-AD)."
+      }
+    },
+    {
+      "id": "zinc",
+      "name": "Zinc",
+      "type": "compound",
+      "klass": "essential trace mineral (neuromodulator / enzymatic cofactor)",
+      "ev": 2,
+      "ch": {
+        "glu": "Synaptic zinc is co-released from glutamatergic terminals and allosterically inhibits NMDA receptors (high-affinity binding to GluN2A N-terminal domain reduces open probability) and modulates AMPA and GABA-A receptors; acts as ligand at the metabotropic zinc receptor. Core neuromodulatory action. (PMID 39196675)",
+        "inflam": "Cofactor for Cu/Zn superoxide dismutase and antioxidant defense; modulates immune signaling and NF-kB. Deficiency increases oxidative stress and inflammation; repletion normalizes it. Mechanistically established, clinical cognitive relevance indirect.",
+        "ser": "Antidepressant-adjunct signal: zinc added to antidepressants lowers depressive symptom scores in meta-analysis; proposed monoaminergic/NMDA-antagonist-like and BDNF-related mechanisms. Effect in depressed (impaired) populations, modest. (PMID 32885249; 32829928)",
+        "ntrophic": "Zinc modulates BDNF/TrkB signaling and hippocampal neurogenesis in rodent models; reverses stress-induced BDNF loss preclinically. Not directly demonstrated in human brain."
+      }
+    }
+  ],
+  "meta": {
+    "n_agents": 76,
+    "n_compounds": 76,
+    "n_habits": 0,
+    "note": "Generated by generate_matrix.py from entry frontmatter. Do not hand-edit."
+  }
+}
