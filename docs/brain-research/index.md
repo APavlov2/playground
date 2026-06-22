@@ -12,8 +12,8 @@ workflow, [`taxonomy.md`](./taxonomy.md) for the 12 neural channels, and
 
 - [x] **Phase 0 — Scaffold.** Directory tree, taxonomy, rubric, template, this board.
 - [x] **Phase 1 — Compound track** (Track A) — **76 seed compounds done.**
-- [ ] **Phase 2 — Habit track** (Track B).
-- [~] **Phase 3 — Cross-link** — `channel-matrix.json` + `channel-briefs.md` **done (compounds-only; regenerate after Phase 2)**.
+- [x] **Phase 2 — Habit track** (Track B) — **29 seed habits done** (exercise, sleep, diet, cognitive, stress/mental, hormetic/environmental, devices).
+- [x] **Phase 3 — Cross-link** — `channel-matrix.json` + `channel-briefs.md` **regenerated with habits folded in (105 agents: 76 compounds + 29 habits).**
 - [ ] **Phase 4 — Synthesis** — `synthesis/stacks-by-goal.md`.
 - [ ] **Phase 5 — Review pass** — dedupe, verify citations, flip statuses.
 
@@ -104,20 +104,50 @@ _76 entries — **Track A seed list complete.** All `draft` pending Phase 5 revi
 
 ## Track B — Habits
 
-_No entries yet._
+_29 entries — **Track B seed list complete.** All `draft` pending Phase 5 review. Evidence = `evidence_overall` badge; channel grades are per-channel (↓ = down, ↕ = modulate)._
 
-| id | Name | klass | Evidence | Status | Channels |
-|----|------|-------|:--------:|:------:|----------|
-| –  | –    | –     | –        | –      | –        |
+| id | Name | klass | Evidence | Status | Channels (grade) |
+|----|------|-------|:--------:|:------:|------------------|
+| [avoiding-neurotoxins](./habits/avoiding-neurotoxins.md) | Avoiding neurotoxins (alcohol & smoking) | Environmental — avoidance (protective) | 4 | draft | ntrophic(4), inflam(4↓), cbf(3) |
+| [sleep-duration-quality](./habits/sleep-duration-quality.md) | Sleep duration & quality (overall) | Sleep | 4 | draft | inflam(3↓), hpa(3↕), ntrophic(2), glymph(2) |
+| [social-connection](./habits/social-connection.md) | Social connection / isolation | Social | 4 | draft | hpa(3↓), inflam(2↓), ntrophic(1) |
+| [tms](./habits/tms.md) | Transcranial magnetic stimulation (TMS / rTMS) | Device — neuromodulation | 4 | draft | glu(3↕), da(2), ntrophic(2) |
+| [zone-2-aerobic](./habits/zone-2-aerobic.md) | Zone 2 / moderate aerobic exercise | Exercise — aerobic | 4 | draft | ntrophic(4), cbf(3), mito(3), hpa(3↕), inflam(2↓) |
+| [breathwork](./habits/breathwork.md) | Breathwork / slow-paced breathing | Stress — mind-body | 3 | draft | hpa(3↓), gaba(2) |
+| [circadian-consistency](./habits/circadian-consistency.md) | Circadian regularity (consistent sleep-wake timing) | Sleep | 3 | draft | hpa(3↕), ser(2↕), inflam(2↓), glymph(2) |
+| [deep-slow-wave-sleep](./habits/deep-slow-wave-sleep.md) | Deep (slow-wave) sleep | Sleep | 3 | draft | ntrophic(3), glymph(3), hpa(3↕), inflam(2↓) |
+| [hiit](./habits/hiit.md) | High-intensity interval training (HIIT) | Exercise — high-intensity interval | 3 | draft | mito(3), ntrophic(3), ne(2), cbf(2) |
+| [hydration](./habits/hydration.md) | Hydration status (avoiding mild dehydration) | Environmental — physiological (deficit correction) | 3 | draft | ne(3↕), cbf(3) |
+| [language-instrument-learning](./habits/language-instrument-learning.md) | Language learning & musical-instrument training | Cognitive — reserve | 3 | draft | ntrophic(3), glu(2), ach(1↕) |
+| [meditation](./habits/meditation.md) | Meditation / mindfulness | Stress — mind-body | 3 | draft | hpa(3↓), ntrophic(2↕), inflam(2↓) |
+| [mediterranean-mind-diet](./habits/mediterranean-mind-diet.md) | Mediterranean / MIND dietary pattern | Diet — pattern | 3 | draft | cbf(3), inflam(3↓), glu(1↕) |
+| [novel-skill-acquisition](./habits/novel-skill-acquisition.md) | Novel skill acquisition (learning complex new skills) | Cognitive — skill | 3 | draft | ntrophic(3), glu(2), da(1↕) |
+| [polyphenol-rich-intake](./habits/polyphenol-rich-intake.md) | Polyphenol-rich dietary intake | Diet — phytochemical | 3 | draft | cbf(3), inflam(2↓), ntrophic(1) |
+| [resistance-training](./habits/resistance-training.md) | Resistance / strength training | Exercise — resistance | 3 | draft | ntrophic(3), mito(2), inflam(2↓), hpa(2↕) |
+| [skill-coordination-exercise](./habits/skill-coordination-exercise.md) | Skill / coordination-based exercise | Exercise — skill/coordination | 3 | draft | cbf(3), ntrophic(3), glu(2↕), inflam(2↓) |
+| [sunlight-circadian-light](./habits/sunlight-circadian-light.md) | Sunlight & circadian light exposure (daytime bright light) | Environmental — circadian / photic | 3 | draft | ser(3), ne(3), glymph(2↕) |
+| [cognitive-challenge-novelty](./habits/cognitive-challenge-novelty.md) | Sustained cognitive challenge, novelty & engagement (cognitive reserve) | Cognitive — reserve | 3 | draft | glu(2), ntrophic(2), da(1↕) |
+| [treating-hearing-loss](./habits/treating-hearing-loss.md) | Treating hearing loss (hearing aids / audiologic intervention) | Environmental — sensory (deficit correction) | 3 | draft | ntrophic(3), inflam(1↓) |
+| [cold-exposure](./habits/cold-exposure.md) | Cold exposure / cold-water immersion | Hormetic — cold | 2 | draft | ne(2), inflam(1↕), hpa(1↕) |
+| [neurofeedback](./habits/neurofeedback.md) | EEG neurofeedback | Device — neuromodulation | 2 | draft | ne(2↕) |
+| [ketogenic-diet](./habits/ketogenic-diet.md) | Ketogenic diet / exogenous-ketone brain fuel | Diet — metabolic (ketogenic) | 2 | draft | mito(3), glu(2↕), cbf(2), inflam(2↓) |
+| [nature-exposure](./habits/nature-exposure.md) | Nature exposure / green space | Stress — environmental | 2 | draft | ser(2↕), hpa(2↓) |
+| [photobiomodulation](./habits/photobiomodulation.md) | Photobiomodulation (transcranial red/near-infrared light) | Device — photobiomodulation | 2 | draft | cbf(2), mito(2), inflam(1↓) |
+| [sauna-heat](./habits/sauna-heat.md) | Sauna / heat exposure | Hormetic — heat | 2 | draft | cbf(2), ntrophic(2), inflam(2↓) |
+| [time-restricted-eating](./habits/time-restricted-eating.md) | Time-restricted eating / intermittent fasting | Diet — fasting | 2 | draft | mito(2), inflam(2↓), gaba(1), ntrophic(1) |
+| [tdcs-tacs](./habits/tdcs-tacs.md) | Transcranial electrical stimulation (tDCS / tACS) | Device — neuromodulation | 2 | draft | glu(2↕), gaba(2↕) |
+| [vagus-nerve-stimulation](./habits/vagus-nerve-stimulation.md) | Vagus nerve stimulation (VNS / taVNS) | Device — neuromodulation | 2 | draft | ach(2), ne(2), ntrophic(2) |
+
+**Track B seed list complete (29 habits).** Additions beyond the seed set can be appended here.
 
 ## Synthesis artifacts
 
 | File | Purpose | Status |
 |------|---------|:------:|
 | `synthesis/generate_matrix.py` | Reproducible generator (parses frontmatter → matrix + briefs) | done |
-| `synthesis/channel-matrix.json` | Aggregated agent×channel — regenerates the Atlas | done (76 compounds) |
-| `synthesis/channel-briefs.md` | Per-channel: what moves it, ranked; convergence + gaps | done (compounds-only) |
+| `synthesis/channel-matrix.json` | Aggregated agent×channel — regenerates the Atlas | done (105 agents: 76 compounds + 29 habits) |
+| `synthesis/channel-briefs.md` | Per-channel: what moves it, ranked; convergence + gaps | done (compounds + habits) |
 | `synthesis/stacks-by-goal.md` | Minimum-effective levers per goal | pending (Phase 4) |
 
-> The matrix + briefs are **compounds-only** for now. Re-run `python3 docs/brain-research/synthesis/generate_matrix.py`
-> after the Phase 2 habit track lands to fold habits in and finalize the convergence/gap analysis.
+> The matrix + briefs now fold in both tracks. Re-run `python3 docs/brain-research/synthesis/generate_matrix.py`
+> after any entry edit to keep the Atlas data and convergence/gap analysis in sync.

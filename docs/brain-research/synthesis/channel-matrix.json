@@ -1104,14 +1104,423 @@
         "ser": "Antidepressant-adjunct signal: zinc added to antidepressants lowers depressive symptom scores in meta-analysis; proposed monoaminergic/NMDA-antagonist-like and BDNF-related mechanisms. Effect in depressed (impaired) populations, modest. (PMID 32885249; 32829928)",
         "ntrophic": "Zinc modulates BDNF/TrkB signaling and hippocampal neurogenesis in rodent models; reverses stress-induced BDNF loss preclinically. Not directly demonstrated in human brain."
       }
+    },
+    {
+      "id": "avoiding-neurotoxins",
+      "name": "Avoiding neurotoxins (alcohol & smoking)",
+      "type": "habit",
+      "klass": "Environmental — avoidance (protective)",
+      "origin": "natural",
+      "source": "Behavioral / environmental (exposure avoidance)",
+      "ev": 4,
+      "ch": {
+        "ntrophic": "Alcohol is a direct neurotoxin: dose-dependent grey- and white-matter volume loss (including hippocampus) is seen even at low-to-moderate intake. AVOIDING it preserves brain structure/reserve; the habit's direction is protective (up for brain health) precisely because the toxin's own direction is down.",
+        "inflam": "Tobacco smoke delivers oxidative and pro-inflammatory load and accelerates cerebrovascular disease; smoking raises dementia/AD risk in cohort meta-analysis. NOT smoking removes this oxidative/inflammatory and vascular insult — protective.",
+        "cbf": "Smoking promotes atherosclerosis and microvascular damage, reducing cerebral perfusion and raising vascular-dementia risk; avoidance preserves cerebrovascular integrity and perfusion."
+      }
+    },
+    {
+      "id": "breathwork",
+      "name": "Breathwork / slow-paced breathing",
+      "type": "habit",
+      "klass": "Stress — mind-body",
+      "origin": "natural",
+      "source": "Behavioral — mind-body",
+      "ev": 3,
+      "ch": {
+        "hpa": "Slow-paced breathing increases parasympathetic (vagal) tone and is associated with reduced subjective stress/anxiety; proposed downstream dampening of sympathetic/HPA stress reactivity. Acute cardiac-vagal effect is well demonstrated; the cortisol/HPA endpoint specifically is less directly measured.",
+        "gaba": "Behavioral state of calm/anxiolysis; some evidence (e.g. yogic breathing) links practice to increased thalamic GABA and reduced anxiety, suggesting GABAergic/inhibitory involvement. Human pharmacodynamic evidence is thin and indirect — treated as emerging."
+      }
+    },
+    {
+      "id": "circadian-consistency",
+      "name": "Circadian regularity (consistent sleep-wake timing)",
+      "type": "habit",
+      "klass": "Sleep",
+      "origin": "natural",
+      "source": "Behavioral / circadian — sleep",
+      "ev": 3,
+      "ch": {
+        "hpa": "Regular sleep-wake timing entrains the suprachiasmatic-nucleus master clock, which gates the cortisol awakening response and the diurnal cortisol rhythm. Irregular timing / social jetlag flattens or misaligns the cortisol curve and produces circadian misalignment of HPA output. Direction is modulate (restore proper phase/amplitude).",
+        "glymph": "Glymphatic flux is itself circadian-gated (peaks in the rest phase, AQP4-dependent in animal models). Stable sleep-wake timing aligns the clearance window with consolidated sleep; chronic misalignment is hypothesized to blunt it. Human clearance evidence is indirect (regularity ↔ dementia/brain-volume associations); the circadian-gating mechanism is animal.",
+        "ser": "The serotonergic raphe both receives SCN input and feeds back onto the clock; circadian disruption / social jetlag is associated with depressive symptoms and mood dysregulation, and regular timing supports stable mood. Mechanism is partly inferred; direction modulate.",
+        "inflam": "Circadian misalignment (shift-work / social-jetlag models, forced desynchrony) raises inflammatory markers and impairs glycemic control; regular timing is associated with lower inflammatory load. CNS-specific link inferred from peripheral and shift-work data."
+      }
+    },
+    {
+      "id": "cognitive-challenge-novelty",
+      "name": "Sustained Cognitive Challenge, Novelty & Engagement (cognitive reserve)",
+      "type": "habit",
+      "klass": "Cognitive — reserve",
+      "origin": "natural",
+      "source": "Behavioral — cognitive (ongoing novel, effortful mental engagement across the lifespan)",
+      "ev": 3,
+      "ch": {
+        "ntrophic": "Sustained novel, effortful engagement acts as cognitive enrichment, building cognitive/neural reserve — extra network capacity/efficiency that buffers age- and pathology-related decline. The animal analogue (environmental enrichment) raises BDNF and hippocampal neurogenesis; in humans the reserve construct is supported epidemiologically rather than by direct neurotrophic measurement",
+        "glu": "Learning and the trained-task improvements seen in cognitive-training trials are encoded by NMDA-dependent LTP/synaptic plasticity in engaged circuits. This explains why training reliably improves the *trained* task — but the plasticity is task-specific, which is precisely why far-transfer is limited. Inferred substrate, not directly measured",
+        "da": "Novelty and engagement recruit dopaminergic reward/exploration and motivation circuitry, which gates plasticity and sustains effortful practice; novelty-driven dopamine may enhance hippocampal encoding. Mechanistically plausible, supported by animal/imaging work, not isolated as the driver of human reserve outcomes"
+      }
+    },
+    {
+      "id": "cold-exposure",
+      "name": "Cold exposure / cold-water immersion",
+      "type": "habit",
+      "klass": "Hormetic — cold",
+      "origin": "natural",
+      "source": "Behavioral / environmental (cold exposure)",
+      "ev": 2,
+      "ch": {
+        "ne": "Cold-water immersion triggers a large acute catecholamine surge — plasma noradrenaline rose ~530% (and dopamine ~250%) at 14C immersion in healthy men. This drives the acute arousal/alertness and the subjective mood lift enthusiasts report. The effect is acute and physiological; cognitive translation is what is unproven.",
+        "hpa": "Cold is an acute stressor that activates the sympathetic-adrenal axis; repeated controlled exposure is proposed (hormesis) to improve stress tolerance/HPA habituation. Plausible but human brain/cognitive evidence is thin and largely uncontrolled.",
+        "inflam": "Cold exposure is claimed to modulate inflammatory/oxidative tone (e.g. cold-induced norepinephrine and mild oxidative hormesis); evidence in humans for a brain-relevant anti-inflammatory effect is preclinical/indirect at best."
+      }
+    },
+    {
+      "id": "deep-slow-wave-sleep",
+      "name": "Deep (slow-wave) sleep",
+      "type": "habit",
+      "klass": "Sleep",
+      "origin": "natural",
+      "source": "Behavioral / circadian — sleep",
+      "ev": 3,
+      "ch": {
+        "glymph": "Slow-wave (delta, <4 Hz, especially <1 Hz) NREM activity drives the largest CSF pulsations into and out of the brain. In humans, EEG slow waves during NREM are followed by hemodynamic oscillations coupled to macroscopic CSF inflow/outflow — the proposed engine of perivascular waste (amyloid-beta/tau) clearance. This is the canonical, strongest real-world driver of glymphatic clearance available behaviorally.",
+        "ntrophic": "Slow oscillations orchestrate hippocampal-neocortical dialogue: slow-oscillation up-states, thalamocortical spindles and hippocampal sharp-wave ripples nest together to transfer and consolidate declarative memories (active systems consolidation), with associated synaptic plasticity. Causally supported in humans by closed-loop slow-oscillation enhancement boosting memory.",
+        "hpa": "SWS coincides with the nadir of cortisol secretion; deep sleep actively inhibits the HPA axis, and selective SWS suppression raises evening/nocturnal cortisol. Direction is modulate (restoring the normal cortisol trough).",
+        "inflam": "SWS coincides with reduced sympathetic tone; selective slow-wave-sleep deprivation in humans raises inflammatory signaling (e.g., IL-6, NF-kB pathway activity). CNS-specific neuroinflammation link is inferred."
+      }
+    },
+    {
+      "id": "hiit",
+      "name": "High-intensity interval training (HIIT)",
+      "type": "habit",
+      "klass": "Exercise — high-intensity interval",
+      "origin": "natural",
+      "source": "Behavioral / lifestyle — high-intensity interval exercise",
+      "ev": 3,
+      "ch": {
+        "ntrophic": "High-intensity bouts produce the largest acute BDNF elevations of any exercise intensity (intensity- and lactate-dependent: lactate crosses into brain and upregulates BDNF/PGC-1alpha pathways), supporting neurotrophic/neurogenesis signaling; chronic HIIT raises BDNF more than low-intensity exercise.",
+        "mito": "HIIT is a potent stimulus for mitochondrial biogenesis (PGC-1alpha) and oxidative capacity per unit time, and improves cardiorespiratory fitness (VO2max) efficiently; supports metabolic resilience. Brain-specific bioenergetic translation partly inferred from systemic adaptation.",
+        "cbf": "Vigorous intervals transiently raise cerebral perfusion and shear stress; repeated training improves cerebrovascular reactivity and cardiorespiratory fitness, which is associated with better cerebrovascular regulation. Resting CBF change is inconsistent.",
+        "ne": "High-intensity exercise sharply raises noradrenergic/sympathetic arousal and circulating catecholamines, plausibly contributing to the acute post-exercise boost in attention/vigilance and executive function."
+      }
+    },
+    {
+      "id": "hydration",
+      "name": "Hydration status (avoiding mild dehydration)",
+      "type": "habit",
+      "klass": "Environmental — physiological (deficit correction)",
+      "origin": "natural",
+      "source": "Behavioral / environmental (fluid intake)",
+      "ev": 3,
+      "ch": {
+        "cbf": "Hypohydration reduces plasma volume and can lower cerebral perfusion and increase perceived effort; restoring euhydration normalizes perfusion and the cognitive cost of dehydration. Benefit is correction of a deficit, not enhancement above normal.",
+        "ne": "Mild dehydration degrades vigilance/attention and raises subjective fatigue and effort; correcting fluid balance restores attentional performance. Mechanism likely combines perfusion, osmotic and arousal/effort effects rather than a clean noradrenergic action."
+      }
+    },
+    {
+      "id": "ketogenic-diet",
+      "name": "Ketogenic diet / exogenous-ketone brain fuel",
+      "type": "habit",
+      "klass": "Diet — metabolic (ketogenic)",
+      "origin": "natural",
+      "source": "Dietary pattern (very-low-carbohydrate, high-fat) and food-derived ketogenic substrates (MCT oil, ketone esters/salts)",
+      "ev": 2,
+      "ch": {
+        "mito": "Ketone bodies (BHB, acetoacetate) enter the brain via monocarboxylate transporters and are oxidised to acetyl-CoA, generating ATP independently of glucose uptake/glycolysis — bypassing the region-specific cerebral glucose hypometabolism that begins presymptomatically in aging and Alzheimer's. Provides an alternative fuel whose brain uptake is preserved in MCI/AD",
+        "cbf": "Ketone uptake by the brain rises in proportion to blood ketone level via MCT-mediated transport; ketosis modestly increases cerebral metabolic substrate delivery/utilisation. Distinct from perfusion per se — graded cautiously",
+        "inflam": "BHB inhibits the NLRP3 inflammasome and acts as an HDAC inhibitor altering antioxidant gene expression; ketosis reduces ROS production relative to glycolytic metabolism in preclinical models",
+        "glu": "Ketogenic metabolism shifts the glutamate/GABA balance (increased GABA synthesis, reduced glutamatergic excitotoxicity) — the established basis for ketogenic-diet efficacy in epilepsy; relevance to non-epileptic cognition is indirect"
+      }
+    },
+    {
+      "id": "language-instrument-learning",
+      "name": "Language Learning & Musical-Instrument Training",
+      "type": "habit",
+      "klass": "Cognitive — reserve",
+      "origin": "natural",
+      "source": "Behavioral — cognitive (sustained language or musical-instrument practice)",
+      "ev": 3,
+      "ch": {
+        "ntrophic": "Long-term, high-intensity practice (an instrument, or lifelong bilingual language use) drives experience-dependent structural plasticity: grey-matter and white-matter differences in motor, auditory and association cortex (musicians) and in language/executive networks (bilinguals). Largely cross-sectional/correlational in humans, with some longitudinal training support",
+        "glu": "Underlying synaptic substrate of the structural differences is presumed NMDA-dependent LTP and dendritic remodeling in repeatedly engaged auditory-motor and language-control circuits. Inferred from the imaging phenotype, not directly measured",
+        "ach": "Sustained selective attention and auditory encoding during practice recruit cholinergic attentional/encoding systems; the enriched, attentionally demanding activity is the proximate driver of plasticity. Plausible and consistent with attention/encoding roles of ACh, but not isolated in these populations"
+      }
+    },
+    {
+      "id": "meditation",
+      "name": "Meditation / mindfulness",
+      "type": "habit",
+      "klass": "Stress — mind-body",
+      "origin": "natural",
+      "source": "Behavioral — mind-body",
+      "ev": 3,
+      "ch": {
+        "hpa": "Regular practice is associated with reduced perceived stress and modest reductions in physiological stress markers (cortisol, blood pressure); proposed top-down PFC-mediated dampening of HPA-axis reactivity and amygdala threat response. Effect sizes on biomarkers are small and heterogeneous.",
+        "inflam": "Mind-body practice has been associated with small reductions in inflammatory markers (CRP, IL-6) in some RCTs, plausibly secondary to lowered stress/sympathetic tone. Signal is small, inconsistent, and confounded by active-control comparisons.",
+        "ntrophic": "Longitudinal MRI studies report changes in gray-matter concentration in hippocampus and emotion-regulation regions after an 8-week course, and altered amygdala-PFC connectivity. Interpreted as experience-dependent plasticity, but small samples, weak controls, and replication concerns keep this emerging rather than established."
+      }
+    },
+    {
+      "id": "mediterranean-mind-diet",
+      "name": "Mediterranean / MIND dietary pattern",
+      "type": "habit",
+      "klass": "Diet — pattern",
+      "origin": "natural",
+      "source": "Dietary pattern (whole foods — vegetables, leafy greens, berries, fish, olive oil, nuts, whole grains; low red meat/sweets)",
+      "ev": 3,
+      "ch": {
+        "inflam": "High polyphenol, monounsaturated-fat (olive oil), omega-3 (fish) and low refined-carbohydrate/red-meat intake lowers systemic and CNS oxidative/inflammatory load (reduced CRP/IL-6, less microglial priming); the pattern's antioxidant density is the most mechanistically coherent route to slower neurodegeneration",
+        "cbf": "Improved vascular risk profile (blood pressure, LDL, endothelial function, insulin sensitivity) preserves cerebral perfusion and reduces small-vessel/white-matter burden; nitrate- and polyphenol-rich foods support NO-mediated endothelial function",
+        "glu": "Indirect: better metabolic/vascular substrate and lower neuroinflammation are permissive for hippocampal synaptic integrity; no direct human demonstration of glutamatergic/LTP modulation by the pattern itself"
+      }
+    },
+    {
+      "id": "nature-exposure",
+      "name": "Nature exposure / green space",
+      "type": "habit",
+      "klass": "Stress — environmental",
+      "origin": "natural",
+      "source": "Behavioral — environmental",
+      "ev": 2,
+      "ch": {
+        "hpa": "Time in natural settings is associated with reduced self-reported stress and, in some studies, lower cortisol and blood pressure vs urban settings; proposed reduction in sympathetic/HPA arousal. Cortisol findings are mixed and effect sizes modest.",
+        "ser": "Nature exposure reduces rumination and improves affect, with reduced subgenual prefrontal cortex (sgPFC) activation — a region implicated in maladaptive self-focused rumination and depression. Framed as affect/mood-circuit modulation rather than a direct serotonergic pharmacology; mechanism is inferred."
+      }
+    },
+    {
+      "id": "neurofeedback",
+      "name": "EEG neurofeedback",
+      "type": "habit",
+      "klass": "Device — neuromodulation",
+      "origin": "natural",
+      "source": "Device / neuromodulation — scalp EEG recording with real-time operant feedback of a brain signal",
+      "ev": 2,
+      "ch": {
+        "ne": "Premise is operant conditioning of EEG features (e.g. SMR, theta/beta ratio, slow cortical potentials) tied to arousal/attention networks; any specific effect would act via noradrenergic/attentional regulation, but separation of specific from placebo signal is weak"
+      }
+    },
+    {
+      "id": "novel-skill-acquisition",
+      "name": "Novel Skill Acquisition (learning complex new skills)",
+      "type": "habit",
+      "klass": "Cognitive — skill",
+      "origin": "natural",
+      "source": "Behavioral — cognitive (deliberate practice of an unfamiliar complex skill)",
+      "ev": 3,
+      "ch": {
+        "ntrophic": "Experience-dependent structural plasticity: deliberate practice of a novel, demanding skill drives use-dependent grey-matter change (synaptogenesis, dendritic remodeling, glial/vascular change) in task-relevant cortex. Human VBM-MRI shows transient, selective grey-matter increases in visual-motion (hMT/V5) and parietal regions after learning to juggle, and posterior-hippocampal grey-matter increase after acquiring complex spatial knowledge",
+        "glu": "Motor/skill learning is encoded by NMDA-receptor-dependent long-term potentiation and synaptic strengthening in motor and association cortex and striatum; the macroscopic grey-matter changes are presumed to reflect this synaptic-level plasticity. Inferred mechanism — not directly measured in the human imaging studies",
+        "da": "Reward-prediction and reinforcement signaling supports skill consolidation and motivation to practice; dopaminergic tone gates motor-cortex plasticity. Mechanistically plausible and supported by animal work, but not isolated as the driver of the human structural findings"
+      }
+    },
+    {
+      "id": "photobiomodulation",
+      "name": "Photobiomodulation (transcranial red/near-infrared light)",
+      "type": "habit",
+      "klass": "Device — photobiomodulation",
+      "origin": "natural",
+      "source": "Device / neuromodulation — transcranial red/near-infrared light (typically 620–680 nm and 800–1100 nm LED or laser)",
+      "ev": 2,
+      "ch": {
+        "mito": "Photons in the red/NIR window are absorbed by mitochondrial cytochrome-c-oxidase (Complex IV); proposed to photodissociate inhibitory nitric oxide from the enzyme, increasing electron transport, membrane potential and ATP synthesis",
+        "cbf": "NIR exposure and downstream NO release reported to increase cerebral blood flow and tissue oxygenation over irradiated cortex (measured by NIRS/fMRI in small human studies)",
+        "inflam": "Preclinical models show reduced oxidative stress, lower pro-inflammatory cytokines and decreased neuronal apoptosis after tPBM; human anti-inflammatory data are sparse"
+      }
+    },
+    {
+      "id": "polyphenol-rich-intake",
+      "name": "Polyphenol-rich dietary intake",
+      "type": "habit",
+      "klass": "Diet — phytochemical",
+      "origin": "natural",
+      "source": "Behavioral — dietary (polyphenol/flavonoid-rich foods: berries, cocoa, tea, citrus, apples, leafy greens, red wine)",
+      "ev": 3,
+      "ch": {
+        "cbf": "Flavanols (notably cocoa (-)-epicatechin) enhance endothelial nitric-oxide bioavailability, increasing flow-mediated vasodilation and regional cerebral blood flow; acute cocoa-flavanol dosing measurably raises CBF on MRI and improves vascular function",
+        "inflam": "Polyphenols act as direct antioxidants and modulate redox-sensitive signalling (Nrf2 activation, NF-kB inhibition), lowering oxidative stress and inflammatory cytokines; berry anthocyanins and flavonols reduce neuroinflammatory markers in preclinical and some human work",
+        "ntrophic": "Flavonoids upregulate BDNF and ERK/CREB and PI3K/Akt signalling, promoting hippocampal synaptic plasticity and neurogenesis in rodent models; not directly demonstrated in human brain"
+      }
+    },
+    {
+      "id": "resistance-training",
+      "name": "Resistance / strength training",
+      "type": "habit",
+      "klass": "Exercise — resistance",
+      "origin": "natural",
+      "source": "Behavioral / lifestyle — structured progressive-resistance exercise",
+      "ev": 3,
+      "ch": {
+        "ntrophic": "Mechanical loading drives release of IGF-1 (peripheral and locally) and exercise-induced BDNF/neurotrophic signaling that support hippocampal neurogenesis, synaptogenesis and dendritic growth; this is the canonical 'growth & repair' pathway. In humans the BDNF rise is most robustly demonstrated for exercise generally; the resistance-specific contribution to durable neurogenesis is inferred from preclinical IGF-1 work plus human cognition/structural RCTs rather than direct human neurogenesis measurement.",
+        "mito": "Repeated high-tension contractions increase mitochondrial content/efficiency and metabolic resilience in muscle and, via improved systemic glucose handling and reduced insulin resistance, support cerebral bioenergetic substrate supply. Brain-specific bioenergetic benefit is indirect/inferred.",
+        "inflam": "Chronic resistance training lowers systemic low-grade inflammation (reduced CRP/IL-6 over time) and the myokine milieu of contracting muscle is net anti-inflammatory, plausibly reducing microglial inflammatory tone. CNS-specific anti-neuroinflammatory effect is inferred from peripheral markers.",
+        "hpa": "Regular training improves HPA-axis regulation and stress reactivity over time (better cortisol recovery, lower resting sympathetic tone), though individual sessions acutely raise cortisol. Net chronic effect is modulatory."
+      }
+    },
+    {
+      "id": "sauna-heat",
+      "name": "Sauna / heat exposure",
+      "type": "habit",
+      "klass": "Hormetic — heat",
+      "origin": "natural",
+      "source": "Behavioral / environmental (passive heat exposure)",
+      "ev": 2,
+      "ch": {
+        "ntrophic": "Acute hyperthermia raises circulating BDNF in humans (heat as a mild hormetic stressor), plausibly supporting neuroplasticity/repair. Demonstrated for serum BDNF acutely; durable brain effect inferred, not proven.",
+        "inflam": "Heat shock proteins (HSP70/HSP90) are induced by thermal stress and act as cytoprotective chaperones, buffering proteostatic and oxidative stress (the classic hormesis pathway). Strong cellular/animal basis; human cognitive translation unproven.",
+        "cbf": "Passive heat is a cardiovascular stimulus: it raises heart rate, cardiac output and peripheral/cerebral perfusion acutely, and habitual sauna use is associated with lower cardiovascular and cerebrovascular risk — the likely route to its brain-health association."
+      }
+    },
+    {
+      "id": "skill-coordination-exercise",
+      "name": "Skill / coordination-based exercise",
+      "type": "habit",
+      "klass": "Exercise — skill/coordination",
+      "origin": "natural",
+      "source": "Behavioral / lifestyle — skill- and coordination-based physical activity (dance, racket sports, motor learning)",
+      "ev": 3,
+      "ch": {
+        "ntrophic": "Combines aerobic load with continuous motor learning, novelty and rhythm-motor integration — an enriched-environment-like stimulus that raises BDNF and supports hippocampal plasticity; a dance RCT increased hippocampal volume and raised BDNF more than repetitive endurance training in older adults.",
+        "glu": "Motor-skill acquisition drives use-dependent synaptic plasticity / long-term potentiation in motor, cerebellar and hippocampal circuits (the substrate of learning); novel coordinative demand engages glutamatergic plasticity beyond what repetitive exercise does. Mechanism is well established generally but skill-exercise-specific human LTP measurement is indirect.",
+        "cbf": "The aerobic component raises cardiac output and cerebral perfusion/shear stress as in other aerobic exercise, supporting oxygen and nutrient delivery; coordinative demand additionally recruits cerebellar and cortical motor networks.",
+        "inflam": "Regular physical activity lowers systemic low-grade inflammation (CRP, IL-6), plausibly reducing microglial inflammatory tone; not specific to the skill/coordination component and inferred from peripheral markers."
+      }
+    },
+    {
+      "id": "sleep-duration-quality",
+      "name": "Sleep duration & quality (overall)",
+      "type": "habit",
+      "klass": "Sleep",
+      "origin": "natural",
+      "source": "Behavioral / circadian — sleep",
+      "ev": 4,
+      "ch": {
+        "glymph": "Total sleep time is the window in which glymphatic CSF–ISF exchange and slow-wave-coupled clearance occur; chronically short sleep truncates that window. Demonstrated in animal models (interstitial space expands ~60% in sleep, raising amyloid-beta clearance) and supported in humans by associations between short/disrupted sleep and higher amyloid/tau PET burden. Mechanism is graded below the slow-wave-sleep entry because duration is a coarse proxy for the deep-sleep stage that actually drives clearance.",
+        "ntrophic": "Sleep supports activity-dependent synaptic consolidation and BDNF-related plasticity; sleep deprivation suppresses hippocampal LTP and BDNF signaling in animal models and impairs human memory encoding/consolidation. Human causal evidence is on cognition/memory, not directly on neurotrophin levels.",
+        "hpa": "Sleep restriction raises evening cortisol and shifts the HPA axis toward a flatter, more activated profile; adequate sleep restores normal cortisol rhythm. Direction here is modulate/normalize rather than simple suppression.",
+        "inflam": "Experimental sleep restriction elevates circulating IL-6, TNF-alpha and CRP; habitual short sleep is associated with higher inflammatory markers. CNS-specific neuroinflammation link is inferred rather than directly measured in humans."
+      }
+    },
+    {
+      "id": "social-connection",
+      "name": "Social connection / isolation",
+      "type": "habit",
+      "klass": "Social",
+      "origin": "natural",
+      "source": "Behavioral — social",
+      "ev": 4,
+      "ch": {
+        "hpa": "Social support buffers stress: the presence of supportive others attenuates HPA-axis and sympathetic responses to acute stressors, and chronic loneliness/isolation is associated with elevated stress reactivity and allostatic load. Stress-buffering is the leading mechanistic account linking isolation to disease.",
+        "inflam": "Chronic loneliness/social isolation is associated with up-regulated pro-inflammatory gene expression and higher inflammatory markers (CTRA pattern); proposed pathway from isolation to cardiometabolic and neurodegenerative risk. Observational/correlational in humans.",
+        "ntrophic": "Social engagement/cognitive stimulation is hypothesized to support cognitive reserve and synaptic maintenance; rodent social-isolation models show reduced hippocampal neurogenesis/BDNF. Human neurotrophic-biomarker evidence is lacking — preclinical/inferred."
+      }
+    },
+    {
+      "id": "sunlight-circadian-light",
+      "name": "Sunlight & circadian light exposure (daytime bright light)",
+      "type": "habit",
+      "klass": "Environmental — circadian / photic",
+      "origin": "natural",
+      "source": "Behavioral / environmental (daylight / bright-light exposure)",
+      "ev": 3,
+      "ch": {
+        "ne": "Daytime bright light acutely raises subjective and objective alertness/vigilance via ipRGC->SCN signaling and downstream arousal pathways; reduces sleepiness and improves psychomotor vigilance independent of circadian phase.",
+        "glymph": "Light is the principal zeitgeber: morning/daytime bright light entrains the SCN master clock and consolidates the sleep-wake cycle, supporting timely, deeper night-time sleep during which glymphatic clearance occurs. Indirect — light protects the sleep that drives clearance, rather than acting on glymphatics directly.",
+        "ser": "Bright light therapy has antidepressant efficacy in seasonal (and non-seasonal) depression; mechanism is partly serotonergic/monoaminergic and partly circadian re-alignment via melatonin-rhythm correction."
+      }
+    },
+    {
+      "id": "tdcs-tacs",
+      "name": "Transcranial electrical stimulation (tDCS / tACS)",
+      "type": "habit",
+      "klass": "Device — neuromodulation",
+      "origin": "natural",
+      "source": "Device / neuromodulation — transcranial scalp electrodes delivering weak (~1–2 mA) direct or alternating current",
+      "ev": 2,
+      "ch": {
+        "glu": "Weak subthreshold current shifts resting membrane potential, biasing neuronal firing probability; anodal tDCS raises cortical excitability and after-effects depend on NMDA-receptor / glutamatergic plasticity (LTP-like), shown via pharmacology and MRS GABA/glutamate changes",
+        "gaba": "MRS studies report anodal tDCS reduces local GABA and cathodal tDCS reduces glutamate under the electrode, consistent with excitation/inhibition rebalancing; tACS aims to entrain endogenous oscillations (e.g. gamma/theta) via rhythmic inhibition–excitation"
+      }
+    },
+    {
+      "id": "time-restricted-eating",
+      "name": "Time-restricted eating / intermittent fasting",
+      "type": "habit",
+      "klass": "Diet — fasting",
+      "origin": "natural",
+      "source": "Behavioral — dietary timing (compressed eating window / periodic energy restriction)",
+      "ev": 2,
+      "ch": {
+        "mito": "Fasting depletes hepatic glycogen and triggers the glucose-to-ketone 'metabolic switch'; beta-hydroxybutyrate (BHB) is oxidised by neurons for ATP and signals stress-resistance pathways; fasting/CR stimulates mitochondrial biogenesis and autophagy/mitophagy in preclinical models",
+        "ntrophic": "BHB acts as a signalling molecule that induces BDNF expression; intermittent fasting/exercise raise hippocampal BDNF in rodents, linked to enhanced synaptic plasticity and neurogenesis. Robust preclinically; not yet demonstrated as a cognitive effect in human RCTs",
+        "inflam": "Periodic fasting lowers oxidative stress markers, activates autophagy (cellular waste/protein-aggregate clearance) and can shift inflammatory tone; BHB inhibits the NLRP3 inflammasome in preclinical work",
+        "gaba": "Intermittent fasting reported to enhance GABAergic tone and reduce neuronal hyperexcitability in rodent models (proposed anxiolytic/seizure-protective route); no direct human cognitive confirmation"
+      }
+    },
+    {
+      "id": "tms",
+      "name": "Transcranial magnetic stimulation (TMS / rTMS)",
+      "type": "habit",
+      "klass": "Device — neuromodulation",
+      "origin": "natural",
+      "source": "Device / neuromodulation — transcranial electromagnetic coil inducing focal intracranial currents",
+      "ev": 4,
+      "ch": {
+        "glu": "Pulsed magnetic field induces suprathreshold intracranial current that directly depolarises cortical neurons; repetitive trains produce LTP/LTD-like changes in synaptic efficacy (high-frequency/iTBS facilitatory, low-frequency/cTBS suppressive), NMDA-dependent",
+        "da": "High-frequency rTMS of left DLPFC reported to evoke striatal dopamine release (raclopride PET) and to modulate frontostriatal circuits implicated in mood and motivation",
+        "ntrophic": "Preclinical and some human data link rTMS to increased BDNF expression/serum BDNF and plasticity-related signalling; mechanistic, not established as the driver of clinical benefit"
+      }
+    },
+    {
+      "id": "treating-hearing-loss",
+      "name": "Treating hearing loss (hearing aids / audiologic intervention)",
+      "type": "habit",
+      "klass": "Environmental — sensory (deficit correction)",
+      "origin": "natural",
+      "source": "Behavioral / environmental (clinical sensory-deficit correction)",
+      "ev": 3,
+      "ch": {
+        "ntrophic": "Restoring auditory input is hypothesized to reduce sensory deprivation and preserve cognitive/structural reserve; degraded input forces effortful listening that diverts cognitive resources and is associated with accelerated grey-matter loss in auditory and downstream cortex. Correcting the deficit removes a driver of disuse-related atrophy rather than adding a growth signal.",
+        "inflam": "Speculative/indirect: social isolation and depression secondary to untreated hearing loss are linked to chronic stress and inflammatory load; restoring communication may attenuate this. Not directly demonstrated for this intervention — mechanistic only."
+      }
+    },
+    {
+      "id": "vagus-nerve-stimulation",
+      "name": "Vagus nerve stimulation (VNS / taVNS)",
+      "type": "habit",
+      "klass": "Device — neuromodulation",
+      "origin": "natural",
+      "source": "Device / neuromodulation — implanted cervical vagus stimulator (invasive) or transcutaneous auricular/cervical electrode (non-invasive)",
+      "ev": 2,
+      "ch": {
+        "ne": "Vagal afferents project via nucleus tractus solitarius to the locus coeruleus, driving noradrenergic release across cortex; LC/NE engagement is considered a primary route for VNS-enhanced plasticity and memory",
+        "ach": "VNS engages basal-forebrain cholinergic projections; cortical cholinergic (and noradrenergic) fibres are required for VNS-driven cortical map plasticity in animal models",
+        "ntrophic": "Paired VNS gates timing-specific cortical reorganisation (targeted-plasticity therapy); preclinical work links this to plasticity-related signalling, supporting rehabilitation pairing"
+      }
+    },
+    {
+      "id": "zone-2-aerobic",
+      "name": "Zone 2 / moderate aerobic exercise",
+      "type": "habit",
+      "klass": "Exercise — aerobic",
+      "origin": "natural",
+      "source": "Behavioral / lifestyle — sustained moderate-intensity aerobic exercise",
+      "ev": 4,
+      "ch": {
+        "cbf": "Repeated aerobic bouts raise cardiac output and shear stress, improving cerebrovascular function: increased cerebrovascular reactivity and reduced cerebrovascular resistance with higher cardiorespiratory fitness, and increased regional/global cerebral blood flow after sustained training; supports perfusion, oxygen and nutrient delivery.",
+        "ntrophic": "Aerobic training raises BDNF and IGF-1/VEGF signaling, supporting hippocampal neurogenesis, angiogenesis and synaptic plasticity; in a landmark RCT one year of moderate aerobic exercise increased anterior hippocampal volume ~2% (reversing ~1-2 years of age-related loss), correlated with serum BDNF.",
+        "mito": "Zone-2 intensity preferentially stimulates mitochondrial biogenesis (PGC-1alpha) and fat oxidation, raising oxidative capacity and metabolic resilience; improved systemic insulin sensitivity supports stable cerebral substrate supply. Brain-specific bioenergetic benefit is partly inferred from systemic adaptation.",
+        "inflam": "Regular aerobic training lowers systemic low-grade inflammation (CRP, IL-6) and shifts toward an anti-inflammatory myokine profile, plausibly reducing microglial inflammatory tone. CNS-specific anti-neuroinflammatory effect is inferred from peripheral markers.",
+        "hpa": "Chronic aerobic training improves stress reactivity and cortisol regulation and reliably reduces depressive/anxiety symptoms; net modulatory effect on the stress axis over time despite acute exercise-induced cortisol rises."
+      }
     }
   ],
   "meta": {
-    "n_agents": 76,
+    "n_agents": 105,
     "n_compounds": 76,
-    "n_habits": 0,
+    "n_habits": 29,
     "by_origin": {
-      "natural": 57,
+      "natural": 86,
       "synthetic": 15,
       "semi-synthetic": 4
     },
