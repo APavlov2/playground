@@ -7,6 +7,8 @@ aliases:
   - "tuftsin analog heptapeptide"
 type: compound
 klass: "synthetic peptide (tuftsin analog), intranasal anxiolytic/nootropic"
+origin: synthetic                  # natural | semi-synthetic | synthetic (lab-only)
+source: "Lab-synthesized tuftsin-analog peptide (Russian; no natural source)"
 status: draft
 evidence_overall: 2
 onset: "minutes to hours (intranasal); single-dose anxiolytic effects reported within 1-3 days in Russian GAD trials (unsourced for pharmacokinetic onset)"

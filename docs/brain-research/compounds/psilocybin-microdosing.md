@@ -4,6 +4,8 @@ name: Psilocybin (microdosing)
 aliases: [psilocybin microdose, "4-PO-DMT", psilocin (active metabolite), "magic mushroom microdose", "Psilocybe microdose", "sub-perceptual psilocybin"]
 type: compound
 klass: "Serotonergic (classic) psychedelic — tryptamine 5-HT2A agonist; sub-perceptual MICRODOSING regimen (distinct from macrodose/therapeutic dosing). Schedule I controlled substance."
+origin: natural                  # natural | semi-synthetic | synthetic (lab-only)
+source: "Psilocybe mushrooms; can also be synthesized"
 status: draft
 evidence_overall: 1  # MICRODOSING cognition. The best-controlled designs (self-blinding and double-blind placebo-controlled RCTs: Szigeti 2021 PMID:33648632; Cavanna/van Elk 2022 PMID:35918311) are essentially NULL vs placebo for cognitive enhancement, with reported benefits explained by EXPECTANCY/unblinding. Open-label/observational reports are positive but confounded. Graded 1 (lowest), leaning null. NOTE: this entry is microdosing-for-cognition ONLY — it does NOT grade macrodose psilocybin-assisted therapy for depression, which is a separate and stronger evidence base.
 onset: "Microdose regimens are taken on an intermittent schedule (commonly every ~3rd day) rather than for an acute effect; doses are deliberately SUB-perceptual. Any acute pharmacological onset of psilocin is ~20-40 min after oral psilocybin, but the microdosing claim is about cumulative/sub-perceptual benefit, which controlled trials do not support."

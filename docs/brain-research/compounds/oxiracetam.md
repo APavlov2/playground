@@ -7,6 +7,8 @@ aliases:
   - "hydroxypiracetam"
 type: compound
 klass: racetam (pyrrolidinone nootropic)
+origin: synthetic                  # natural | semi-synthetic | synthetic (lab-only)
+source: "Lab-synthesized racetam (no natural source)"
 status: draft
 evidence_overall: 2
 onset: "~30-60 min (oral); chronic dosing used in dementia trials over weeks-months"

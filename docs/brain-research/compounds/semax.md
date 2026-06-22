@@ -8,6 +8,8 @@ aliases:
   - "ACTH(4-7)PGP"
 type: compound
 klass: synthetic melanocortin / ACTH(4-10) analog peptide (heptapeptide)
+origin: synthetic                  # natural | semi-synthetic | synthetic (lab-only)
+source: "Lab-synthesized ACTH(4-10)-analog peptide (Russian; no natural source)"
 status: draft
 evidence_overall: 2
 onset: "unsourced; behavioral/molecular effects in animals reported within minutes to hours after intranasal dosing"

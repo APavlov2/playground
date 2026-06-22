@@ -8,6 +8,8 @@ aliases:
   - methylthioninium
 type: compound
 klass: mitochondrial electron cycler / redox antioxidant
+origin: synthetic                  # natural | semi-synthetic | synthetic (lab-only)
+source: "Lab-synthesized thiazine dye (the first fully synthetic drug); no natural source"
 status: draft
 evidence_overall: 2
 onset: "~1-2 h (oral; single-dose acute cognitive/fMRI effects)"

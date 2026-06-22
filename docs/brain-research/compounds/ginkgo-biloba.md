@@ -4,6 +4,8 @@ name: Ginkgo biloba (EGb 761)
 aliases: [ginkgo, EGb 761, EGb761, Tanakan, Tebonin, ginkgo leaf extract]
 type: compound
 klass: Botanical vasoactive/antioxidant
+origin: natural                  # natural | semi-synthetic | synthetic (lab-only)
+source: "Ginkgo biloba leaf (EGb 761 standardized extract)"
 status: draft
 evidence_overall: 2
 onset: "weeks to months (cumulative); dementia-treatment trials assess outcomes at ~22-26 weeks. No reliable acute cognitive effect in healthy adults."

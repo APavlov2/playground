@@ -8,6 +8,8 @@ aliases:
   - "2-[(diphenylmethyl)sulfinyl]acetamide"
 type: compound
 klass: eugeroic (wakefulness-promoting agent)
+origin: synthetic                  # natural | semi-synthetic | synthetic (lab-only)
+source: "Lab-synthesized eugeroic (prescription; no natural source)"
 status: draft
 evidence_overall: 3
 onset: "30-60 min (peak plasma ~2-4 h)"

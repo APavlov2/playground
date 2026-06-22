@@ -4,6 +4,8 @@ name: Holy basil
 aliases: [tulsi, Ocimum tenuiflorum, Ocimum sanctum, holy basil extract, OciBest, Holixer]
 type: compound
 klass: Adaptogen
+origin: natural                  # natural | semi-synthetic | synthetic (lab-only)
+source: "Ocimum sanctum (tulsi)"
 status: draft
 evidence_overall: 2  # Several small human RCTs (stress/anxiety, metabolic) plus one systematic review (Jamshidi & Cohen 2017, PMID:28400848). Reviewers flag small samples, heterogeneity, and bias; cognition data are thin. Honest grade is 2, not 3.
 onset: "Stress/anxiety and metabolic outcomes assessed over ~4-8 weeks of daily dosing; acute kinetics in humans not well characterized (unsourced)"

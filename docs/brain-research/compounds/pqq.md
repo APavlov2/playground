@@ -9,6 +9,8 @@ aliases:
   - BioPQQ
 type: compound
 klass: redox cofactor / mitochondrial biogenesis modulator (quinone)
+origin: natural                  # natural | semi-synthetic | synthetic (lab-only)
+source: "Trace in natto, fermented soy, parsley, green tea"
 status: draft
 evidence_overall: 2
 onset: weeks (cognitive endpoints measured at 8-12 weeks in human RCTs; no validated acute effect)

@@ -15,6 +15,8 @@ aliases:
   - "d-amphetamine"
 type: compound
 klass: "psychostimulant (CNS stimulant, Schedule II controlled substance)"
+origin: synthetic                  # natural | semi-synthetic | synthetic (lab-only)
+source: "Lab-synthesized prescription stimulants (no natural source)"
 status: draft
 evidence_overall: 4
 onset: "IR ~20-60 min; XR/prodrug formulations slower and more gradual"

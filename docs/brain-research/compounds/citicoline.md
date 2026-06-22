@@ -4,6 +4,8 @@ name: Citicoline (CDP-choline)
 aliases: [cytidine diphosphate-choline, CDP-choline]
 type: compound
 klass: Cholinergic
+origin: natural                  # natural | semi-synthetic | synthetic (lab-only)
+source: "Endogenous CDP-choline intermediate; supplement synthesized/fermented"
 status: draft
 evidence_overall: 3
 onset: "cumulative (weeks; trials typically read out at 4-12 weeks). Acute single-dose cognitive effects are weak/unestablished"

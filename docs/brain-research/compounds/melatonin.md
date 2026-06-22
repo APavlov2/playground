@@ -6,6 +6,8 @@ aliases:
   - "MT"
 type: compound
 klass: indoleamine hormone / chronobiotic
+origin: natural                  # natural | semi-synthetic | synthetic (lab-only)
+source: "Endogenous pineal hormone; trace in some foods; supplements synthesized"
 status: draft
 evidence_overall: 3
 onset: "30-60 min (immediate-release); chronobiotic phase-shift effect accrues over days"

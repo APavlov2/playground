@@ -9,6 +9,8 @@ aliases:
   - magnesium threonate
 type: compound
 klass: mineral / chelated magnesium salt
+origin: semi-synthetic                  # natural | semi-synthetic | synthetic (lab-only)
+source: "Magnesium mineral chelated to L-threonic acid (patented Magtein); threonate form manufactured"
 status: draft
 evidence_overall: 2
 onset: "Subacute: brain magnesium changes over days-weeks in preclinical models; human cognitive endpoints assessed at 6-12 weeks."

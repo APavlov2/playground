@@ -11,6 +11,8 @@ aliases:
   - madecassoside
 type: compound
 klass: herbal extract (triterpenoid saponins)
+origin: natural                  # natural | semi-synthetic | synthetic (lab-only)
+source: "Centella asiatica herb"
 status: draft
 evidence_overall: 2
 onset: "Acute mood/anxiolytic signal within ~1 h (acoustic startle, alertness); cognitive effects, if any, studied over 2-20 weeks"

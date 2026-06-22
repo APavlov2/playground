@@ -4,6 +4,8 @@ name: Sage
 aliases: [Salvia officinalis, Salvia lavandulaefolia, Spanish sage, common sage, Dalmatian sage, garden sage, salvia]
 type: compound
 klass: Herbal extract / essential oil with acetylcholinesterase-inhibiting monoterpenoids (cholinergic herb)
+origin: natural                  # natural | semi-synthetic | synthetic (lab-only)
+source: "Salvia officinalis / lavandulaefolia"
 status: draft
 evidence_overall: 2
 onset: "acute — cognitive/mood effects seen at 1 h and out to 4-6 h post-dose in single-dose RCTs (PMID:12895685, PMID:15639154, PMID:18350281, PMID:20937617). AChE inhibition is pharmacodynamically rapid. AD trials read out over weeks-months"

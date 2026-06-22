@@ -10,6 +10,8 @@ aliases:
   - Meriva
 type: compound
 klass: polyphenol (curcuminoid)
+origin: natural                  # natural | semi-synthetic | synthetic (lab-only)
+source: "Turmeric (Curcuma longa) rhizome"
 status: draft
 evidence_overall: 2
 onset: weeks (chronic dosing; mood/cognitive endpoints in trials assessed over 4 weeks to 18 months)

@@ -7,6 +7,8 @@ aliases:
   - "PTS"
 type: compound
 klass: stilbenoid polyphenol
+origin: natural                  # natural | semi-synthetic | synthetic (lab-only)
+source: "Blueberries, grapes; commercially synthesized"
 status: draft
 evidence_overall: 1
 onset: "(unsourced)"

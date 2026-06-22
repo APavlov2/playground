@@ -8,6 +8,8 @@ aliases:
   - "VITACOG regimen"
 type: compound
 klass: vitamin / methyl-donor cofactor (homocysteine axis)
+origin: natural                  # natural | semi-synthetic | synthetic (lab-only)
+source: "Foods (B6 poultry/fish; folate leafy greens/legumes; B12 animal products); supplements synthesized"
 status: draft
 evidence_overall: 2
 onset: "weeks (homocysteine falls within ~weeks); cognitive/structural effects require 12-24 months of treatment"

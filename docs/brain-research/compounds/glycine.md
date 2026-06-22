@@ -4,6 +4,8 @@ name: Glycine
 aliases: [Gly, aminoacetic acid, glycocoll]
 type: compound
 klass: Amino acid / NMDA co-agonist
+origin: natural                  # natural | semi-synthetic | synthetic (lab-only)
+source: "Dietary protein, collagen/gelatin; endogenous amino acid"
 status: draft
 evidence_overall: 2
 onset: "Sleep effect acute (~3 g taken before bed acts the same night, core-temp/sleep-latency changes within ~1 h); NMDA co-agonist/psychiatric effects studied over weeks of chronic high-dose dosing"

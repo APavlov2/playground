@@ -10,6 +10,8 @@ aliases:
   - ANP 235
 type: compound
 klass: cholinergic nootropic / DMAE ester (research-grade; Rx in some countries)
+origin: semi-synthetic                  # natural | semi-synthetic | synthetic (lab-only)
+source: "Semi-synthetic ester of DMAE and chlorophenoxyacetic acid"
 status: draft
 evidence_overall: 2
 onset: not well characterized in humans; trials dosed over weeks–months (unsourced for acute onset)

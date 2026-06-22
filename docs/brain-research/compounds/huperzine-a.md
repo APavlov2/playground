@@ -4,6 +4,8 @@ name: Huperzine A
 aliases: [Hup A, HupA, selagine, Huperzia serrata alkaloid, qian ceng ta]
 type: compound
 klass: Acetylcholinesterase inhibitor (reversible, selective) — research/Rx-adjacent
+origin: natural                  # natural | semi-synthetic | synthetic (lab-only)
+source: "Huperzia serrata club-moss alkaloid (often synthesized commercially)"
 status: draft
 evidence_overall: 2
 onset: "acute (plasma appears 5-10 min after oral dose, Tmax ~58 min); cognitive trial readouts in dementia are at weeks. AChE inhibition is pharmacodynamically rapid"

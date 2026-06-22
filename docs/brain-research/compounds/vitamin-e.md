@@ -7,6 +7,8 @@ aliases:
   - tocopherol
 type: compound
 klass: fat-soluble vitamin / lipid-phase antioxidant
+origin: natural                  # natural | semi-synthetic | synthetic (lab-only)
+source: "Nuts, seeds, vegetable oils; supplements natural or synthetic"
 status: draft
 evidence_overall: 2
 onset: "weeks to months (functional endpoints measured over 6-48 months in trials)"

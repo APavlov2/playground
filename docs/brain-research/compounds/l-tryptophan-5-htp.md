@@ -10,6 +10,8 @@ aliases:
   - L-5-hydroxytryptophan
 type: compound
 klass: serotonin precursor (amino acid / amino-acid metabolite)
+origin: natural                  # natural | semi-synthetic | synthetic (lab-only)
+source: "Tryptophan from dietary protein; 5-HTP from Griffonia simplicifolia seeds"
 status: draft
 evidence_overall: 2
 onset: "L-tryptophan sleep effect can take several nights of repeated dosing in chronic insomniacs (latency reduction appeared on nights 4-6, not nights 1-3); 5-HTP absorbed and decarboxylated to serotonin within ~1-2 h"

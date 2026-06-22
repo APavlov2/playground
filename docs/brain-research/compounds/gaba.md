@@ -8,6 +8,8 @@ aliases:
   - biosynthetic GABA
 type: compound
 klass: amino acid / inhibitory neurotransmitter (oral supplement)
+origin: natural                  # natural | semi-synthetic | synthetic (lab-only)
+source: "Endogenous neurotransmitter; fermented foods; supplement fermented/synthesized"
 status: draft
 evidence_overall: 2
 onset: "~30-60 min for peripheral/EEG markers in acute studies; sleep effects reported only with repeated dosing over weeks"

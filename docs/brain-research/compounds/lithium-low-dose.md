@@ -9,6 +9,8 @@ aliases:
   - "nutritional lithium"
 type: compound
 klass: "alkali metal / mood-stabilizer (subtherapeutic dosing)"
+origin: natural                  # natural | semi-synthetic | synthetic (lab-only)
+source: "Trace element in drinking water & foods; supplemental salts (orotate/carbonate) manufactured"
 status: draft
 evidence_overall: 2
 onset: "weeks to months (cognitive/neuroprotective endpoints measured over 12-24 months in trials)"

@@ -4,6 +4,8 @@ name: Phosphatidylserine (PS)
 aliases: [PS, PtdSer, BC-PS, SB-PS, soy-PS, S-PS, bovine cortex phosphatidylserine, soybean phosphatidylserine]
 type: compound
 klass: Membrane phospholipid
+origin: natural                  # natural | semi-synthetic | synthetic (lab-only)
+source: "Organ meats, fish; commercial form from soy/sunflower lecithin"
 status: draft
 evidence_overall: 2
 onset: "cumulative (trials read out at 6-12 weeks to 6 months); acute single-dose cognitive effects not established. Cortisol-blunting after exercise seen after ~10 days of dosing"

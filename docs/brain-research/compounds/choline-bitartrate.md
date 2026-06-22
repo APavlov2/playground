@@ -7,6 +7,8 @@ aliases:
   - "(2-hydroxyethyl)trimethylammonium bitartrate"
 type: compound
 klass: choline-precursor
+origin: natural                  # natural | semi-synthetic | synthetic (lab-only)
+source: "Choline (eggs, liver) as a manufactured bitartrate salt"
 status: draft
 evidence_overall: 1
 onset: "1-2 h (acute plasma choline rise)"

@@ -4,6 +4,8 @@ name: Alpha-Lipoic Acid (ALA)
 aliases: [alpha-lipoic acid, ALA, thioctic acid, lipoic acid, 1,2-dithiolane-3-pentanoic acid, R-lipoic acid]
 type: compound
 klass: Antioxidant / mitochondrial cofactor
+origin: natural                  # natural | semi-synthetic | synthetic (lab-only)
+source: "Endogenous; trace in red meat, organ meats, spinach; supplement synthesized"
 status: draft
 evidence_overall: 2
 onset: "Neuropathic-symptom relief in DPN trials over ~3 weeks (IV) to several weeks (oral); no defined cognitive onset in healthy adults (no positive healthy-cognition RCTs)"

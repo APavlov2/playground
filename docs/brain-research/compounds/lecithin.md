@@ -11,6 +11,8 @@ aliases:
   - "polyenylphosphatidylcholine (PPC)"
 type: compound
 klass: choline-precursor
+origin: natural                  # natural | semi-synthetic | synthetic (lab-only)
+source: "Soybean, sunflower, egg yolk"
 status: draft
 evidence_overall: 1
 onset: "hours (acute plasma choline rise after PC ingestion); no acute cognitive effect demonstrated"

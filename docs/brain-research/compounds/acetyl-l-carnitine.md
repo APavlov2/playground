@@ -4,6 +4,8 @@ name: Acetyl-L-Carnitine (ALCAR)
 aliases: [ALCAR, ALC, acetylcarnitine, levacecarnine, "acetyl-L-carnitine HCl"]
 type: compound
 klass: mitochondrial cofactor / acetyl-carnitine ester (nootropic-adjacent)
+origin: natural                  # natural | semi-synthetic | synthetic (lab-only)
+source: "Endogenous; red meat; supplement is acetylated L-carnitine (manufactured)"
 status: draft
 evidence_overall: 2
 onset: weeks (clinical cognitive/mood endpoints assessed at ~12 weeks); single oral dose Tmax ~3 h

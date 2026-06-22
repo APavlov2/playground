@@ -4,6 +4,8 @@ name: Caffeine + L-theanine
 aliases: [caffeine theanine stack]
 type: compound
 klass: Stimulant + relaxant synergy
+origin: natural                  # natural | semi-synthetic | synthetic (lab-only)
+source: "Coffee/tea (caffeine) + green tea (L-theanine)"
 status: draft
 evidence_overall: 3
 onset: "acute, ~30-60 min"

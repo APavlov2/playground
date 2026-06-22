@@ -10,6 +10,8 @@ aliases:
   - Shoden
 type: compound
 klass: adaptogen (botanical)
+origin: natural                  # natural | semi-synthetic | synthetic (lab-only)
+source: "Withania somnifera root (Ayurvedic)"
 status: draft
 evidence_overall: 3
 onset: "Acute calming variably reported within hours; measurable cortisol/stress and sleep effects accrue over 4-8 weeks of daily dosing."

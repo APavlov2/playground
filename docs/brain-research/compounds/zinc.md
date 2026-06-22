@@ -9,6 +9,8 @@ aliases:
   - zinc acetate
 type: compound
 klass: essential trace mineral (neuromodulator / enzymatic cofactor)
+origin: natural                  # natural | semi-synthetic | synthetic (lab-only)
+source: "Dietary mineral (oysters, red meat, legumes)"
 status: draft
 evidence_overall: 2
 onset: "deficiency correction over weeks; depression-adjunct trials assess endpoints over 6–12 weeks"

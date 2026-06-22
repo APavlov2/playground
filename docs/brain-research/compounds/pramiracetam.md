@@ -7,6 +7,8 @@ aliases:
   - pramiracetam sulfate
 type: compound
 klass: racetam nootropic
+origin: synthetic                  # natural | semi-synthetic | synthetic (lab-only)
+source: "Lab-synthesized racetam (no natural source)"
 status: draft
 evidence_overall: 1
 onset: "~2-3 h to peak plasma concentration after oral dose"

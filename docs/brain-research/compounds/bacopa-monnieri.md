@@ -4,6 +4,8 @@ name: Bacopa monnieri (Brahmi)
 aliases: [brahmi, bacopa, bacosides]
 type: compound
 klass: Botanical memory
+origin: natural                  # natural | semi-synthetic | synthetic (lab-only)
+source: "Bacopa monnieri herb (Ayurvedic brahmi)"
 status: draft
 evidence_overall: 3
 onset: "weeks (cumulative); maximal effects ~8-12 weeks in trials, not acute"

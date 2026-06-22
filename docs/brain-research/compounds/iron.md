@@ -10,6 +10,8 @@ aliases:
   - iron supplement
 type: compound
 klass: essential trace mineral (oxygen transport / enzymatic cofactor)
+origin: natural                  # natural | semi-synthetic | synthetic (lab-only)
+source: "Dietary mineral (red meat, legumes, leafy greens)"
 status: draft
 evidence_overall: 3
 onset: "deficiency correction over weeks-to-months; cognition/attention endpoints in RCTs assessed over ~6-16 weeks of repletion"

@@ -4,6 +4,8 @@ name: Krill oil (phospholipid EPA/DHA + astaxanthin)
 aliases: [krill oil, Euphausia superba oil, phospholipid omega-3, krill EPA/DHA]
 type: compound
 klass: Structural lipid / anti-inflammatory (phospholipid-bound marine omega-3)
+origin: natural                  # natural | semi-synthetic | synthetic (lab-only)
+source: "Antarctic krill (Euphausia superba)"
 status: draft
 evidence_overall: 2
 onset: "Cumulative over weeks-months; the single brain RCT (Konagai 2013) dosed 12 weeks before measuring cerebral activation/cognitive change; membrane omega-3 incorporation reaches steady state over ~1-3 months"

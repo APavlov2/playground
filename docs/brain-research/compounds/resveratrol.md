@@ -6,6 +6,8 @@ aliases:
   - "3,5,4'-trihydroxy-trans-stilbene"
 type: compound
 klass: polyphenol stilbenoid
+origin: natural                  # natural | semi-synthetic | synthetic (lab-only)
+source: "Grapes, red wine, Japanese knotweed (Polygonum cuspidatum)"
 status: draft
 evidence_overall: 2
 onset: "acute CBF effects ~45 min post-dose; cognitive/cerebrovascular benefits (if any) accrue over weeks to months"

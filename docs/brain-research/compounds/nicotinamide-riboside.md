@@ -8,6 +8,8 @@ aliases:
   - "NAD+ precursor"
 type: compound
 klass: "NAD+ precursor (vitamin B3 form)"
+origin: natural                  # natural | semi-synthetic | synthetic (lab-only)
+source: "Trace in milk; NAD+ precursor; commercial form (Niagen) synthesized"
 status: draft
 evidence_overall: 2
 onset: "Blood NAD+ rises within hours of a single dose; steady-state elevation within ~1-2 weeks of daily dosing"

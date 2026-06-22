@@ -4,6 +4,8 @@ name: Taurine
 aliases: [2-aminoethanesulfonic acid, "L-taurine"]
 type: compound
 klass: Inhibitory neuromodulator / sulfonic amino acid (osmolyte)
+origin: natural                  # natural | semi-synthetic | synthetic (lab-only)
+source: "Meat, fish, shellfish; endogenous; energy-drink form synthesized"
 status: draft
 evidence_overall: 2
 onset: "not well characterized in humans; acute energy-drink studies measure effects within ~30-60 min but are caffeine-confounded"

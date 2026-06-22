@@ -4,6 +4,8 @@ name: Coenzyme Q10 / Ubiquinol
 aliases: [CoQ10, ubiquinone, ubiquinol, coenzyme Q, CoQ, ubidecarenone]
 type: compound
 klass: Mitochondrial cofactor / lipophilic antioxidant
+origin: natural                  # natural | semi-synthetic | synthetic (lab-only)
+source: "Endogenous; organ meats, fatty fish; commercial form fermentation-produced"
 status: draft
 evidence_overall: 1
 onset: "Plasma levels rise over days-weeks; any putative chronic/cumulative effect. Brain-relevant trials (neurodegeneration) ran for years with no benefit; migraine prophylaxis benefit emerged only by the 3rd treatment month"

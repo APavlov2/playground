@@ -11,6 +11,8 @@ aliases:
   - Wuzhi
 type: compound
 klass: adaptogen (dibenzocyclooctadiene lignan-bearing botanical)
+origin: natural                  # natural | semi-synthetic | synthetic (lab-only)
+source: "Schisandra chinensis berries"
 status: draft
 evidence_overall: 2
 onset: "(unsourced)"

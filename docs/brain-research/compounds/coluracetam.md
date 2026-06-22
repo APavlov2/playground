@@ -6,6 +6,8 @@ aliases:
   - "MKC-231"
 type: compound
 klass: racetam / high-affinity choline uptake (HACU) enhancer
+origin: synthetic                  # natural | semi-synthetic | synthetic (lab-only)
+source: "Lab-synthesized racetam (investigational; no natural source)"
 status: draft
 evidence_overall: 1
 onset: "(unsourced) — no validated human PK-to-effect onset data in healthy adults"

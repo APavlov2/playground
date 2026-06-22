@@ -4,6 +4,8 @@ name: Rhodiola rosea
 aliases: [golden root, arctic root, roseroot, rosavins, salidroside]
 type: compound
 klass: Adaptogen
+origin: natural                  # natural | semi-synthetic | synthetic (lab-only)
+source: "Rhodiola rosea root (golden/arctic root)"
 status: draft
 evidence_overall: 2  # Multiple RCTs and two systematic reviews exist, but reviews judge nearly all trials to be at HIGH RISK OF BIAS with poor reporting; results are contradictory. Honest grade is 2, not 3.
 onset: "Acute-to-days for mental fatigue (single/repeated low-dose stress paradigms show same-day effects); stress/burnout outcomes over 1-12 weeks"

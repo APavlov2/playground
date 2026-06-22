@@ -4,6 +4,8 @@ name: Saffron
 aliases: [Crocus sativus, Crocus sativus L., crocin, crocins, safranal, affron, saffron stigma extract]
 type: compound
 klass: Botanical / spice-derived extract (carotenoid glycosides)
+origin: natural                  # natural | semi-synthetic | synthetic (lab-only)
+source: "Saffron (Crocus sativus stigmas)"
 status: draft
 evidence_overall: 3  # Best relevant claim = ANTIDEPRESSANT (mild-moderate depression). Multiple RCTs + several meta-analyses show benefit vs placebo and non-inferiority vs SSRIs/TCAs. Graded DOWN from 4 because most trials are small and a large share originate from a few Iranian groups (replication/geographic-bias concern). 3, not 4.
 onset: "Antidepressant effect studied over ~6-8 weeks in RCTs (comparable timeframe to SSRI onset); some low-mood supplement trials report change over 4-6 weeks. Not an acute effect."

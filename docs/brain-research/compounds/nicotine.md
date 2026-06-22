@@ -4,6 +4,8 @@ name: Nicotine
 aliases: [nicotine patch, nicotine gum, nicotine lozenge, transdermal nicotine, NRT (nicotine replacement therapy)]
 type: compound
 klass: Nicotinic acetylcholine receptor (nAChR) agonist / stimulant — high dependence liability
+origin: natural                  # natural | semi-synthetic | synthetic (lab-only)
+source: "Tobacco & nightshade plants (Nicotiana); purified for patches/gum"
 status: draft
 evidence_overall: 3
 onset: "acute; gum/lozenge ~peak 30 min, transdermal patch slow (hours, steady)"

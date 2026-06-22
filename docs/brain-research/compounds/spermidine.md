@@ -7,6 +7,8 @@ aliases:
   - "wheat-germ polyamine extract"
 type: compound
 klass: natural polyamine (autophagy inducer)
+origin: natural                  # natural | semi-synthetic | synthetic (lab-only)
+source: "Wheat germ, aged cheese, soy, mushrooms; endogenous polyamine"
 status: draft
 evidence_overall: 2
 onset: "no defined acute cognitive onset; preclinical memory/autophagy effects and human trials measure outcomes over weeks to 12 months of daily intake"

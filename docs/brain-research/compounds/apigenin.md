@@ -7,6 +7,8 @@ aliases:
   - chamomile flavone
 type: compound
 klass: flavonoid (flavone aglycone)
+origin: natural                  # natural | semi-synthetic | synthetic (lab-only)
+source: "Chamomile, parsley, celery (flavonoid)"
 status: draft
 evidence_overall: 1
 onset: "not established for isolated apigenin in humans (unsourced); preclinical anxiolytic effects acute (i.p. dosing in rodents, PMID 7617761), neurogenesis/BDNF effects over ~10+ days of dosing in mice (PMID 37101380)"

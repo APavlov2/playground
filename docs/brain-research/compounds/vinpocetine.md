@@ -8,6 +8,8 @@ aliases:
   - RGH-4405
 type: compound
 klass: vinca-alkaloid-derivative (semisynthetic vincamine derivative; cerebral vasodilator / PDE1 inhibitor)
+origin: semi-synthetic                  # natural | semi-synthetic | synthetic (lab-only)
+source: "Semi-synthetic from vincamine (Vinca minor / lesser periwinkle alkaloid)"
 status: draft
 evidence_overall: 2
 onset: "~1-1.5 h to peak plasma (Tmax); acute cerebrovascular effects within hours"

@@ -10,6 +10,8 @@ aliases:
   - "DHASCO"
 type: compound
 klass: "Omega-3 long-chain PUFA (plant/microalgal-derived)"
+origin: natural                  # natural | semi-synthetic | synthetic (lab-only)
+source: "Marine microalgae (Schizochytrium) — vegan DHA"
 status: draft
 evidence_overall: 2
 onset: "Erythrocyte/Omega-3 Index incorporation over weeks; plasma phospholipid DHA rises within days to ~2 weeks"

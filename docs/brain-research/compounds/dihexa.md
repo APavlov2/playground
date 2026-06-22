@@ -8,6 +8,8 @@ aliases:
   - "angiotensin IV analog"
 type: compound
 klass: synthetic angiotensin IV-derived oligopeptide; proposed HGF/c-Met activator (experimental research chemical)
+origin: synthetic                  # natural | semi-synthetic | synthetic (lab-only)
+source: "Lab-synthesized angiotensin-IV-analog peptide (research chemical)"
 status: draft
 evidence_overall: 1
 onset: "unsourced for humans; in rodents procognitive/synaptogenic effects reported over days to weeks of dosing (preclinical)"

@@ -10,6 +10,8 @@ aliases:
   - Bifidobacterium longum
 type: compound
 klass: live microbial supplement (gut-brain axis)
+origin: natural                  # natural | semi-synthetic | synthetic (lab-only)
+source: "Fermented foods (yogurt, kefir, kimchi); cultured strains"
 status: draft
 evidence_overall: 2
 onset: "Mood/anxiety changes accrue over ~4-8 weeks of daily dosing in trials; acute single-dose CNS effects not established."

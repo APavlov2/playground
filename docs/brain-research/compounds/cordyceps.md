@@ -12,6 +12,8 @@ aliases:
   - "dong chong xia cao"
 type: compound
 klass: "medicinal fungus / nucleoside analog (cordycepin)"
+origin: natural                  # natural | semi-synthetic | synthetic (lab-only)
+source: "Cordyceps fungi (militaris / sinensis)"
 status: draft
 evidence_overall: 1
 onset: "(unsourced) — anti-fatigue/ergogenic effects in trials assessed after 1–6 weeks of daily supplementation; acute single-dose cognitive onset not characterized"

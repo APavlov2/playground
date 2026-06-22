@@ -6,6 +6,8 @@ aliases:
   - "7,3',4'-flavon-3-ol"
 type: compound
 klass: senolytic flavonoid (flavonol)
+origin: natural                  # natural | semi-synthetic | synthetic (lab-only)
+source: "Strawberries, apples, onions (flavonoid)"
 status: draft
 evidence_overall: 1
 onset: "(unsourced) — no human cognition data; preclinical effects on senescence markers reported after acute/intermittent dosing"

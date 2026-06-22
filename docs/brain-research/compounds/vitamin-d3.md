@@ -8,6 +8,8 @@ aliases:
   - colecalciferol
 type: compound
 klass: fat-soluble vitamin / secosteroid prohormone
+origin: natural                  # natural | semi-synthetic | synthetic (lab-only)
+source: "Skin synthesis from sunlight; oily fish; supplements from lanolin or lichen"
 status: draft
 evidence_overall: 2
 onset: "weeks to months (serum 25(OH)D rises over 6-12 weeks; any cognitive/mood effect, if present, is slow and concentrated in deficiency correction)"

@@ -9,6 +9,8 @@ aliases:
   - "2-(2-oxopyrrolidin-1-yl)acetamide"
 type: compound
 klass: racetam (cyclic GABA derivative; prototype nootropic / metabolic-cerebral enhancer)
+origin: synthetic                  # natural | semi-synthetic | synthetic (lab-only)
+source: "Lab-synthesized GABA-derived racetam (no natural source)"
 status: draft
 evidence_overall: 2
 onset: "~30-60 min to peak plasma (Tmax); cognitive effects in trials reported only after weeks of dosing"

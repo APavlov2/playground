@@ -4,6 +4,8 @@ name: Omega-3 (EPA/DHA, fish oil)
 aliases: [fish oil, EPA, DHA, long-chain omega-3]
 type: compound
 klass: Structural lipid / anti-inflammatory
+origin: natural                  # natural | semi-synthetic | synthetic (lab-only)
+source: "Oily fish (sardines, mackerel, salmon); algae"
 status: draft
 evidence_overall: 2
 onset: "Cumulative over weeks-months; mood/depression RCTs typically run 6-12 weeks, cognition trials 6-40 months"

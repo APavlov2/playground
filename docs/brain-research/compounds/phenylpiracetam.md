@@ -9,6 +9,8 @@ aliases:
   - "(R,S)-phenylpiracetam"
 type: compound
 klass: "Racetam / phenylated piracetam analog (psychostimulant nootropic)"
+origin: synthetic                  # natural | semi-synthetic | synthetic (lab-only)
+source: "Lab-synthesized phenyl-substituted racetam (no natural source)"
 status: draft
 evidence_overall: 2
 onset: "<1 hour (oral); rapid stimulant-like onset"

@@ -8,6 +8,8 @@ aliases:
   - "β-NMN"
 type: compound
 klass: NAD+ precursor (vitamin B3-related nucleotide)
+origin: natural                  # natural | semi-synthetic | synthetic (lab-only)
+source: "Trace in broccoli, avocado, edamame; commercial form fermentation/synthesized"
 status: draft
 evidence_overall: 1
 onset: "single-dose pharmacokinetics show rapid absorption; blood NAD+ elevation accrues over days-to-weeks of repeated dosing"

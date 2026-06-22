@@ -12,6 +12,8 @@ aliases:
   - prebiotics
 type: compound
 klass: "dietary fiber / fermentable prebiotic (gut-brain axis)"
+origin: natural                  # natural | semi-synthetic | synthetic (lab-only)
+source: "Chicory root, onion, garlic, legumes, whole grains"
 status: draft
 evidence_overall: 2
 onset: "weeks (microbiome-mediated; HPA effects reported after ~3 weeks daily intake)"

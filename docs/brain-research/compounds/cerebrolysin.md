@@ -7,6 +7,8 @@ aliases:
   - "porcine brain-derived peptide preparation"
 type: compound
 klass: "neurotrophic-mimetic peptide preparation (porcine brain-derived)"
+origin: semi-synthetic                  # natural | semi-synthetic | synthetic (lab-only)
+source: "Enzymatic digest of purified porcine brain proteins (prescription biologic)"
 status: draft
 evidence_overall: 2
 onset: "infusion-based; clinical effects (if any) assessed over multi-week treatment courses, not acute"

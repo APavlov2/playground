@@ -10,6 +10,8 @@ aliases:
   - L-alpha-GPC
 type: compound
 klass: cholinergic precursor (choline source)
+origin: natural                  # natural | semi-synthetic | synthetic (lab-only)
+source: "Trace in milk/organ meats; endogenous choline metabolite; commercial form from soy/sunflower lecithin"
 status: draft
 evidence_overall: 3
 onset: acute (GH/some cognitive effects ~30-60 min); cognitive benefit in impaired populations accrues over weeks-months of dosing

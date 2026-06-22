@@ -8,6 +8,8 @@ aliases:
   - "green tea catechin"
 type: compound
 klass: "polyphenol (flavan-3-ol catechin)"
+origin: natural                  # natural | semi-synthetic | synthetic (lab-only)
+source: "Green tea (Camellia sinensis)"
 status: draft
 evidence_overall: 2
 onset: "~0.5-2 h (acute EEG/CBF effects); cognitive/clinical effects, if any, over weeks-months"

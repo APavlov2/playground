@@ -4,6 +4,8 @@ name: L-Theanine
 aliases: [theanine, N-ethyl-L-glutamine]
 type: compound
 klass: Relaxant / glutamate analogue
+origin: natural                  # natural | semi-synthetic | synthetic (lab-only)
+source: "Green tea (Camellia sinensis); also synthesized"
 status: draft
 evidence_overall: 3
 onset: "acute, ~30-60 min (subjective relaxation / EEG changes)"

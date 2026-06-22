@@ -4,6 +4,8 @@ name: L-Tyrosine
 aliases: [tyrosine, L-tyr, "N-acetyl-L-tyrosine", NALT, "N-acetyltyrosine", TYR]
 type: compound
 klass: Amino acid (catecholamine precursor)
+origin: natural                  # natural | semi-synthetic | synthetic (lab-only)
+source: "Dietary protein (cheese, meat, soy); endogenous amino acid"
 status: draft
 evidence_overall: 3  # Multiple RCTs + a focused review show a REPLICATED, mechanism-consistent benefit, but ONLY under acute catecholamine-depleting stressors (cold, sleep loss, multitasking load). No reliable baseline cognitive boost in rested/unstressed people. Conditional grade 3; would be 1-2 for the unstressed-healthy claim.
 onset: "Acute. Plasma tyrosine peaks ~1-2 h after an oral dose; behavioral effects in RCTs are measured single-dose, same-session (typically ~1 h post-dose) under an active stressor"

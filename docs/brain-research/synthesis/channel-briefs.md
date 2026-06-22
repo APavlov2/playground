@@ -6,6 +6,16 @@
 
 > ⚠ **Habit track (Phase 2) not yet done.** Convergence flags below are therefore *compound-only* and provisional — several channels whose strongest real-world lever is a habit (e.g. `ntrophic`←resistance training, `glymph`←deep sleep, `mito`←Zone-2, `hpa`←meditation) will shift once habits are added. Treat 'gaps' as *compound-coverage* gaps.
 
+## Origin breakdown
+
+_How the agents split by where the molecule comes from (`natural` = in food/plants/the body · `semi-synthetic` = derived from a natural precursor · `synthetic` = lab-only). See each entry's `origin`/`source` fields._
+
+| Origin | Agents |
+|--------|:------:|
+| natural | 57 |
+| semi-synthetic | 4 |
+| synthetic | 15 |
+
 ## Coverage at a glance
 
 | Channel | Agents | Best per-channel evidence | Top agent(s) |
@@ -28,288 +38,288 @@
 
 _19 agents · **4** agent(s) at evidence ≥3._
 
-| Agent | Type | Overall | Channel ev | Dir | Population | Mechanism |
-|-------|------|:-------:|:----------:|:---:|------------|-----------|
-| [Nicotine](../compounds/nicotine.md) | compound | 3 | **4** | ↑ | healthy | Nicotine is an agonist at neuronal nicotinic acetylcholine receptors (nAChRs), principally the high-affinity alpha4-beta2 subty… |
-| [Alpha-GPC](../compounds/alpha-gpc.md) | compound | 3 | **3** | ↑ | both | Hydrolyzed to free choline and glycerophosphate; supplies choline for acetylcholine synthesis, increasing central cholinergic t… |
-| [Huperzine A](../compounds/huperzine-a.md) | compound | 2 | **3** | ↑ | impaired | Potent, reversible, selective inhibition of acetylcholinesterase, raising synaptic acetylcholine — the same drug-class mechanis… |
-| [Sage](../compounds/sage.md) | compound | 2 | **3** | ↑ | both | Sage extracts (both S. officinalis and S. lavandulaefolia) and their monoterpenoid constituents inhibit acetylcholinesterase (a… |
-| [Bacopa monnieri (Brahmi)](../compounds/bacopa-monnieri.md) | compound | 3 | **2** | ↕ | healthy | Cholinergic modulation; human RCT showed reduced serum/plasma acetylcholinesterase (AChE) activity, consistent with enhanced ch… |
-| [Citicoline (CDP-choline)](../compounds/citicoline.md) | compound | 3 | **2** | ↑ | both | Hydrolysed to choline, raising substrate availability for acetylcholine synthesis; supports cholinergic membrane integrity |
-| [Acetyl-L-Carnitine (ALCAR)](../compounds/acetyl-l-carnitine.md) | compound | 2 | **2** | ↑ | impaired | Acetyl donor — can contribute acetyl groups toward acetylcholine synthesis; reviews describe enhanced cholinergic activity |
-| [Aniracetam](../compounds/aniracetam.md) | compound | 2 | **2** | ↑ | preclinical | Metabolite N-anisoyl-GABA implicated in acting on nicotinic acetylcholine receptors; cholinergic mechanism contributes to downs… |
-| [Centrophenoxine (Meclofenoxate)](../compounds/centrophenoxine.md) | compound | 2 | **2** | ↕ | impaired | An ester of DMAE (dimethylaminoethanol) and para-chlorophenoxyacetic acid (pCPA); after hydrolysis it liberates DMAE. Marketed … |
-| [Oxiracetam](../compounds/oxiracetam.md) | compound | 2 | **2** | ↑ | preclinical | Increases hippocampal acetylcholine release in vivo (microdialysis, rat) and counteracts scopolamine-induced ACh decline; likel… |
-| [Phosphatidylserine (PS)](../compounds/phosphatidylserine.md) | compound | 2 | **2** | ↑ | impaired | Preclinical work (esp. with bovine-cortex PS) reports restoration of age-impaired acetylcholine release and cholinergic functio… |
-| [Schisandra chinensis](../compounds/schisandra.md) | compound | 2 | **2** | ↕ | preclinical | Schisandrin B suppressed scopolamine-induced rise in acetylcholinesterase (AChE) activity and preserved acetylcholine in mice. … |
-| [DMAE](../compounds/dmae.md) | compound | 1 | **2** | ↕ | preclinical | Historically marketed as an acetylcholine precursor ("raises ACh"). This mechanism is DISPUTED and largely unsupported: DMAE co… |
-| [Pramiracetam](../compounds/pramiracetam.md) | compound | 1 | **2** | ↑ | preclinical | Increases sodium-dependent high-affinity choline uptake (HACU) in rat hippocampal synaptosomes; accelerates septo-hippocampal c… |
-| [Ginkgo biloba (EGb 761)](../compounds/ginkgo-biloba.md) | compound | 2 | **1** | ↑ | preclinical | Possible cholinergic modulation (increased hippocampal acetylcholine release, muscarinic/nicotinic receptor effects) reported i… |
-| [Panax ginseng](../compounds/panax-ginseng.md) | compound | 2 | **1** | ↕ | preclinical | Preclinical reports of ginsenoside modulation of cholinergic signaling and acetylcholine release; no human cholinergic biomarke… |
-| [Choline bitartrate](../compounds/choline-bitartrate.md) | compound | 1 | **1** | ↑ | healthy | Dietary choline is an acetylcholine precursor, but the bitartrate salt is a POOR CNS-choline delivery vehicle (low brain bioava… |
-| [Coluracetam](../compounds/coluracetam.md) | compound | 1 | **1** | ↑ | preclinical | Enhances high-affinity choline uptake (HACU) via the CHT1 transporter, increasing acetylcholine synthesis and release; preclini… |
-| [Lecithin / Phosphatidylcholine](../compounds/lecithin.md) | compound | 1 | **1** | ↑ | impaired | Phosphatidylcholine is a dietary choline source feeding the acetylcholine precursor pool; theoretical cholinergic boost in deme… |
+| Agent | Origin | Overall | Channel ev | Dir | Population | Mechanism |
+|-------|--------|:-------:|:----------:|:---:|------------|-----------|
+| [Nicotine](../compounds/nicotine.md) | 🌿 natural | 3 | **4** | ↑ | healthy | Nicotine is an agonist at neuronal nicotinic acetylcholine receptors (nAChRs), principally the high-affinity alpha4-beta2 subty… |
+| [Alpha-GPC](../compounds/alpha-gpc.md) | 🌿 natural | 3 | **3** | ↑ | both | Hydrolyzed to free choline and glycerophosphate; supplies choline for acetylcholine synthesis, increasing central cholinergic t… |
+| [Huperzine A](../compounds/huperzine-a.md) | 🌿 natural | 2 | **3** | ↑ | impaired | Potent, reversible, selective inhibition of acetylcholinesterase, raising synaptic acetylcholine — the same drug-class mechanis… |
+| [Sage](../compounds/sage.md) | 🌿 natural | 2 | **3** | ↑ | both | Sage extracts (both S. officinalis and S. lavandulaefolia) and their monoterpenoid constituents inhibit acetylcholinesterase (a… |
+| [Bacopa monnieri (Brahmi)](../compounds/bacopa-monnieri.md) | 🌿 natural | 3 | **2** | ↕ | healthy | Cholinergic modulation; human RCT showed reduced serum/plasma acetylcholinesterase (AChE) activity, consistent with enhanced ch… |
+| [Citicoline (CDP-choline)](../compounds/citicoline.md) | 🌿 natural | 3 | **2** | ↑ | both | Hydrolysed to choline, raising substrate availability for acetylcholine synthesis; supports cholinergic membrane integrity |
+| [Acetyl-L-Carnitine (ALCAR)](../compounds/acetyl-l-carnitine.md) | 🌿 natural | 2 | **2** | ↑ | impaired | Acetyl donor — can contribute acetyl groups toward acetylcholine synthesis; reviews describe enhanced cholinergic activity |
+| [Aniracetam](../compounds/aniracetam.md) | 🧪 synthetic | 2 | **2** | ↑ | preclinical | Metabolite N-anisoyl-GABA implicated in acting on nicotinic acetylcholine receptors; cholinergic mechanism contributes to downs… |
+| [Centrophenoxine (Meclofenoxate)](../compounds/centrophenoxine.md) | ⚗ semi-synthetic | 2 | **2** | ↕ | impaired | An ester of DMAE (dimethylaminoethanol) and para-chlorophenoxyacetic acid (pCPA); after hydrolysis it liberates DMAE. Marketed … |
+| [Oxiracetam](../compounds/oxiracetam.md) | 🧪 synthetic | 2 | **2** | ↑ | preclinical | Increases hippocampal acetylcholine release in vivo (microdialysis, rat) and counteracts scopolamine-induced ACh decline; likel… |
+| [Phosphatidylserine (PS)](../compounds/phosphatidylserine.md) | 🌿 natural | 2 | **2** | ↑ | impaired | Preclinical work (esp. with bovine-cortex PS) reports restoration of age-impaired acetylcholine release and cholinergic functio… |
+| [Schisandra chinensis](../compounds/schisandra.md) | 🌿 natural | 2 | **2** | ↕ | preclinical | Schisandrin B suppressed scopolamine-induced rise in acetylcholinesterase (AChE) activity and preserved acetylcholine in mice. … |
+| [DMAE](../compounds/dmae.md) | 🌿 natural | 1 | **2** | ↕ | preclinical | Historically marketed as an acetylcholine precursor ("raises ACh"). This mechanism is DISPUTED and largely unsupported: DMAE co… |
+| [Pramiracetam](../compounds/pramiracetam.md) | 🧪 synthetic | 1 | **2** | ↑ | preclinical | Increases sodium-dependent high-affinity choline uptake (HACU) in rat hippocampal synaptosomes; accelerates septo-hippocampal c… |
+| [Ginkgo biloba (EGb 761)](../compounds/ginkgo-biloba.md) | 🌿 natural | 2 | **1** | ↑ | preclinical | Possible cholinergic modulation (increased hippocampal acetylcholine release, muscarinic/nicotinic receptor effects) reported i… |
+| [Panax ginseng](../compounds/panax-ginseng.md) | 🌿 natural | 2 | **1** | ↕ | preclinical | Preclinical reports of ginsenoside modulation of cholinergic signaling and acetylcholine release; no human cholinergic biomarke… |
+| [Choline bitartrate](../compounds/choline-bitartrate.md) | 🌿 natural | 1 | **1** | ↑ | healthy | Dietary choline is an acetylcholine precursor, but the bitartrate salt is a POOR CNS-choline delivery vehicle (low brain bioava… |
+| [Coluracetam](../compounds/coluracetam.md) | 🧪 synthetic | 1 | **1** | ↑ | preclinical | Enhances high-affinity choline uptake (HACU) via the CHT1 transporter, increasing acetylcholine synthesis and release; preclini… |
+| [Lecithin / Phosphatidylcholine](../compounds/lecithin.md) | 🌿 natural | 1 | **1** | ↑ | impaired | Phosphatidylcholine is a dietary choline source feeding the acetylcholine precursor pool; theoretical cholinergic boost in deme… |
 
 
 ## `da` — Dopaminergic
 
 _16 agents · **5** agent(s) at evidence ≥3._
 
-| Agent | Type | Overall | Channel ev | Dir | Population | Mechanism |
-|-------|------|:-------:|:----------:|:---:|------------|-----------|
-| [Prescription stimulants (amphetamines & methylphenidate)](../compounds/amphetamine-methylphenidate.md) | compound | 4 | **4** | ↕ | both | Increases synaptic dopamine: amphetamines reverse DAT and promote vesicular release (also VMAT2/MAO effects); methylphenidate b… |
-| [Nicotine](../compounds/nicotine.md) | compound | 3 | **4** | ↑ | healthy | Via alpha4-beta2 (often with alpha6) nAChRs on ventral tegmental area dopamine neurons, nicotine increases DA neuron firing and… |
-| [Iron (only if deficient)](../compounds/iron.md) | compound | 3 | **3** | ↑ | deficient | Iron is an obligate cofactor (Fe2+) for tyrosine hydroxylase, the rate-limiting enzyme of catecholamine (dopamine/noradrenaline… |
-| [L-Tyrosine](../compounds/l-tyrosine.md) | compound | 3 | **3** | ↑ | healthy | Tyrosine is the rate-limited precursor for dopamine synthesis (tyrosine -> L-DOPA via tyrosine hydroxylase -> dopamine). Supply… |
-| [Modafinil](../compounds/modafinil.md) | compound | 3 | **3** | ↑ | both | Atypical dopamine transporter (DAT) inhibition raising extracellular dopamine in caudate, putamen and nucleus accumbens (human … |
-| [Caffeine + L-theanine](../compounds/caffeine-l-theanine.md) | compound | 3 | **2** | ↑ | both | Adenosine A2A receptors are co-localized and functionally antagonistic with dopamine D2 receptors (striatal A2A-D2 heteromers);… |
-| [Adrafinil](../compounds/adrafinil.md) | compound | 2 | **2** | ↑ | both | Acts via its metabolite modafinil, a weak/atypical dopamine transporter (DAT) blocker that raises extracellular dopamine includ… |
-| [Aniracetam](../compounds/aniracetam.md) | compound | 2 | **2** | ↑ | preclinical | Site-specific increase in extracellular dopamine in prefrontal cortex, basolateral amygdala, dorsal hippocampus (not striatum/N… |
-| [Armodafinil (Nuvigil)](../compounds/armodafinil.md) | compound | 2 | **2** | ↑ | healthy | Weak dopamine transporter (DAT) inhibitor; raises extracellular striatal dopamine. Direct human PET DAT-occupancy/dopamine-incr… |
-| [Phenylpiracetam](../compounds/phenylpiracetam.md) | compound | 2 | **2** | ↑ | preclinical | Enantiomer-dependent dopamine transporter (DAT) inhibition; (S)-enantiomer selective DAT inhibitor, (R)-enantiomer dual NE-DA r… |
-| [Citicoline (CDP-choline)](../compounds/citicoline.md) | compound | 3 | **1** | ↑ | impaired | Preclinical and review literature report increased striatal dopamine release/levels and possible upregulation of dopamine recep… |
-| [Saffron](../compounds/saffron.md) | compound | 3 | **1** | ↕ | preclinical | Possible dopaminergic involvement invoked for ADHD signal and mood; preclinical/mechanistic only, not established in humans. |
-| [EGCG](../compounds/egcg.md) | compound | 2 | **1** | ↕ | preclinical | Preclinical / mechanistic reports of dopaminergic modulation (e.g., COMT inhibition, MAO effects). Human cognitive relevance un… |
-| [Rhodiola rosea](../compounds/rhodiola-rosea.md) | compound | 2 | **1** | ↕ | preclinical | Preclinical monoamine modulation (reported effects on dopaminergic signaling in rodent models); no robust human confirmation |
-| [Semax](../compounds/semax.md) | compound | 2 | **1** | ↕ | preclinical | Modulates brain dopaminergic system; neuroprotective in MPTP-lesioned rats; reported to augment psychostimulant-induced dopamin… |
-| [Vitamin C](../compounds/vitamin-c.md) | compound | 2 | **1** | ↕ | preclinical | Ascorbate participates in catecholamine pathway regulation and protects dopaminergic neurons from dopamine-derived oxidative st… |
+| Agent | Origin | Overall | Channel ev | Dir | Population | Mechanism |
+|-------|--------|:-------:|:----------:|:---:|------------|-----------|
+| [Prescription stimulants (amphetamines & methylphenidate)](../compounds/amphetamine-methylphenidate.md) | 🧪 synthetic | 4 | **4** | ↕ | both | Increases synaptic dopamine: amphetamines reverse DAT and promote vesicular release (also VMAT2/MAO effects); methylphenidate b… |
+| [Nicotine](../compounds/nicotine.md) | 🌿 natural | 3 | **4** | ↑ | healthy | Via alpha4-beta2 (often with alpha6) nAChRs on ventral tegmental area dopamine neurons, nicotine increases DA neuron firing and… |
+| [Iron (only if deficient)](../compounds/iron.md) | 🌿 natural | 3 | **3** | ↑ | deficient | Iron is an obligate cofactor (Fe2+) for tyrosine hydroxylase, the rate-limiting enzyme of catecholamine (dopamine/noradrenaline… |
+| [L-Tyrosine](../compounds/l-tyrosine.md) | 🌿 natural | 3 | **3** | ↑ | healthy | Tyrosine is the rate-limited precursor for dopamine synthesis (tyrosine -> L-DOPA via tyrosine hydroxylase -> dopamine). Supply… |
+| [Modafinil](../compounds/modafinil.md) | 🧪 synthetic | 3 | **3** | ↑ | both | Atypical dopamine transporter (DAT) inhibition raising extracellular dopamine in caudate, putamen and nucleus accumbens (human … |
+| [Caffeine + L-theanine](../compounds/caffeine-l-theanine.md) | 🌿 natural | 3 | **2** | ↑ | both | Adenosine A2A receptors are co-localized and functionally antagonistic with dopamine D2 receptors (striatal A2A-D2 heteromers);… |
+| [Adrafinil](../compounds/adrafinil.md) | 🧪 synthetic | 2 | **2** | ↑ | both | Acts via its metabolite modafinil, a weak/atypical dopamine transporter (DAT) blocker that raises extracellular dopamine includ… |
+| [Aniracetam](../compounds/aniracetam.md) | 🧪 synthetic | 2 | **2** | ↑ | preclinical | Site-specific increase in extracellular dopamine in prefrontal cortex, basolateral amygdala, dorsal hippocampus (not striatum/N… |
+| [Armodafinil (Nuvigil)](../compounds/armodafinil.md) | 🧪 synthetic | 2 | **2** | ↑ | healthy | Weak dopamine transporter (DAT) inhibitor; raises extracellular striatal dopamine. Direct human PET DAT-occupancy/dopamine-incr… |
+| [Phenylpiracetam](../compounds/phenylpiracetam.md) | 🧪 synthetic | 2 | **2** | ↑ | preclinical | Enantiomer-dependent dopamine transporter (DAT) inhibition; (S)-enantiomer selective DAT inhibitor, (R)-enantiomer dual NE-DA r… |
+| [Citicoline (CDP-choline)](../compounds/citicoline.md) | 🌿 natural | 3 | **1** | ↑ | impaired | Preclinical and review literature report increased striatal dopamine release/levels and possible upregulation of dopamine recep… |
+| [Saffron](../compounds/saffron.md) | 🌿 natural | 3 | **1** | ↕ | preclinical | Possible dopaminergic involvement invoked for ADHD signal and mood; preclinical/mechanistic only, not established in humans. |
+| [EGCG](../compounds/egcg.md) | 🌿 natural | 2 | **1** | ↕ | preclinical | Preclinical / mechanistic reports of dopaminergic modulation (e.g., COMT inhibition, MAO effects). Human cognitive relevance un… |
+| [Rhodiola rosea](../compounds/rhodiola-rosea.md) | 🌿 natural | 2 | **1** | ↕ | preclinical | Preclinical monoamine modulation (reported effects on dopaminergic signaling in rodent models); no robust human confirmation |
+| [Semax](../compounds/semax.md) | 🧪 synthetic | 2 | **1** | ↕ | preclinical | Modulates brain dopaminergic system; neuroprotective in MPTP-lesioned rats; reported to augment psychostimulant-induced dopamin… |
+| [Vitamin C](../compounds/vitamin-c.md) | 🌿 natural | 2 | **1** | ↕ | preclinical | Ascorbate participates in catecholamine pathway regulation and protects dopaminergic neurons from dopamine-derived oxidative st… |
 
 
 ## `ser` — Serotonergic
 
 _11 agents · **1** agent(s) at evidence ≥3._
 
-| Agent | Type | Overall | Channel ev | Dir | Population | Mechanism |
-|-------|------|:-------:|:----------:|:---:|------------|-----------|
-| [Omega-3 (EPA/DHA, fish oil)](../compounds/omega-3-epa-dha.md) | compound | 2 | **3** | ↑ | impaired | EPA-predominant formulations reduce depressive symptoms in meta-analysis (mechanism likely anti-inflammatory and membrane/monoa… |
-| [Saffron](../compounds/saffron.md) | compound | 3 | **2** | ↕ | both | Serotonergic modulation is the most-cited mechanism: crocin/safranal reported to inhibit serotonin reuptake at synapses and to … |
-| [Aniracetam](../compounds/aniracetam.md) | compound | 2 | **2** | ↑ | preclinical | Parallel site-specific increase in cortical/limbic serotonin release in rats via cholinergic/glutamatergic mechanisms. |
-| [Curcumin](../compounds/curcumin.md) | compound | 2 | **2** | ↕ | impaired | Antidepressant-like / serotonergic-monoaminergic modulation; meta-analytic signal for reduced depressive symptoms in clinical t… |
-| [L-Tryptophan and 5-HTP](../compounds/l-tryptophan-5-htp.md) | compound | 2 | **2** | ↑ | impaired | Both are direct serotonin precursors. L-tryptophan is the rate-limiting dietary precursor converted by tryptophan hydroxylase t… |
-| [Probiotics (Psychobiotics)](../compounds/probiotics.md) | compound | 2 | **2** | ↕ | both | Proposed modulation of serotonergic signaling via gut-derived serotonin (enterochromaffin cells produce most body 5-HT), trypto… |
-| [Selank](../compounds/selank.md) | compound | 2 | **2** | ↕ | preclinical | Enhances serotonin (5-HT) metabolism in rat brainstem; region-specific changes in 5-HT turnover (preclinical) |
-| [Zinc](../compounds/zinc.md) | compound | 2 | **2** | ↕ | impaired | Antidepressant-adjunct signal: zinc added to antidepressants lowers depressive symptom scores in meta-analysis; proposed monoam… |
-| [Psilocybin (microdosing)](../compounds/psilocybin-microdosing.md) | compound | 1 | **2** | ↕ | healthy | Primary pharmacology: psilocin is an agonist at serotonin 5-HT2A receptors (with activity at other 5-HT subtypes incl. 5-HT2C, … |
-| [Lion's Mane (Hericium erinaceus)](../compounds/lions-mane.md) | compound | 2 | **1** | ↑ | both | Possible mood/anxiety benefit (e.g. CES-D depression and anxiety scores) in one very small menopausal trial; serotonergic mecha… |
-| [Rhodiola rosea](../compounds/rhodiola-rosea.md) | compound | 2 | **1** | ↕ | preclinical | Preclinical monoamine modulation (reported effects on serotonergic signaling in rodent models); no robust human confirmation |
+| Agent | Origin | Overall | Channel ev | Dir | Population | Mechanism |
+|-------|--------|:-------:|:----------:|:---:|------------|-----------|
+| [Omega-3 (EPA/DHA, fish oil)](../compounds/omega-3-epa-dha.md) | 🌿 natural | 2 | **3** | ↑ | impaired | EPA-predominant formulations reduce depressive symptoms in meta-analysis (mechanism likely anti-inflammatory and membrane/monoa… |
+| [Saffron](../compounds/saffron.md) | 🌿 natural | 3 | **2** | ↕ | both | Serotonergic modulation is the most-cited mechanism: crocin/safranal reported to inhibit serotonin reuptake at synapses and to … |
+| [Aniracetam](../compounds/aniracetam.md) | 🧪 synthetic | 2 | **2** | ↑ | preclinical | Parallel site-specific increase in cortical/limbic serotonin release in rats via cholinergic/glutamatergic mechanisms. |
+| [Curcumin](../compounds/curcumin.md) | 🌿 natural | 2 | **2** | ↕ | impaired | Antidepressant-like / serotonergic-monoaminergic modulation; meta-analytic signal for reduced depressive symptoms in clinical t… |
+| [L-Tryptophan and 5-HTP](../compounds/l-tryptophan-5-htp.md) | 🌿 natural | 2 | **2** | ↑ | impaired | Both are direct serotonin precursors. L-tryptophan is the rate-limiting dietary precursor converted by tryptophan hydroxylase t… |
+| [Probiotics (Psychobiotics)](../compounds/probiotics.md) | 🌿 natural | 2 | **2** | ↕ | both | Proposed modulation of serotonergic signaling via gut-derived serotonin (enterochromaffin cells produce most body 5-HT), trypto… |
+| [Selank](../compounds/selank.md) | 🧪 synthetic | 2 | **2** | ↕ | preclinical | Enhances serotonin (5-HT) metabolism in rat brainstem; region-specific changes in 5-HT turnover (preclinical) |
+| [Zinc](../compounds/zinc.md) | 🌿 natural | 2 | **2** | ↕ | impaired | Antidepressant-adjunct signal: zinc added to antidepressants lowers depressive symptom scores in meta-analysis; proposed monoam… |
+| [Psilocybin (microdosing)](../compounds/psilocybin-microdosing.md) | 🌿 natural | 1 | **2** | ↕ | healthy | Primary pharmacology: psilocin is an agonist at serotonin 5-HT2A receptors (with activity at other 5-HT subtypes incl. 5-HT2C, … |
+| [Lion's Mane (Hericium erinaceus)](../compounds/lions-mane.md) | 🌿 natural | 2 | **1** | ↑ | both | Possible mood/anxiety benefit (e.g. CES-D depression and anxiety scores) in one very small menopausal trial; serotonergic mecha… |
+| [Rhodiola rosea](../compounds/rhodiola-rosea.md) | 🌿 natural | 2 | **1** | ↕ | preclinical | Preclinical monoamine modulation (reported effects on serotonergic signaling in rodent models); no robust human confirmation |
 
 
 ## `glu` — Glutamatergic / NMDA
 
 _14 agents · **2** agent(s) at evidence ≥3._
 
-| Agent | Type | Overall | Channel ev | Dir | Population | Mechanism |
-|-------|------|:-------:|:----------:|:---:|------------|-----------|
-| [Aniracetam](../compounds/aniracetam.md) | compound | 2 | **3** | ↑ | preclinical | Positive allosteric modulator of AMPA-type glutamate receptors; slows desensitization/deactivation, prolonging and amplifying f… |
-| [Zinc](../compounds/zinc.md) | compound | 2 | **3** | ↕ | both | Synaptic zinc is co-released from glutamatergic terminals and allosterically inhibits NMDA receptors (high-affinity binding to … |
-| [Caffeine + L-theanine](../compounds/caffeine-l-theanine.md) | compound | 3 | **2** | ↕ | both | L-theanine is a structural analogue of glutamate/glutamine and weakly modulates glutamatergic (NMDA/AMPA) and glutamate transpo… |
-| [L-Theanine](../compounds/l-theanine.md) | compound | 3 | **2** | ↕ | preclinical | Structural glutamate/glutamine analogue; binds ionotropic glutamate receptors at low affinity, modest NMDA/AMPA and glutamate-t… |
-| [Glycine](../compounds/glycine.md) | compound | 2 | **2** | ↕ | impaired | Glycine is an obligatory co-agonist at the strychnine-insensitive glycine modulatory site (GlyB) of the NMDA receptor; raising … |
-| [Magnesium L-threonate](../compounds/magnesium-l-threonate.md) | compound | 2 | **2** | ↕ | preclinical | Proposed elevation of brain magnesium enhances NMDA-receptor (NR2B-containing) signaling and synaptic plasticity / LTP. Mechani… |
-| [Noopept](../compounds/noopept.md) | compound | 2 | **2** | ↕ | preclinical | Proposed prodrug of endogenous dipeptide cycloprolylglycine, an AMPA-receptor modulator; direct radioligand binding shows weak … |
-| [Oxiracetam](../compounds/oxiracetam.md) | compound | 2 | **2** | ↑ | preclinical | Positive allosteric modulation of AMPA-type glutamate receptors / enhancement of glutamatergic transmission and hippocampal fie… |
-| [Piracetam (Nootropil)](../compounds/piracetam.md) | compound | 2 | **2** | ↕ | preclinical | Positive allosteric modulation of AMPA-type glutamate receptors and facilitation of glutamatergic neurotransmission/LTP; low or… |
-| [Sulforaphane](../compounds/sulforaphane.md) | compound | 2 | **2** | ↕ | preclinical | Theoretical/preclinical: attenuation of oxidative-glutamatergic toxicity and modulation of redox-sensitive glutamate handling; … |
-| [Huperzine A](../compounds/huperzine-a.md) | compound | 2 | **1** | ↓ | impaired | Weak, non-competitive NMDA-receptor antagonist (IC50 ~65-82 micromolar) that attenuates glutamate-/NMDA-mediated calcium influx… |
-| [Phenylpiracetam](../compounds/phenylpiracetam.md) | compound | 2 | **1** | ↕ | preclinical | Putative AMPA receptor potentiation (class effect attributed to racetams); direct phenylpiracetam-specific human data absent |
-| [Dihexa](../compounds/dihexa.md) | compound | 1 | **1** | ↕ | preclinical | Synaptogenic/spinogenic actions imply increased excitatory (glutamatergic) synaptic connectivity downstream of c-Met-driven den… |
-| [Pramiracetam](../compounds/pramiracetam.md) | compound | 1 | **1** | ↕ | preclinical | Possible downstream glutamatergic/hippocampal modulation proposed in racetam literature; mechanism for pramiracetam specificall… |
+| Agent | Origin | Overall | Channel ev | Dir | Population | Mechanism |
+|-------|--------|:-------:|:----------:|:---:|------------|-----------|
+| [Aniracetam](../compounds/aniracetam.md) | 🧪 synthetic | 2 | **3** | ↑ | preclinical | Positive allosteric modulator of AMPA-type glutamate receptors; slows desensitization/deactivation, prolonging and amplifying f… |
+| [Zinc](../compounds/zinc.md) | 🌿 natural | 2 | **3** | ↕ | both | Synaptic zinc is co-released from glutamatergic terminals and allosterically inhibits NMDA receptors (high-affinity binding to … |
+| [Caffeine + L-theanine](../compounds/caffeine-l-theanine.md) | 🌿 natural | 3 | **2** | ↕ | both | L-theanine is a structural analogue of glutamate/glutamine and weakly modulates glutamatergic (NMDA/AMPA) and glutamate transpo… |
+| [L-Theanine](../compounds/l-theanine.md) | 🌿 natural | 3 | **2** | ↕ | preclinical | Structural glutamate/glutamine analogue; binds ionotropic glutamate receptors at low affinity, modest NMDA/AMPA and glutamate-t… |
+| [Glycine](../compounds/glycine.md) | 🌿 natural | 2 | **2** | ↕ | impaired | Glycine is an obligatory co-agonist at the strychnine-insensitive glycine modulatory site (GlyB) of the NMDA receptor; raising … |
+| [Magnesium L-threonate](../compounds/magnesium-l-threonate.md) | ⚗ semi-synthetic | 2 | **2** | ↕ | preclinical | Proposed elevation of brain magnesium enhances NMDA-receptor (NR2B-containing) signaling and synaptic plasticity / LTP. Mechani… |
+| [Noopept](../compounds/noopept.md) | 🧪 synthetic | 2 | **2** | ↕ | preclinical | Proposed prodrug of endogenous dipeptide cycloprolylglycine, an AMPA-receptor modulator; direct radioligand binding shows weak … |
+| [Oxiracetam](../compounds/oxiracetam.md) | 🧪 synthetic | 2 | **2** | ↑ | preclinical | Positive allosteric modulation of AMPA-type glutamate receptors / enhancement of glutamatergic transmission and hippocampal fie… |
+| [Piracetam (Nootropil)](../compounds/piracetam.md) | 🧪 synthetic | 2 | **2** | ↕ | preclinical | Positive allosteric modulation of AMPA-type glutamate receptors and facilitation of glutamatergic neurotransmission/LTP; low or… |
+| [Sulforaphane](../compounds/sulforaphane.md) | 🌿 natural | 2 | **2** | ↕ | preclinical | Theoretical/preclinical: attenuation of oxidative-glutamatergic toxicity and modulation of redox-sensitive glutamate handling; … |
+| [Huperzine A](../compounds/huperzine-a.md) | 🌿 natural | 2 | **1** | ↓ | impaired | Weak, non-competitive NMDA-receptor antagonist (IC50 ~65-82 micromolar) that attenuates glutamate-/NMDA-mediated calcium influx… |
+| [Phenylpiracetam](../compounds/phenylpiracetam.md) | 🧪 synthetic | 2 | **1** | ↕ | preclinical | Putative AMPA receptor potentiation (class effect attributed to racetams); direct phenylpiracetam-specific human data absent |
+| [Dihexa](../compounds/dihexa.md) | 🧪 synthetic | 1 | **1** | ↕ | preclinical | Synaptogenic/spinogenic actions imply increased excitatory (glutamatergic) synaptic connectivity downstream of c-Met-driven den… |
+| [Pramiracetam](../compounds/pramiracetam.md) | 🧪 synthetic | 1 | **1** | ↕ | preclinical | Possible downstream glutamatergic/hippocampal modulation proposed in racetam literature; mechanism for pramiracetam specificall… |
 
 
 ## `gaba` — GABAergic
 
 _12 agents · ⚠ **thin** — no agent reaches evidence ≥3 (compound-only)._
 
-| Agent | Type | Overall | Channel ev | Dir | Population | Mechanism |
-|-------|------|:-------:|:----------:|:---:|------------|-----------|
-| [Ashwagandha](../compounds/ashwagandha.md) | compound | 3 | **2** | ↑ | preclinical | Withania somnifera extract shows direct GABAergic activity at ionotropic GABA-A/GABA-rho receptors in vitro; proposed GABA-mime… |
-| [Caffeine + L-theanine](../compounds/caffeine-l-theanine.md) | compound | 3 | **2** | ↕ | both | L-theanine (the relaxant component) crosses the BBB and is associated with increased EEG alpha-band activity (relaxed-but-alert… |
-| [L-Theanine](../compounds/l-theanine.md) | compound | 3 | **2** | ↕ | healthy | Promotion of occipital/frontal alpha-band EEG activity ('wakeful relaxation'); inhibition of cortical neuron over-excitation. G… |
-| [EGCG](../compounds/egcg.md) | compound | 2 | **2** | ↕ | healthy | Proposed calming / relaxation effect; acute EEG shift (increased alpha/beta/theta) and self-rated calmness. Mechanism inferred,… |
-| [GABA (gamma-aminobutyric acid)](../compounds/gaba.md) | compound | 2 | **2** | ↑ | healthy | Endogenous primary inhibitory neurotransmitter; the supplement aims to raise GABAergic tone, BUT central action is the disputed… |
-| [Selank](../compounds/selank.md) | compound | 2 | **2** | ↕ | preclinical | Alters expression of GABA-A receptor subunit and GABAergic neurotransmission genes in rodent frontal cortex and IMR-32 cells; p… |
-| [Taurine](../compounds/taurine.md) | compound | 2 | **2** | ↓ | preclinical | Endogenous inhibitory neuromodulator; partial/full agonist at GABA-A receptors (notably extrasynaptic alpha4-beta-delta subtype… |
-| [Apigenin](../compounds/apigenin.md) | compound | 1 | **2** | ↕ | preclinical | Competitive ligand at the central benzodiazepine (BZD) site of the GABA-A receptor (inhibits flunitrazepam binding, Ki ~4 uM); … |
-| [Glycine](../compounds/glycine.md) | compound | 2 | **1** | ↕ | preclinical | Glycine is also the major fast inhibitory neurotransmitter at strychnine-sensitive glycine receptors (GlyR, Cl- channels) in sp… |
-| [Gotu kola](../compounds/gotu-kola.md) | compound | 2 | **1** | ↕ | preclinical | GABAergic/anxiolytic mechanism proposed from preclinical anxiety models to explain startle attenuation; no direct human GABA ev… |
-| [Holy basil](../compounds/holy-basil.md) | compound | 2 | **1** | ↕ | impaired | Anxiolytic effect reported in a small controlled GAD trial (Bhattacharyya 2008, PMID:19253862); a GABAergic/anxiolytic mechanis… |
-| [Magnesium L-threonate](../compounds/magnesium-l-threonate.md) | compound | 2 | **1** | ↕ | both | Magnesium broadly modulates neuronal excitability and is implicated in GABAergic tone / sleep and anxiety endpoints, mostly via… |
+| Agent | Origin | Overall | Channel ev | Dir | Population | Mechanism |
+|-------|--------|:-------:|:----------:|:---:|------------|-----------|
+| [Ashwagandha](../compounds/ashwagandha.md) | 🌿 natural | 3 | **2** | ↑ | preclinical | Withania somnifera extract shows direct GABAergic activity at ionotropic GABA-A/GABA-rho receptors in vitro; proposed GABA-mime… |
+| [Caffeine + L-theanine](../compounds/caffeine-l-theanine.md) | 🌿 natural | 3 | **2** | ↕ | both | L-theanine (the relaxant component) crosses the BBB and is associated with increased EEG alpha-band activity (relaxed-but-alert… |
+| [L-Theanine](../compounds/l-theanine.md) | 🌿 natural | 3 | **2** | ↕ | healthy | Promotion of occipital/frontal alpha-band EEG activity ('wakeful relaxation'); inhibition of cortical neuron over-excitation. G… |
+| [EGCG](../compounds/egcg.md) | 🌿 natural | 2 | **2** | ↕ | healthy | Proposed calming / relaxation effect; acute EEG shift (increased alpha/beta/theta) and self-rated calmness. Mechanism inferred,… |
+| [GABA (gamma-aminobutyric acid)](../compounds/gaba.md) | 🌿 natural | 2 | **2** | ↑ | healthy | Endogenous primary inhibitory neurotransmitter; the supplement aims to raise GABAergic tone, BUT central action is the disputed… |
+| [Selank](../compounds/selank.md) | 🧪 synthetic | 2 | **2** | ↕ | preclinical | Alters expression of GABA-A receptor subunit and GABAergic neurotransmission genes in rodent frontal cortex and IMR-32 cells; p… |
+| [Taurine](../compounds/taurine.md) | 🌿 natural | 2 | **2** | ↓ | preclinical | Endogenous inhibitory neuromodulator; partial/full agonist at GABA-A receptors (notably extrasynaptic alpha4-beta-delta subtype… |
+| [Apigenin](../compounds/apigenin.md) | 🌿 natural | 1 | **2** | ↕ | preclinical | Competitive ligand at the central benzodiazepine (BZD) site of the GABA-A receptor (inhibits flunitrazepam binding, Ki ~4 uM); … |
+| [Glycine](../compounds/glycine.md) | 🌿 natural | 2 | **1** | ↕ | preclinical | Glycine is also the major fast inhibitory neurotransmitter at strychnine-sensitive glycine receptors (GlyR, Cl- channels) in sp… |
+| [Gotu kola](../compounds/gotu-kola.md) | 🌿 natural | 2 | **1** | ↕ | preclinical | GABAergic/anxiolytic mechanism proposed from preclinical anxiety models to explain startle attenuation; no direct human GABA ev… |
+| [Holy basil](../compounds/holy-basil.md) | 🌿 natural | 2 | **1** | ↕ | impaired | Anxiolytic effect reported in a small controlled GAD trial (Bhattacharyya 2008, PMID:19253862); a GABAergic/anxiolytic mechanis… |
+| [Magnesium L-threonate](../compounds/magnesium-l-threonate.md) | ⚗ semi-synthetic | 2 | **1** | ↕ | both | Magnesium broadly modulates neuronal excitability and is implicated in GABAergic tone / sleep and anxiety endpoints, mostly via… |
 
 
 ## `ne` — Noradrenergic
 
 _10 agents · **3** agent(s) at evidence ≥3._
 
-| Agent | Type | Overall | Channel ev | Dir | Population | Mechanism |
-|-------|------|:-------:|:----------:|:---:|------------|-----------|
-| [Prescription stimulants (amphetamines & methylphenidate)](../compounds/amphetamine-methylphenidate.md) | compound | 4 | **4** | ↕ | both | Increases synaptic norepinephrine via NET blockade (methylphenidate) and reverse transport/release (amphetamines); contributes … |
-| [Caffeine + L-theanine](../compounds/caffeine-l-theanine.md) | compound | 3 | **3** | ↑ | both | Caffeine is a non-selective adenosine A1/A2A receptor antagonist; blocking adenosine's tonic inhibition disinhibits noradrenerg… |
-| [L-Tyrosine](../compounds/l-tyrosine.md) | compound | 3 | **3** | ↑ | healthy | Same precursor pathway continues: dopamine -> norepinephrine via dopamine beta-hydroxylase. Acute stressors (cold, sleep depriv… |
-| [Modafinil](../compounds/modafinil.md) | compound | 3 | **2** | ↑ | both | Noradrenergic/arousal promotion; maps orexin-histamine wake-promoting drive and elevated cortical arousal (proposed mechanism f… |
-| [Nicotine](../compounds/nicotine.md) | compound | 3 | **2** | ↑ | healthy | Nicotinic stimulation increases noradrenergic/sympathetic tone and central arousal (also peripheral catecholamine release contr… |
-| [Adrafinil](../compounds/adrafinil.md) | compound | 2 | **2** | ↑ | both | Adrafinil/modafinil increase noradrenergic / catecholaminergic tone and arousal; early pharmacology described an alpha-adrenerg… |
-| [Armodafinil (Nuvigil)](../compounds/armodafinil.md) | compound | 2 | **2** | ↑ | impaired | Promotes cortical arousal/wakefulness via downstream noradrenergic and orexinergic/histaminergic wake-promoting circuitry (clas… |
-| [Phenylpiracetam](../compounds/phenylpiracetam.md) | compound | 2 | **2** | ↑ | preclinical | (R)-phenylpiracetam acts as norepinephrine-dopamine reuptake inhibitor (NDRI), ~11-fold lower NET than DAT affinity — preclinic… |
-| [Vitamin C](../compounds/vitamin-c.md) | compound | 2 | **2** | ↑ | both | Obligate electron donor (cofactor) for dopamine-beta-hydroxylase, converting dopamine to norepinephrine in neurosecretory vesic… |
-| [Rhodiola rosea](../compounds/rhodiola-rosea.md) | compound | 2 | **1** | ↕ | preclinical | Preclinical monoamine modulation (reported effects on noradrenergic signaling in rodent models); no robust human confirmation |
+| Agent | Origin | Overall | Channel ev | Dir | Population | Mechanism |
+|-------|--------|:-------:|:----------:|:---:|------------|-----------|
+| [Prescription stimulants (amphetamines & methylphenidate)](../compounds/amphetamine-methylphenidate.md) | 🧪 synthetic | 4 | **4** | ↕ | both | Increases synaptic norepinephrine via NET blockade (methylphenidate) and reverse transport/release (amphetamines); contributes … |
+| [Caffeine + L-theanine](../compounds/caffeine-l-theanine.md) | 🌿 natural | 3 | **3** | ↑ | both | Caffeine is a non-selective adenosine A1/A2A receptor antagonist; blocking adenosine's tonic inhibition disinhibits noradrenerg… |
+| [L-Tyrosine](../compounds/l-tyrosine.md) | 🌿 natural | 3 | **3** | ↑ | healthy | Same precursor pathway continues: dopamine -> norepinephrine via dopamine beta-hydroxylase. Acute stressors (cold, sleep depriv… |
+| [Modafinil](../compounds/modafinil.md) | 🧪 synthetic | 3 | **2** | ↑ | both | Noradrenergic/arousal promotion; maps orexin-histamine wake-promoting drive and elevated cortical arousal (proposed mechanism f… |
+| [Nicotine](../compounds/nicotine.md) | 🌿 natural | 3 | **2** | ↑ | healthy | Nicotinic stimulation increases noradrenergic/sympathetic tone and central arousal (also peripheral catecholamine release contr… |
+| [Adrafinil](../compounds/adrafinil.md) | 🧪 synthetic | 2 | **2** | ↑ | both | Adrafinil/modafinil increase noradrenergic / catecholaminergic tone and arousal; early pharmacology described an alpha-adrenerg… |
+| [Armodafinil (Nuvigil)](../compounds/armodafinil.md) | 🧪 synthetic | 2 | **2** | ↑ | impaired | Promotes cortical arousal/wakefulness via downstream noradrenergic and orexinergic/histaminergic wake-promoting circuitry (clas… |
+| [Phenylpiracetam](../compounds/phenylpiracetam.md) | 🧪 synthetic | 2 | **2** | ↑ | preclinical | (R)-phenylpiracetam acts as norepinephrine-dopamine reuptake inhibitor (NDRI), ~11-fold lower NET than DAT affinity — preclinic… |
+| [Vitamin C](../compounds/vitamin-c.md) | 🌿 natural | 2 | **2** | ↑ | both | Obligate electron donor (cofactor) for dopamine-beta-hydroxylase, converting dopamine to norepinephrine in neurosecretory vesic… |
+| [Rhodiola rosea](../compounds/rhodiola-rosea.md) | 🌿 natural | 2 | **1** | ↕ | preclinical | Preclinical monoamine modulation (reported effects on noradrenergic signaling in rodent models); no robust human confirmation |
 
 
 ## `cbf` — Cerebral blood flow
 
 _12 agents · **3** agent(s) at evidence ≥3._
 
-| Agent | Type | Overall | Channel ev | Dir | Population | Mechanism |
-|-------|------|:-------:|:----------:|:---:|------------|-----------|
-| [Caffeine + L-theanine](../compounds/caffeine-l-theanine.md) | compound | 3 | **3** | ↓ | both | Caffeine ACUTELY REDUCES resting cerebral blood flow via adenosine-antagonist cerebral vasoconstriction (reduced oxy-Hb, increa… |
-| [B-vitamins for homocysteine lowering (B6 + folate/B9 + B12)](../compounds/b-vitamins-homocysteine.md) | compound | 2 | **3** | ↕ | impaired | Homocysteine is an independent vascular risk factor; B6/B9/B12 lower plasma homocysteine, reducing endothelial dysfunction and … |
-| [Resveratrol](../compounds/resveratrol.md) | compound | 2 | **3** | ↑ | both | Increased cerebral blood flow / cerebrovascular responsiveness, likely via eNOS-mediated nitric oxide signaling; acute dose-dep… |
-| [EGCG](../compounds/egcg.md) | compound | 2 | **2** | ↕ | healthy | Acute oral EGCG modulates cerebral blood flow (frontal cortex), measured by NIRS; effect not linked to cognitive change. |
-| [Ginkgo biloba (EGb 761)](../compounds/ginkgo-biloba.md) | compound | 2 | **2** | ↕ | impaired | Primary putative mechanism. Vasoactive/hemorheologic effects attributed to terpene trilactones (ginkgolides, bilobalide) and fl… |
-| [Methylene blue (low-dose)](../compounds/methylene-blue.md) | compound | 2 | **2** | ↕ | healthy | Single human multimodal fMRI study reported increased task-evoked fMRI response (memory, vigilance) and altered functional conn… |
-| [Panax ginseng](../compounds/panax-ginseng.md) | compound | 2 | **2** | ↕ | healthy | Putative vasoactive/glucoregulatory support of cerebral metabolism during sustained mental load; acute single doses lowered blo… |
-| [Piracetam (Nootropil)](../compounds/piracetam.md) | compound | 2 | **2** | ↑ | impaired | Rheological/microvascular: reduces erythrocyte adhesion to vascular endothelium, decreases platelet aggregation, improves red-c… |
-| [Pyrroloquinoline quinone](../compounds/pqq.md) | compound | 2 | **2** | ↑ | impaired | NIRS/cerebral-oxygenation signals suggest increased prefrontal cortex blood flow and oxygen metabolism in small RCTs; mechanism… |
-| [Vinpocetine](../compounds/vinpocetine.md) | compound | 2 | **2** | ↑ | impaired | PDE1 inhibition raising cAMP/cGMP plus voltage-gated Na+-channel block; smooth-muscle relaxation and selective cerebral vasodil… |
-| [Glycine](../compounds/glycine.md) | compound | 2 | **1** | ↕ | preclinical | Pre-clinical (rat) work shows the sleep-promoting and hypothermic effect of oral glycine is mediated by NMDA receptors in the s… |
-| [Oxiracetam](../compounds/oxiracetam.md) | compound | 2 | **1** | ↑ | preclinical | (S)-oxiracetam increases cerebral blood flow and reverses deficits in chronic cerebral hypoperfusion (rat); no quantitative hum… |
+| Agent | Origin | Overall | Channel ev | Dir | Population | Mechanism |
+|-------|--------|:-------:|:----------:|:---:|------------|-----------|
+| [Caffeine + L-theanine](../compounds/caffeine-l-theanine.md) | 🌿 natural | 3 | **3** | ↓ | both | Caffeine ACUTELY REDUCES resting cerebral blood flow via adenosine-antagonist cerebral vasoconstriction (reduced oxy-Hb, increa… |
+| [B-vitamins for homocysteine lowering (B6 + folate/B9 + B12)](../compounds/b-vitamins-homocysteine.md) | 🌿 natural | 2 | **3** | ↕ | impaired | Homocysteine is an independent vascular risk factor; B6/B9/B12 lower plasma homocysteine, reducing endothelial dysfunction and … |
+| [Resveratrol](../compounds/resveratrol.md) | 🌿 natural | 2 | **3** | ↑ | both | Increased cerebral blood flow / cerebrovascular responsiveness, likely via eNOS-mediated nitric oxide signaling; acute dose-dep… |
+| [EGCG](../compounds/egcg.md) | 🌿 natural | 2 | **2** | ↕ | healthy | Acute oral EGCG modulates cerebral blood flow (frontal cortex), measured by NIRS; effect not linked to cognitive change. |
+| [Ginkgo biloba (EGb 761)](../compounds/ginkgo-biloba.md) | 🌿 natural | 2 | **2** | ↕ | impaired | Primary putative mechanism. Vasoactive/hemorheologic effects attributed to terpene trilactones (ginkgolides, bilobalide) and fl… |
+| [Methylene blue (low-dose)](../compounds/methylene-blue.md) | 🧪 synthetic | 2 | **2** | ↕ | healthy | Single human multimodal fMRI study reported increased task-evoked fMRI response (memory, vigilance) and altered functional conn… |
+| [Panax ginseng](../compounds/panax-ginseng.md) | 🌿 natural | 2 | **2** | ↕ | healthy | Putative vasoactive/glucoregulatory support of cerebral metabolism during sustained mental load; acute single doses lowered blo… |
+| [Piracetam (Nootropil)](../compounds/piracetam.md) | 🧪 synthetic | 2 | **2** | ↑ | impaired | Rheological/microvascular: reduces erythrocyte adhesion to vascular endothelium, decreases platelet aggregation, improves red-c… |
+| [Pyrroloquinoline quinone](../compounds/pqq.md) | 🌿 natural | 2 | **2** | ↑ | impaired | NIRS/cerebral-oxygenation signals suggest increased prefrontal cortex blood flow and oxygen metabolism in small RCTs; mechanism… |
+| [Vinpocetine](../compounds/vinpocetine.md) | ⚗ semi-synthetic | 2 | **2** | ↑ | impaired | PDE1 inhibition raising cAMP/cGMP plus voltage-gated Na+-channel block; smooth-muscle relaxation and selective cerebral vasodil… |
+| [Glycine](../compounds/glycine.md) | 🌿 natural | 2 | **1** | ↕ | preclinical | Pre-clinical (rat) work shows the sleep-promoting and hypothermic effect of oral glycine is mediated by NMDA receptors in the s… |
+| [Oxiracetam](../compounds/oxiracetam.md) | 🧪 synthetic | 2 | **1** | ↑ | preclinical | (S)-oxiracetam increases cerebral blood flow and reverses deficits in chronic cerebral hypoperfusion (rat); no quantitative hum… |
 
 
 ## `mito` — Mitochondrial / bioenergetic
 
 _16 agents · **1** agent(s) at evidence ≥3._
 
-| Agent | Type | Overall | Channel ev | Dir | Population | Mechanism |
-|-------|------|:-------:|:----------:|:---:|------------|-----------|
-| [Creatine (creatine monohydrate)](../compounds/creatine.md) | compound | 3 | **3** | ↑ | both | Phosphocreatine/creatine-kinase system buffers cytosolic ATP/ADP in neurons; supplementation raises brain total creatine and ph… |
-| [Iron (only if deficient)](../compounds/iron.md) | compound | 3 | **2** | ↑ | deficient | Iron underpins oxygen transport (hemoglobin) and oxidative metabolism — heme and Fe-S cluster cofactors of the mitochondrial el… |
-| [Acetyl-L-Carnitine (ALCAR)](../compounds/acetyl-l-carnitine.md) | compound | 2 | **2** | ↑ | impaired | Acetyl group transferred to/from CoA via carnitine acetyltransferase; carnitine shuttle supports mitochondrial fatty-acid beta-… |
-| [Alpha-Lipoic Acid (ALA)](../compounds/alpha-lipoic-acid.md) | compound | 2 | **2** | ↑ | both | Essential cofactor (as lipoamide) for mitochondrial pyruvate dehydrogenase and alpha-ketoglutarate dehydrogenase complexes, lin… |
-| [Methylene blue (low-dose)](../compounds/methylene-blue.md) | compound | 2 | **2** | ↑ | preclinical | Alternative electron carrier in the ETC: at low dose accepts electrons from NADH and donates to cytochrome c, bypassing complex… |
-| [Nicotinamide Riboside](../compounds/nicotinamide-riboside.md) | compound | 2 | **2** | ↑ | both | Salvage-pathway precursor that raises whole-blood/PBMC NAD+ and the NAD+ metabolome, supporting NAD+-dependent bioenergetics, s… |
-| [Piracetam (Nootropil)](../compounds/piracetam.md) | compound | 2 | **2** | ↑ | preclinical | Restores neuronal membrane fluidity (selectively in aged/oxidatively-stressed membranes), enhancing mobility of respiratory-cha… |
-| [Pyrroloquinoline quinone](../compounds/pqq.md) | compound | 2 | **2** | ↑ | preclinical | Stimulates mitochondrial biogenesis via CREB phosphorylation and increased PGC-1alpha expression (also reported SIRT1/PGC-1alph… |
-| [Rhodiola rosea](../compounds/rhodiola-rosea.md) | compound | 2 | **2** | ↑ | preclinical | Cellular-energy / anti-fatigue. Salidroside upregulates mitochondrial biogenesis markers (PGC-1a, TFAM) and activates AMPK in v… |
-| [Cordyceps](../compounds/cordyceps.md) | compound | 1 | **2** | ↑ | healthy | Promotes cellular energy/ATP production (ATP-generation pathway biomarkers; proposed PPAR-γ / mitochondrial-biogenesis involvem… |
-| [NMN](../compounds/nmn.md) | compound | 1 | **2** | ↑ | both | NMN is an NAD+ precursor; raises tissue/blood NAD+ supporting mitochondrial bioenergetics, sirtuin activity, and redox metaboli… |
-| [B-vitamins for homocysteine lowering (B6 + folate/B9 + B12)](../compounds/b-vitamins-homocysteine.md) | compound | 2 | **1** | ↕ | deficient | B-vitamins are one-carbon/methylation and energy-metabolism cofactors (folate/B12 in remethylation, B6 in transsulfuration towa… |
-| [Eleuthero](../compounds/eleuthero.md) | compound | 2 | **1** | ↑ | preclinical | Anti-fatigue effects attributed to shifts in energy/substrate metabolism (increased fat utilization, reduced lactate/BUN accumu… |
-| [Panax ginseng](../compounds/panax-ginseng.md) | compound | 2 | **1** | ↕ | preclinical | Preclinical antioxidant/mitochondrial-protective effects of ginsenosides (Rb1, Rg1, Rg3); no human bioenergetic endpoints. |
-| [Resveratrol](../compounds/resveratrol.md) | compound | 2 | **1** | ↕ | preclinical | Proposed SIRT1/PGC-1alpha-driven mitochondrial biogenesis and improved bioenergetics; preclinical/mechanistic only, no human co… |
-| [Coenzyme Q10 / Ubiquinol](../compounds/coq10-ubiquinol.md) | compound | 1 | **1** | ↑ | both | Obligatory electron carrier in the inner-mitochondrial-membrane electron transport chain, shuttling electrons from complex I an… |
+| Agent | Origin | Overall | Channel ev | Dir | Population | Mechanism |
+|-------|--------|:-------:|:----------:|:---:|------------|-----------|
+| [Creatine (creatine monohydrate)](../compounds/creatine.md) | 🌿 natural | 3 | **3** | ↑ | both | Phosphocreatine/creatine-kinase system buffers cytosolic ATP/ADP in neurons; supplementation raises brain total creatine and ph… |
+| [Iron (only if deficient)](../compounds/iron.md) | 🌿 natural | 3 | **2** | ↑ | deficient | Iron underpins oxygen transport (hemoglobin) and oxidative metabolism — heme and Fe-S cluster cofactors of the mitochondrial el… |
+| [Acetyl-L-Carnitine (ALCAR)](../compounds/acetyl-l-carnitine.md) | 🌿 natural | 2 | **2** | ↑ | impaired | Acetyl group transferred to/from CoA via carnitine acetyltransferase; carnitine shuttle supports mitochondrial fatty-acid beta-… |
+| [Alpha-Lipoic Acid (ALA)](../compounds/alpha-lipoic-acid.md) | 🌿 natural | 2 | **2** | ↑ | both | Essential cofactor (as lipoamide) for mitochondrial pyruvate dehydrogenase and alpha-ketoglutarate dehydrogenase complexes, lin… |
+| [Methylene blue (low-dose)](../compounds/methylene-blue.md) | 🧪 synthetic | 2 | **2** | ↑ | preclinical | Alternative electron carrier in the ETC: at low dose accepts electrons from NADH and donates to cytochrome c, bypassing complex… |
+| [Nicotinamide Riboside](../compounds/nicotinamide-riboside.md) | 🌿 natural | 2 | **2** | ↑ | both | Salvage-pathway precursor that raises whole-blood/PBMC NAD+ and the NAD+ metabolome, supporting NAD+-dependent bioenergetics, s… |
+| [Piracetam (Nootropil)](../compounds/piracetam.md) | 🧪 synthetic | 2 | **2** | ↑ | preclinical | Restores neuronal membrane fluidity (selectively in aged/oxidatively-stressed membranes), enhancing mobility of respiratory-cha… |
+| [Pyrroloquinoline quinone](../compounds/pqq.md) | 🌿 natural | 2 | **2** | ↑ | preclinical | Stimulates mitochondrial biogenesis via CREB phosphorylation and increased PGC-1alpha expression (also reported SIRT1/PGC-1alph… |
+| [Rhodiola rosea](../compounds/rhodiola-rosea.md) | 🌿 natural | 2 | **2** | ↑ | preclinical | Cellular-energy / anti-fatigue. Salidroside upregulates mitochondrial biogenesis markers (PGC-1a, TFAM) and activates AMPK in v… |
+| [Cordyceps](../compounds/cordyceps.md) | 🌿 natural | 1 | **2** | ↑ | healthy | Promotes cellular energy/ATP production (ATP-generation pathway biomarkers; proposed PPAR-γ / mitochondrial-biogenesis involvem… |
+| [NMN](../compounds/nmn.md) | 🌿 natural | 1 | **2** | ↑ | both | NMN is an NAD+ precursor; raises tissue/blood NAD+ supporting mitochondrial bioenergetics, sirtuin activity, and redox metaboli… |
+| [B-vitamins for homocysteine lowering (B6 + folate/B9 + B12)](../compounds/b-vitamins-homocysteine.md) | 🌿 natural | 2 | **1** | ↕ | deficient | B-vitamins are one-carbon/methylation and energy-metabolism cofactors (folate/B12 in remethylation, B6 in transsulfuration towa… |
+| [Eleuthero](../compounds/eleuthero.md) | 🌿 natural | 2 | **1** | ↑ | preclinical | Anti-fatigue effects attributed to shifts in energy/substrate metabolism (increased fat utilization, reduced lactate/BUN accumu… |
+| [Panax ginseng](../compounds/panax-ginseng.md) | 🌿 natural | 2 | **1** | ↕ | preclinical | Preclinical antioxidant/mitochondrial-protective effects of ginsenosides (Rb1, Rg1, Rg3); no human bioenergetic endpoints. |
+| [Resveratrol](../compounds/resveratrol.md) | 🌿 natural | 2 | **1** | ↕ | preclinical | Proposed SIRT1/PGC-1alpha-driven mitochondrial biogenesis and improved bioenergetics; preclinical/mechanistic only, no human co… |
+| [Coenzyme Q10 / Ubiquinol](../compounds/coq10-ubiquinol.md) | 🌿 natural | 1 | **1** | ↑ | both | Obligatory electron carrier in the inner-mitochondrial-membrane electron transport chain, shuttling electrons from complex I an… |
 
 
 ## `ntrophic` — Neurotrophic / neurogenesis
 
 _31 agents · ⚠ **thin** — no agent reaches evidence ≥3 (compound-only)._
 
-| Agent | Type | Overall | Channel ev | Dir | Population | Mechanism |
-|-------|------|:-------:|:----------:|:---:|------------|-----------|
-| [Alpha-GPC](../compounds/alpha-gpc.md) | compound | 3 | **2** | ↑ | impaired | Preclinical reports of increased neurotrophic signaling / nerve growth factor receptor expression and reduced age-related neura… |
-| [Ashwagandha](../compounds/ashwagandha.md) | compound | 3 | **2** | ↑ | preclinical | Root extract (withanolide A) elevated BDNF and enhanced downstream BDNF signaling, reversing chronic-stress depression-like beh… |
-| [Citicoline (CDP-choline)](../compounds/citicoline.md) | compound | 3 | **2** | ↑ | both | Supplies cytidine (→ uridine/CTP) and choline for the Kennedy pathway, driving phosphatidylcholine and structural membrane phos… |
-| [Algal DHA](../compounds/algal-dha.md) | compound | 2 | **2** | ↑ | both | DHA is the dominant brain n-3 LC-PUFA, esterified into synaptic membrane phospholipids (phosphatidylethanolamine/phosphatidylse… |
-| [Cerebrolysin](../compounds/cerebrolysin.md) | compound | 2 | **2** | ↑ | impaired | Neurotrophic-mimetic: low-molecular-weight peptides proposed to mimic endogenous neurotrophic factors (BDNF/GDNF/NGF-like signa… |
-| [Krill oil (phospholipid EPA/DHA + astaxanthin)](../compounds/krill-oil.md) | compound | 2 | **2** | ↑ | both | Delivers DHA (and EPA) that incorporate into neuronal/synaptic membranes; DHA is the dominant structural n-3 PUFA of synaptic m… |
-| [Lion's Mane (Hericium erinaceus)](../compounds/lions-mane.md) | compound | 2 | **2** | ↑ | both | Hericenones (fruiting body) and erinacines (mycelium) stimulate NGF synthesis in cultured glial cells and raise NGF/neurite out… |
-| [Lithium (low-dose / microdose)](../compounds/lithium-low-dose.md) | compound | 2 | **2** | ↑ | impaired | GSK-3-beta inhibition (direct and via Akt-mediated inhibitory phosphorylation), reduced tau hyperphosphorylation, increased BDN… |
-| [Noopept](../compounds/noopept.md) | compound | 2 | **2** | ↑ | preclinical | Increases mRNA/expression of NGF and BDNF in rat hippocampus after acute dosing; chronic dosing potentiates rather than toleriz… |
-| [Omega-3 (EPA/DHA, fish oil)](../compounds/omega-3-epa-dha.md) | compound | 2 | **2** | ↑ | both | DHA is the dominant n-3 fatty acid in neuronal membranes (~35% of synaptic-membrane fatty acids, esterified to PE/PS/PC); suppo… |
-| [Phosphatidylserine (PS)](../compounds/phosphatidylserine.md) | compound | 2 | **2** | ↑ | both | PS is a major anionic membrane phospholipid concentrated in the inner leaflet of neuronal membranes; supplementation is propose… |
-| [Selank](../compounds/selank.md) | compound | 2 | **2** | ↑ | preclinical | Increases BDNF mRNA and protein in rat hippocampus after intranasal administration; normalizes BDNF in ethanol-induced memory i… |
-| [Semax](../compounds/semax.md) | compound | 2 | **2** | ↑ | preclinical | Upregulates BDNF/NGF and trkB expression in rodent hippocampus/brain; activates transcription of neurotrophins and their recept… |
-| [Spermidine](../compounds/spermidine.md) | compound | 2 | **2** | ↕ | both | Induction of macroautophagy (epigenetic HAT inhibition, histone H3 hypoacetylation; clearance of damaged proteins/organelles) p… |
-| [Vitamin D3 (cholecalciferol)](../compounds/vitamin-d3.md) | compound | 2 | **2** | ↑ | deficient | VDR-mediated neurotrophic/neuroprotective signaling: vitamin D receptors are expressed in hippocampus and cortex; calcitriol up… |
-| [Bacopa monnieri (Brahmi)](../compounds/bacopa-monnieri.md) | compound | 3 | **1** | ↑ | preclinical | Dendritic arborization, synaptogenesis and BDNF/neurotrophic signaling — demonstrated in rodent/in-vitro models only; no human … |
-| [Acetyl-L-Carnitine (ALCAR)](../compounds/acetyl-l-carnitine.md) | compound | 2 | **1** | ↑ | preclinical | Neurotrophic effects reported (e.g., NGF-related signaling); preclinical only |
-| [Curcumin](../compounds/curcumin.md) | compound | 2 | **1** | ↑ | preclinical | Upregulation of BDNF and neurotrophic signaling; reverses stress-induced BDNF reductions in rodent models. Largely preclinical;… |
-| [Gotu kola](../compounds/gotu-kola.md) | compound | 2 | **1** | ↑ | preclinical | Preclinical: extract and triterpenoids (asiaticoside, asiatic acid, madecassoside) promote neurite outgrowth, axodendritic matu… |
-| [Magnesium L-threonate](../compounds/magnesium-l-threonate.md) | compound | 2 | **1** | ↑ | preclinical | Increased hippocampal synaptic density (synaptophysin/synaptobrevin puncta) and functional presynaptic release sites reported i… |
-| [Nicotinamide Riboside](../compounds/nicotinamide-riboside.md) | compound | 2 | **1** | ↑ | preclinical | Preclinical models suggest NAD+ repletion supports mitochondrial biogenesis, axonal/neuronal resilience and may modulate neurot… |
-| [Pyrroloquinoline quinone](../compounds/pqq.md) | compound | 2 | **1** | ↑ | impaired | One small RCT in elderly MCI reported elevated serum BDNF after dihydrogen-PQQ vs no change in placebo; not replicated, confoun… |
-| [Zinc](../compounds/zinc.md) | compound | 2 | **1** | ↑ | preclinical | Zinc modulates BDNF/TrkB signaling and hippocampal neurogenesis in rodent models; reverses stress-induced BDNF loss preclinical… |
-| [Apigenin](../compounds/apigenin.md) | compound | 1 | **1** | ↑ | preclinical | Increases hippocampal BDNF/CREB signaling and reportedly potentiates BDNF-TrkB receptor signaling (direct apigenin-BDNF binding… |
-| [Choline bitartrate](../compounds/choline-bitartrate.md) | compound | 1 | **1** | ↕ | deficient | Choline is a substrate for phosphatidylcholine (membrane phospholipid) synthesis; relevant to dietary adequacy and structural i… |
-| [Dihexa](../compounds/dihexa.md) | compound | 1 | **1** | ↑ | preclinical | Proposed to bind hepatocyte growth factor (HGF) and potentiate HGF/c-Met receptor signaling at subthreshold HGF concentrations,… |
-| [Fisetin](../compounds/fisetin.md) | compound | 1 | **1** | ↑ | preclinical | Neuroprotection in rodent models (reduced neurodegeneration/apoptosis, pro-autophagy via mTORC1 inhibition / TFEB / AMPK, mitoc… |
-| [Lecithin / Phosphatidylcholine](../compounds/lecithin.md) | compound | 1 | **1** | ↕ | deficient | PC is a core membrane phospholipid and a substrate for membrane phospholipid synthesis/turnover (Kennedy pathway); relevant to … |
-| [NMN](../compounds/nmn.md) | compound | 1 | **1** | ↑ | preclinical | Preclinical: NMN rescued cerebromicrovascular endothelial function and neurovascular coupling and improved cognition in aged mi… |
-| [Psilocybin (microdosing)](../compounds/psilocybin-microdosing.md) | compound | 1 | **1** | ↑ | preclinical | Psychedelics act as 'psychoplastogens': 5-HT2A activation (incl. intracellular 5-HT2A) drives BDNF-TrkB and mTOR signaling and … |
-| [Pterostilbene](../compounds/pterostilbene.md) | compound | 1 | **1** | ↑ | preclinical | Increases synaptic markers in dentate gyrus and modulates BDNF in rodent models of cognitive decline; supports memory consolida… |
+| Agent | Origin | Overall | Channel ev | Dir | Population | Mechanism |
+|-------|--------|:-------:|:----------:|:---:|------------|-----------|
+| [Alpha-GPC](../compounds/alpha-gpc.md) | 🌿 natural | 3 | **2** | ↑ | impaired | Preclinical reports of increased neurotrophic signaling / nerve growth factor receptor expression and reduced age-related neura… |
+| [Ashwagandha](../compounds/ashwagandha.md) | 🌿 natural | 3 | **2** | ↑ | preclinical | Root extract (withanolide A) elevated BDNF and enhanced downstream BDNF signaling, reversing chronic-stress depression-like beh… |
+| [Citicoline (CDP-choline)](../compounds/citicoline.md) | 🌿 natural | 3 | **2** | ↑ | both | Supplies cytidine (→ uridine/CTP) and choline for the Kennedy pathway, driving phosphatidylcholine and structural membrane phos… |
+| [Algal DHA](../compounds/algal-dha.md) | 🌿 natural | 2 | **2** | ↑ | both | DHA is the dominant brain n-3 LC-PUFA, esterified into synaptic membrane phospholipids (phosphatidylethanolamine/phosphatidylse… |
+| [Cerebrolysin](../compounds/cerebrolysin.md) | ⚗ semi-synthetic | 2 | **2** | ↑ | impaired | Neurotrophic-mimetic: low-molecular-weight peptides proposed to mimic endogenous neurotrophic factors (BDNF/GDNF/NGF-like signa… |
+| [Krill oil (phospholipid EPA/DHA + astaxanthin)](../compounds/krill-oil.md) | 🌿 natural | 2 | **2** | ↑ | both | Delivers DHA (and EPA) that incorporate into neuronal/synaptic membranes; DHA is the dominant structural n-3 PUFA of synaptic m… |
+| [Lion's Mane (Hericium erinaceus)](../compounds/lions-mane.md) | 🌿 natural | 2 | **2** | ↑ | both | Hericenones (fruiting body) and erinacines (mycelium) stimulate NGF synthesis in cultured glial cells and raise NGF/neurite out… |
+| [Lithium (low-dose / microdose)](../compounds/lithium-low-dose.md) | 🌿 natural | 2 | **2** | ↑ | impaired | GSK-3-beta inhibition (direct and via Akt-mediated inhibitory phosphorylation), reduced tau hyperphosphorylation, increased BDN… |
+| [Noopept](../compounds/noopept.md) | 🧪 synthetic | 2 | **2** | ↑ | preclinical | Increases mRNA/expression of NGF and BDNF in rat hippocampus after acute dosing; chronic dosing potentiates rather than toleriz… |
+| [Omega-3 (EPA/DHA, fish oil)](../compounds/omega-3-epa-dha.md) | 🌿 natural | 2 | **2** | ↑ | both | DHA is the dominant n-3 fatty acid in neuronal membranes (~35% of synaptic-membrane fatty acids, esterified to PE/PS/PC); suppo… |
+| [Phosphatidylserine (PS)](../compounds/phosphatidylserine.md) | 🌿 natural | 2 | **2** | ↑ | both | PS is a major anionic membrane phospholipid concentrated in the inner leaflet of neuronal membranes; supplementation is propose… |
+| [Selank](../compounds/selank.md) | 🧪 synthetic | 2 | **2** | ↑ | preclinical | Increases BDNF mRNA and protein in rat hippocampus after intranasal administration; normalizes BDNF in ethanol-induced memory i… |
+| [Semax](../compounds/semax.md) | 🧪 synthetic | 2 | **2** | ↑ | preclinical | Upregulates BDNF/NGF and trkB expression in rodent hippocampus/brain; activates transcription of neurotrophins and their recept… |
+| [Spermidine](../compounds/spermidine.md) | 🌿 natural | 2 | **2** | ↕ | both | Induction of macroautophagy (epigenetic HAT inhibition, histone H3 hypoacetylation; clearance of damaged proteins/organelles) p… |
+| [Vitamin D3 (cholecalciferol)](../compounds/vitamin-d3.md) | 🌿 natural | 2 | **2** | ↑ | deficient | VDR-mediated neurotrophic/neuroprotective signaling: vitamin D receptors are expressed in hippocampus and cortex; calcitriol up… |
+| [Bacopa monnieri (Brahmi)](../compounds/bacopa-monnieri.md) | 🌿 natural | 3 | **1** | ↑ | preclinical | Dendritic arborization, synaptogenesis and BDNF/neurotrophic signaling — demonstrated in rodent/in-vitro models only; no human … |
+| [Acetyl-L-Carnitine (ALCAR)](../compounds/acetyl-l-carnitine.md) | 🌿 natural | 2 | **1** | ↑ | preclinical | Neurotrophic effects reported (e.g., NGF-related signaling); preclinical only |
+| [Curcumin](../compounds/curcumin.md) | 🌿 natural | 2 | **1** | ↑ | preclinical | Upregulation of BDNF and neurotrophic signaling; reverses stress-induced BDNF reductions in rodent models. Largely preclinical;… |
+| [Gotu kola](../compounds/gotu-kola.md) | 🌿 natural | 2 | **1** | ↑ | preclinical | Preclinical: extract and triterpenoids (asiaticoside, asiatic acid, madecassoside) promote neurite outgrowth, axodendritic matu… |
+| [Magnesium L-threonate](../compounds/magnesium-l-threonate.md) | ⚗ semi-synthetic | 2 | **1** | ↑ | preclinical | Increased hippocampal synaptic density (synaptophysin/synaptobrevin puncta) and functional presynaptic release sites reported i… |
+| [Nicotinamide Riboside](../compounds/nicotinamide-riboside.md) | 🌿 natural | 2 | **1** | ↑ | preclinical | Preclinical models suggest NAD+ repletion supports mitochondrial biogenesis, axonal/neuronal resilience and may modulate neurot… |
+| [Pyrroloquinoline quinone](../compounds/pqq.md) | 🌿 natural | 2 | **1** | ↑ | impaired | One small RCT in elderly MCI reported elevated serum BDNF after dihydrogen-PQQ vs no change in placebo; not replicated, confoun… |
+| [Zinc](../compounds/zinc.md) | 🌿 natural | 2 | **1** | ↑ | preclinical | Zinc modulates BDNF/TrkB signaling and hippocampal neurogenesis in rodent models; reverses stress-induced BDNF loss preclinical… |
+| [Apigenin](../compounds/apigenin.md) | 🌿 natural | 1 | **1** | ↑ | preclinical | Increases hippocampal BDNF/CREB signaling and reportedly potentiates BDNF-TrkB receptor signaling (direct apigenin-BDNF binding… |
+| [Choline bitartrate](../compounds/choline-bitartrate.md) | 🌿 natural | 1 | **1** | ↕ | deficient | Choline is a substrate for phosphatidylcholine (membrane phospholipid) synthesis; relevant to dietary adequacy and structural i… |
+| [Dihexa](../compounds/dihexa.md) | 🧪 synthetic | 1 | **1** | ↑ | preclinical | Proposed to bind hepatocyte growth factor (HGF) and potentiate HGF/c-Met receptor signaling at subthreshold HGF concentrations,… |
+| [Fisetin](../compounds/fisetin.md) | 🌿 natural | 1 | **1** | ↑ | preclinical | Neuroprotection in rodent models (reduced neurodegeneration/apoptosis, pro-autophagy via mTORC1 inhibition / TFEB / AMPK, mitoc… |
+| [Lecithin / Phosphatidylcholine](../compounds/lecithin.md) | 🌿 natural | 1 | **1** | ↕ | deficient | PC is a core membrane phospholipid and a substrate for membrane phospholipid synthesis/turnover (Kennedy pathway); relevant to … |
+| [NMN](../compounds/nmn.md) | 🌿 natural | 1 | **1** | ↑ | preclinical | Preclinical: NMN rescued cerebromicrovascular endothelial function and neurovascular coupling and improved cognition in aged mi… |
+| [Psilocybin (microdosing)](../compounds/psilocybin-microdosing.md) | 🌿 natural | 1 | **1** | ↑ | preclinical | Psychedelics act as 'psychoplastogens': 5-HT2A activation (incl. intracellular 5-HT2A) drives BDNF-TrkB and mTOR signaling and … |
+| [Pterostilbene](../compounds/pterostilbene.md) | 🌿 natural | 1 | **1** | ↑ | preclinical | Increases synaptic markers in dentate gyrus and modulates BDNF in rodent models of cognitive decline; supports memory consolida… |
 
 
 ## `inflam` — Neuroinflammation / oxidative
 
 _40 agents · **1** agent(s) at evidence ≥3._
 
-| Agent | Type | Overall | Channel ev | Dir | Population | Mechanism |
-|-------|------|:-------:|:----------:|:---:|------------|-----------|
-| [Sulforaphane](../compounds/sulforaphane.md) | compound | 2 | **3** | ↓ | preclinical | Nrf2/Keap1 pathway activation upregulates antioxidant-response-element (ARE) genes (NQO1, HO-1, glutathione synthesis), reducin… |
-| [Melatonin](../compounds/melatonin.md) | compound | 3 | **2** | ↓ | both | Direct free-radical scavenging plus induction of antioxidant enzymes (SOD, catalase, glutathione peroxidase); reduces circulati… |
-| [Saffron](../compounds/saffron.md) | compound | 3 | **2** | ↓ | both | Anti-inflammatory / antioxidant activity of crocin and safranal (reduced oxidative-stress and inflammatory markers) is proposed… |
-| [Algal DHA](../compounds/algal-dha.md) | compound | 2 | **2** | ↕ | both | DHA is a precursor to specialized pro-resolving mediators (resolvins, protectins) and shifts membrane fatty-acid composition; t… |
-| [Alpha-Lipoic Acid (ALA)](../compounds/alpha-lipoic-acid.md) | compound | 2 | **2** | ↓ | both | ALA and its reduced form DHLA are amphipathic antioxidants that scavenge ROS, chelate transition metals, and regenerate other a… |
-| [B-vitamins for homocysteine lowering (B6 + folate/B9 + B12)](../compounds/b-vitamins-homocysteine.md) | compound | 2 | **2** | ↓ | impaired | Elevated homocysteine is associated with oxidative stress, endothelial inflammation, and accelerated brain atrophy; lowering Hc… |
-| [Centrophenoxine (Meclofenoxate)](../compounds/centrophenoxine.md) | compound | 2 | **2** | ↓ | preclinical | Antioxidant / free-radical-scavenger action and reduction of neuronal lipofuscin ("age pigment") accumulation. In aged rodents … |
-| [Curcumin](../compounds/curcumin.md) | compound | 2 | **2** | ↓ | both | Inhibition of NF-kB signaling, reduction of pro-inflammatory cytokines (TNF-a, IL-6), and direct antioxidant/free-radical scave… |
-| [EGCG](../compounds/egcg.md) | compound | 2 | **2** | ↓ | preclinical | Direct antioxidant / radical scavenging; modulation of NF-kB and pro-inflammatory signalling (largely preclinical/in-vitro). |
-| [Holy basil](../compounds/holy-basil.md) | compound | 2 | **2** | ↓ | preclinical | Tulsi constituents (eugenol, ursolic acid, rosmarinic acid) show anti-inflammatory and immunomodulatory activity in vitro and i… |
-| [Krill oil (phospholipid EPA/DHA + astaxanthin)](../compounds/krill-oil.md) | compound | 2 | **2** | ↓ | both | EPA/DHA are precursors of specialised pro-resolving mediators (resolvins, protectins, maresins) and displace arachidonic-acid e… |
-| [Noopept](../compounds/noopept.md) | compound | 2 | **2** | ↓ | preclinical | Antioxidant / anti-inflammatory and anti-apoptotic actions reported in cellular and rodent neurodegeneration models (e.g., atte… |
-| [Omega-3 (EPA/DHA, fish oil)](../compounds/omega-3-epa-dha.md) | compound | 2 | **2** | ↓ | both | EPA and DHA are precursors of specialised pro-resolving mediators (resolvins, protectins/neuroprotectin D1, maresins) that acti… |
-| [Pyrroloquinoline quinone](../compounds/pqq.md) | compound | 2 | **2** | ↓ | healthy | Redox-active antioxidant; one small human crossover study reported decreased plasma CRP and IL-6 and shifts in oxidative-stress… |
-| [Probiotics (Psychobiotics)](../compounds/probiotics.md) | compound | 2 | **2** | ↓ | both | Strengthened gut-barrier integrity and reduced systemic/neuro-inflammation (lowered LPS translocation, altered cytokines) is a … |
-| [Schisandra chinensis](../compounds/schisandra.md) | compound | 2 | **2** | ↓ | preclinical | Schizandrin A suppresses microglia-mediated neuroinflammation (NO, TNF-alpha, IL-6) via TRAF6-NF-kB and Jak2-Stat3 inhibition; … |
-| [Vinpocetine](../compounds/vinpocetine.md) | compound | 2 | **2** | ↓ | preclinical | IKK-dependent, PDE-independent inhibition of NF-kB-driven proinflammatory signaling; Na+-channel block reducing Ca2+ influx and… |
-| [Vitamin C](../compounds/vitamin-c.md) | compound | 2 | **2** | ↕ | both | Major brain antioxidant and free-radical scavenger; regenerates other antioxidants (vitamin E, glutathione) and limits oxidativ… |
-| [Vitamin D3 (cholecalciferol)](../compounds/vitamin-d3.md) | compound | 2 | **2** | ↕ | both | Immunomodulatory / anti-neuroinflammatory: calcitriol downregulates pro-inflammatory cytokines and shifts microglial/T-cell phe… |
-| [Vitamin E (alpha-tocopherol)](../compounds/vitamin-e.md) | compound | 2 | **2** | ↕ | impaired | Lipid-phase (membrane) antioxidant; scavenges peroxyl radicals and limits lipid peroxidation. In mild-moderate AD, 2000 IU/day … |
-| [Zinc](../compounds/zinc.md) | compound | 2 | **2** | ↓ | deficient | Cofactor for Cu/Zn superoxide dismutase and antioxidant defense; modulates immune signaling and NF-kB. Deficiency increases oxi… |
-| [Apigenin](../compounds/apigenin.md) | compound | 1 | **2** | ↓ | preclinical | Antioxidant and anti-neuroinflammatory actions in cell and rodent models: scavenges ROS, inhibits NF-kB activation, lowers pro-… |
-| [Cordyceps](../compounds/cordyceps.md) | compound | 1 | **2** | ↓ | preclinical | Cordycepin reduces neuroinflammation and oxidative stress in rodent CNS injury/disease models — inhibits microglial pro-inflamm… |
-| [Pterostilbene](../compounds/pterostilbene.md) | compound | 1 | **2** | ↓ | preclinical | Antioxidant / anti-neuroinflammatory; suppresses microglial ROS/NF-kB signaling and inflammatory cytokine expression; SIRT1/Nrf… |
-| [Bacopa monnieri (Brahmi)](../compounds/bacopa-monnieri.md) | compound | 3 | **1** | ↕ | preclinical | Antioxidant and anti-inflammatory activity (free-radical scavenging, reduced lipid peroxidation, metal chelation) attributed to… |
-| [Cerebrolysin](../compounds/cerebrolysin.md) | compound | 2 | **1** | ↕ | preclinical | Putative neuroprotective/anti-inflammatory and anti-apoptotic effects in ischemic/injury models (preclinical; not established a… |
-| [Ginkgo biloba (EGb 761)](../compounds/ginkgo-biloba.md) | compound | 2 | **1** | ↕ | preclinical | Antioxidant / free-radical scavenging and anti-inflammatory activity of flavonoid glycosides (quercetin, kaempferol) and terpen… |
-| [Gotu kola](../compounds/gotu-kola.md) | compound | 2 | **1** | ↓ | preclinical | Preclinical antioxidant / anti-inflammatory and anti-amyloid neuroprotective effects in cell and rodent models; not demonstrate… |
-| [Lion's Mane (Hericium erinaceus)](../compounds/lions-mane.md) | compound | 2 | **1** | ↓ | both | Antioxidant and anti-inflammatory activity (ROS scavenging, cytokine modulation) reported in vitro and in animal models; no ded… |
-| [Lithium (low-dose / microdose)](../compounds/lithium-low-dose.md) | compound | 2 | **1** | ↓ | preclinical | GSK-3-beta inhibition is anti-inflammatory in preclinical models (reduced microglial activation, pro-inflammatory cytokines); h… |
-| [Methylene blue (low-dose)](../compounds/methylene-blue.md) | compound | 2 | **1** | ↓ | preclinical | Redox cycler / free-radical scavenger; reduces ROS and oxidative stress, with reported anti-neuroinflammatory effects (preclini… |
-| [Panax ginseng](../compounds/panax-ginseng.md) | compound | 2 | **1** | ↓ | preclinical | Preclinical anti-inflammatory / NF-kB modulation by ginsenosides; not validated against human neuroinflammatory cognitive endpo… |
-| [Prebiotic fiber](../compounds/prebiotic-fiber.md) | compound | 2 | **1** | ↓ | preclinical | SCFA (esp. butyrate) from fiber fermentation modulate microglia and pro-inflammatory cytokines and support gut-barrier integrit… |
-| [Resveratrol](../compounds/resveratrol.md) | compound | 2 | **1** | ↓ | preclinical | Antioxidant and putative SIRT1/AMPK activation reducing oxidative and inflammatory signaling; largely preclinical, not validate… |
-| [Sage](../compounds/sage.md) | compound | 2 | **1** | ↕ | preclinical | Sage is rich in rosmarinic acid, carnosic acid and other phenolic/terpenoid antioxidants with anti-inflammatory and free-radica… |
-| [Semax](../compounds/semax.md) | compound | 2 | **1** | ↓ | preclinical | Reported reduction of pro-inflammatory mediators (e.g., IL-1b, TNF-a, IL-6) and modulation of immune gene networks in rodent ce… |
-| [Spermidine](../compounds/spermidine.md) | compound | 2 | **1** | ↓ | preclinical | Anti-inflammatory / immunometabolic effects attributed to autophagy induction and polyamine signaling (reduced pro-inflammatory… |
-| [Taurine](../compounds/taurine.md) | compound | 2 | **1** | ↓ | preclinical | Antioxidant and anti-inflammatory actions: scavenges hypochlorous acid via taurine chloramine, attenuates microglial pro-inflam… |
-| [Coenzyme Q10 / Ubiquinol](../compounds/coq10-ubiquinol.md) | compound | 1 | **1** | ↓ | both | Reduced (ubiquinol) form is a lipid-phase chain-breaking antioxidant that scavenges peroxyl radicals and regenerates vitamin E,… |
-| [Fisetin](../compounds/fisetin.md) | compound | 1 | **1** | ↓ | preclinical | Senolytic clearance of senescent cells and reduction of SASP/pro-inflammatory cytokines; antioxidant (Nrf2/glutathione), NF-kB … |
+| Agent | Origin | Overall | Channel ev | Dir | Population | Mechanism |
+|-------|--------|:-------:|:----------:|:---:|------------|-----------|
+| [Sulforaphane](../compounds/sulforaphane.md) | 🌿 natural | 2 | **3** | ↓ | preclinical | Nrf2/Keap1 pathway activation upregulates antioxidant-response-element (ARE) genes (NQO1, HO-1, glutathione synthesis), reducin… |
+| [Melatonin](../compounds/melatonin.md) | 🌿 natural | 3 | **2** | ↓ | both | Direct free-radical scavenging plus induction of antioxidant enzymes (SOD, catalase, glutathione peroxidase); reduces circulati… |
+| [Saffron](../compounds/saffron.md) | 🌿 natural | 3 | **2** | ↓ | both | Anti-inflammatory / antioxidant activity of crocin and safranal (reduced oxidative-stress and inflammatory markers) is proposed… |
+| [Algal DHA](../compounds/algal-dha.md) | 🌿 natural | 2 | **2** | ↕ | both | DHA is a precursor to specialized pro-resolving mediators (resolvins, protectins) and shifts membrane fatty-acid composition; t… |
+| [Alpha-Lipoic Acid (ALA)](../compounds/alpha-lipoic-acid.md) | 🌿 natural | 2 | **2** | ↓ | both | ALA and its reduced form DHLA are amphipathic antioxidants that scavenge ROS, chelate transition metals, and regenerate other a… |
+| [B-vitamins for homocysteine lowering (B6 + folate/B9 + B12)](../compounds/b-vitamins-homocysteine.md) | 🌿 natural | 2 | **2** | ↓ | impaired | Elevated homocysteine is associated with oxidative stress, endothelial inflammation, and accelerated brain atrophy; lowering Hc… |
+| [Centrophenoxine (Meclofenoxate)](../compounds/centrophenoxine.md) | ⚗ semi-synthetic | 2 | **2** | ↓ | preclinical | Antioxidant / free-radical-scavenger action and reduction of neuronal lipofuscin ("age pigment") accumulation. In aged rodents … |
+| [Curcumin](../compounds/curcumin.md) | 🌿 natural | 2 | **2** | ↓ | both | Inhibition of NF-kB signaling, reduction of pro-inflammatory cytokines (TNF-a, IL-6), and direct antioxidant/free-radical scave… |
+| [EGCG](../compounds/egcg.md) | 🌿 natural | 2 | **2** | ↓ | preclinical | Direct antioxidant / radical scavenging; modulation of NF-kB and pro-inflammatory signalling (largely preclinical/in-vitro). |
+| [Holy basil](../compounds/holy-basil.md) | 🌿 natural | 2 | **2** | ↓ | preclinical | Tulsi constituents (eugenol, ursolic acid, rosmarinic acid) show anti-inflammatory and immunomodulatory activity in vitro and i… |
+| [Krill oil (phospholipid EPA/DHA + astaxanthin)](../compounds/krill-oil.md) | 🌿 natural | 2 | **2** | ↓ | both | EPA/DHA are precursors of specialised pro-resolving mediators (resolvins, protectins, maresins) and displace arachidonic-acid e… |
+| [Noopept](../compounds/noopept.md) | 🧪 synthetic | 2 | **2** | ↓ | preclinical | Antioxidant / anti-inflammatory and anti-apoptotic actions reported in cellular and rodent neurodegeneration models (e.g., atte… |
+| [Omega-3 (EPA/DHA, fish oil)](../compounds/omega-3-epa-dha.md) | 🌿 natural | 2 | **2** | ↓ | both | EPA and DHA are precursors of specialised pro-resolving mediators (resolvins, protectins/neuroprotectin D1, maresins) that acti… |
+| [Pyrroloquinoline quinone](../compounds/pqq.md) | 🌿 natural | 2 | **2** | ↓ | healthy | Redox-active antioxidant; one small human crossover study reported decreased plasma CRP and IL-6 and shifts in oxidative-stress… |
+| [Probiotics (Psychobiotics)](../compounds/probiotics.md) | 🌿 natural | 2 | **2** | ↓ | both | Strengthened gut-barrier integrity and reduced systemic/neuro-inflammation (lowered LPS translocation, altered cytokines) is a … |
+| [Schisandra chinensis](../compounds/schisandra.md) | 🌿 natural | 2 | **2** | ↓ | preclinical | Schizandrin A suppresses microglia-mediated neuroinflammation (NO, TNF-alpha, IL-6) via TRAF6-NF-kB and Jak2-Stat3 inhibition; … |
+| [Vinpocetine](../compounds/vinpocetine.md) | ⚗ semi-synthetic | 2 | **2** | ↓ | preclinical | IKK-dependent, PDE-independent inhibition of NF-kB-driven proinflammatory signaling; Na+-channel block reducing Ca2+ influx and… |
+| [Vitamin C](../compounds/vitamin-c.md) | 🌿 natural | 2 | **2** | ↕ | both | Major brain antioxidant and free-radical scavenger; regenerates other antioxidants (vitamin E, glutathione) and limits oxidativ… |
+| [Vitamin D3 (cholecalciferol)](../compounds/vitamin-d3.md) | 🌿 natural | 2 | **2** | ↕ | both | Immunomodulatory / anti-neuroinflammatory: calcitriol downregulates pro-inflammatory cytokines and shifts microglial/T-cell phe… |
+| [Vitamin E (alpha-tocopherol)](../compounds/vitamin-e.md) | 🌿 natural | 2 | **2** | ↕ | impaired | Lipid-phase (membrane) antioxidant; scavenges peroxyl radicals and limits lipid peroxidation. In mild-moderate AD, 2000 IU/day … |
+| [Zinc](../compounds/zinc.md) | 🌿 natural | 2 | **2** | ↓ | deficient | Cofactor for Cu/Zn superoxide dismutase and antioxidant defense; modulates immune signaling and NF-kB. Deficiency increases oxi… |
+| [Apigenin](../compounds/apigenin.md) | 🌿 natural | 1 | **2** | ↓ | preclinical | Antioxidant and anti-neuroinflammatory actions in cell and rodent models: scavenges ROS, inhibits NF-kB activation, lowers pro-… |
+| [Cordyceps](../compounds/cordyceps.md) | 🌿 natural | 1 | **2** | ↓ | preclinical | Cordycepin reduces neuroinflammation and oxidative stress in rodent CNS injury/disease models — inhibits microglial pro-inflamm… |
+| [Pterostilbene](../compounds/pterostilbene.md) | 🌿 natural | 1 | **2** | ↓ | preclinical | Antioxidant / anti-neuroinflammatory; suppresses microglial ROS/NF-kB signaling and inflammatory cytokine expression; SIRT1/Nrf… |
+| [Bacopa monnieri (Brahmi)](../compounds/bacopa-monnieri.md) | 🌿 natural | 3 | **1** | ↕ | preclinical | Antioxidant and anti-inflammatory activity (free-radical scavenging, reduced lipid peroxidation, metal chelation) attributed to… |
+| [Cerebrolysin](../compounds/cerebrolysin.md) | ⚗ semi-synthetic | 2 | **1** | ↕ | preclinical | Putative neuroprotective/anti-inflammatory and anti-apoptotic effects in ischemic/injury models (preclinical; not established a… |
+| [Ginkgo biloba (EGb 761)](../compounds/ginkgo-biloba.md) | 🌿 natural | 2 | **1** | ↕ | preclinical | Antioxidant / free-radical scavenging and anti-inflammatory activity of flavonoid glycosides (quercetin, kaempferol) and terpen… |
+| [Gotu kola](../compounds/gotu-kola.md) | 🌿 natural | 2 | **1** | ↓ | preclinical | Preclinical antioxidant / anti-inflammatory and anti-amyloid neuroprotective effects in cell and rodent models; not demonstrate… |
+| [Lion's Mane (Hericium erinaceus)](../compounds/lions-mane.md) | 🌿 natural | 2 | **1** | ↓ | both | Antioxidant and anti-inflammatory activity (ROS scavenging, cytokine modulation) reported in vitro and in animal models; no ded… |
+| [Lithium (low-dose / microdose)](../compounds/lithium-low-dose.md) | 🌿 natural | 2 | **1** | ↓ | preclinical | GSK-3-beta inhibition is anti-inflammatory in preclinical models (reduced microglial activation, pro-inflammatory cytokines); h… |
+| [Methylene blue (low-dose)](../compounds/methylene-blue.md) | 🧪 synthetic | 2 | **1** | ↓ | preclinical | Redox cycler / free-radical scavenger; reduces ROS and oxidative stress, with reported anti-neuroinflammatory effects (preclini… |
+| [Panax ginseng](../compounds/panax-ginseng.md) | 🌿 natural | 2 | **1** | ↓ | preclinical | Preclinical anti-inflammatory / NF-kB modulation by ginsenosides; not validated against human neuroinflammatory cognitive endpo… |
+| [Prebiotic fiber](../compounds/prebiotic-fiber.md) | 🌿 natural | 2 | **1** | ↓ | preclinical | SCFA (esp. butyrate) from fiber fermentation modulate microglia and pro-inflammatory cytokines and support gut-barrier integrit… |
+| [Resveratrol](../compounds/resveratrol.md) | 🌿 natural | 2 | **1** | ↓ | preclinical | Antioxidant and putative SIRT1/AMPK activation reducing oxidative and inflammatory signaling; largely preclinical, not validate… |
+| [Sage](../compounds/sage.md) | 🌿 natural | 2 | **1** | ↕ | preclinical | Sage is rich in rosmarinic acid, carnosic acid and other phenolic/terpenoid antioxidants with anti-inflammatory and free-radica… |
+| [Semax](../compounds/semax.md) | 🧪 synthetic | 2 | **1** | ↓ | preclinical | Reported reduction of pro-inflammatory mediators (e.g., IL-1b, TNF-a, IL-6) and modulation of immune gene networks in rodent ce… |
+| [Spermidine](../compounds/spermidine.md) | 🌿 natural | 2 | **1** | ↓ | preclinical | Anti-inflammatory / immunometabolic effects attributed to autophagy induction and polyamine signaling (reduced pro-inflammatory… |
+| [Taurine](../compounds/taurine.md) | 🌿 natural | 2 | **1** | ↓ | preclinical | Antioxidant and anti-inflammatory actions: scavenges hypochlorous acid via taurine chloramine, attenuates microglial pro-inflam… |
+| [Coenzyme Q10 / Ubiquinol](../compounds/coq10-ubiquinol.md) | 🌿 natural | 1 | **1** | ↓ | both | Reduced (ubiquinol) form is a lipid-phase chain-breaking antioxidant that scavenges peroxyl radicals and regenerates vitamin E,… |
+| [Fisetin](../compounds/fisetin.md) | 🌿 natural | 1 | **1** | ↓ | preclinical | Senolytic clearance of senescent cells and reduction of SASP/pro-inflammatory cytokines; antioxidant (Nrf2/glutathione), NF-kB … |
 
 
 ## `glymph` — Glymphatic / sleep clearance
 
 _2 agents · **1** agent(s) at evidence ≥3._
 
-| Agent | Type | Overall | Channel ev | Dir | Population | Mechanism |
-|-------|------|:-------:|:----------:|:---:|------------|-----------|
-| [Melatonin](../compounds/melatonin.md) | compound | 3 | **3** | ↕ | both | Endogenous circadian signal; exogenous dosing shifts circadian phase (advances DLMO) and modestly shortens sleep-onset latency.… |
-| [L-Tryptophan and 5-HTP](../compounds/l-tryptophan-5-htp.md) | compound | 2 | **2** | ↕ | impaired | Serotonin is a precursor to melatonin (via N-acetylserotonin), providing a plausible sleep/circadian pathway. L-tryptophan redu… |
+| Agent | Origin | Overall | Channel ev | Dir | Population | Mechanism |
+|-------|--------|:-------:|:----------:|:---:|------------|-----------|
+| [Melatonin](../compounds/melatonin.md) | 🌿 natural | 3 | **3** | ↕ | both | Endogenous circadian signal; exogenous dosing shifts circadian phase (advances DLMO) and modestly shortens sleep-onset latency.… |
+| [L-Tryptophan and 5-HTP](../compounds/l-tryptophan-5-htp.md) | 🌿 natural | 2 | **2** | ↕ | impaired | Serotonin is a precursor to melatonin (via N-acetylserotonin), providing a plausible sleep/circadian pathway. L-tryptophan redu… |
 
 
 ## `hpa` — HPA axis / stress
 
 _12 agents · **2** agent(s) at evidence ≥3._
 
-| Agent | Type | Overall | Channel ev | Dir | Population | Mechanism |
-|-------|------|:-------:|:----------:|:---:|------------|-----------|
-| [Ashwagandha](../compounds/ashwagandha.md) | compound | 3 | **3** | ↓ | healthy | Reduces serum cortisol and self-reported stress/anxiety vs placebo; primary and best-supported axis. Multiple RCTs and meta-ana… |
-| [L-Theanine](../compounds/l-theanine.md) | compound | 3 | **3** | ↓ | healthy | Attenuation of acute stress reactivity; reduced subjective stress and salivary cortisol response to a cognitive stressor (acute… |
-| [Eleuthero](../compounds/eleuthero.md) | compound | 2 | **2** | ↕ | preclinical | Proposed adaptogenic modulation of the HPA/stress axis and cellular stress response (cortisol, Hsp70, stress-activated protein … |
-| [GABA (gamma-aminobutyric acid)](../compounds/gaba.md) | compound | 2 | **2** | ↓ | healthy | Acute stress-marker changes reported under mental-task load (mood, autonomic/EEG indices), consistent with reduced stress react… |
-| [Gotu kola](../compounds/gotu-kola.md) | compound | 2 | **2** | ↕ | healthy | Acute attenuation of acoustic startle response in healthy adults (single dose), consistent with an anxiolytic/stress-reactivity… |
-| [Holy basil](../compounds/holy-basil.md) | compound | 2 | **2** | ↕ | healthy | Adaptogenic modulation of the stress axis. In an 8-week RCT (Holixer 250 mg/day) salivary cortisol, salivary amylase, blood pre… |
-| [Phosphatidylserine (PS)](../compounds/phosphatidylserine.md) | compound | 2 | **2** | ↓ | healthy | Chronic oral PS blunts the ACTH and cortisol response to physical/exercise stress in healthy men; proposed dampening of HPA-axi… |
-| [Prebiotic fiber](../compounds/prebiotic-fiber.md) | compound | 2 | **2** | ↓ | healthy | Reduced waking/cortisol-awakening response after 3 weeks B-GOS; proposed via microbiota-gut-brain and vagal/SCFA signaling |
-| [Probiotics (Psychobiotics)](../compounds/probiotics.md) | compound | 2 | **2** | ↓ | both | Gut-brain axis modulation of HPA-axis output. Meta-analysis (46 RCTs) shows a modest cortisol reduction (low certainty); a sepa… |
-| [Rhodiola rosea](../compounds/rhodiola-rosea.md) | compound | 2 | **2** | ↕ | healthy | Adaptogenic modulation of the stress axis; standardized extract reduced the salivary cortisol response to awakening vs placebo … |
-| [Schisandra chinensis](../compounds/schisandra.md) | compound | 2 | **2** | ↕ | healthy | Classified as an adaptogen; proposed stress-axis / mental-fatigue modulation, but human evidence is in fixed combinations with … |
-| [Selank](../compounds/selank.md) | compound | 2 | **2** | ↓ | both | Anxiolytic/anti-stress effects in generalized anxiety disorder and neurasthenia (Russian clinical trials) and chronic mild stre… |
+| Agent | Origin | Overall | Channel ev | Dir | Population | Mechanism |
+|-------|--------|:-------:|:----------:|:---:|------------|-----------|
+| [Ashwagandha](../compounds/ashwagandha.md) | 🌿 natural | 3 | **3** | ↓ | healthy | Reduces serum cortisol and self-reported stress/anxiety vs placebo; primary and best-supported axis. Multiple RCTs and meta-ana… |
+| [L-Theanine](../compounds/l-theanine.md) | 🌿 natural | 3 | **3** | ↓ | healthy | Attenuation of acute stress reactivity; reduced subjective stress and salivary cortisol response to a cognitive stressor (acute… |
+| [Eleuthero](../compounds/eleuthero.md) | 🌿 natural | 2 | **2** | ↕ | preclinical | Proposed adaptogenic modulation of the HPA/stress axis and cellular stress response (cortisol, Hsp70, stress-activated protein … |
+| [GABA (gamma-aminobutyric acid)](../compounds/gaba.md) | 🌿 natural | 2 | **2** | ↓ | healthy | Acute stress-marker changes reported under mental-task load (mood, autonomic/EEG indices), consistent with reduced stress react… |
+| [Gotu kola](../compounds/gotu-kola.md) | 🌿 natural | 2 | **2** | ↕ | healthy | Acute attenuation of acoustic startle response in healthy adults (single dose), consistent with an anxiolytic/stress-reactivity… |
+| [Holy basil](../compounds/holy-basil.md) | 🌿 natural | 2 | **2** | ↕ | healthy | Adaptogenic modulation of the stress axis. In an 8-week RCT (Holixer 250 mg/day) salivary cortisol, salivary amylase, blood pre… |
+| [Phosphatidylserine (PS)](../compounds/phosphatidylserine.md) | 🌿 natural | 2 | **2** | ↓ | healthy | Chronic oral PS blunts the ACTH and cortisol response to physical/exercise stress in healthy men; proposed dampening of HPA-axi… |
+| [Prebiotic fiber](../compounds/prebiotic-fiber.md) | 🌿 natural | 2 | **2** | ↓ | healthy | Reduced waking/cortisol-awakening response after 3 weeks B-GOS; proposed via microbiota-gut-brain and vagal/SCFA signaling |
+| [Probiotics (Psychobiotics)](../compounds/probiotics.md) | 🌿 natural | 2 | **2** | ↓ | both | Gut-brain axis modulation of HPA-axis output. Meta-analysis (46 RCTs) shows a modest cortisol reduction (low certainty); a sepa… |
+| [Rhodiola rosea](../compounds/rhodiola-rosea.md) | 🌿 natural | 2 | **2** | ↕ | healthy | Adaptogenic modulation of the stress axis; standardized extract reduced the salivary cortisol response to awakening vs placebo … |
+| [Schisandra chinensis](../compounds/schisandra.md) | 🌿 natural | 2 | **2** | ↕ | healthy | Classified as an adaptogen; proposed stress-axis / mental-fatigue modulation, but human evidence is in fixed combinations with … |
+| [Selank](../compounds/selank.md) | 🧪 synthetic | 2 | **2** | ↓ | both | Anxiolytic/anti-stress effects in generalized anxiety disorder and neurasthenia (Russian clinical trials) and chronic mild stre… |

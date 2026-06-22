@@ -8,6 +8,8 @@ aliases:
   - "Noopept (INN: omberacetam)"
 type: compound
 klass: proline-containing dipeptide nootropic (piracetam analogue)
+origin: synthetic                  # natural | semi-synthetic | synthetic (lab-only)
+source: "Lab-synthesized peptide-analog nootropic (Russian; no natural source)"
 status: draft
 evidence_overall: 2
 onset: "Rapid; oral nootropic activity retained after oral dosing (preclinical). Russian trials assessed cognition over weeks of dosing; acute onset in humans not well characterized (unsourced)."

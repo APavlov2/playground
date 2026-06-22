@@ -9,6 +9,8 @@ aliases:
   - ginsenosides
 type: compound
 klass: adaptogen / botanical (Araliaceae; saponin glycosides)
+origin: natural                  # natural | semi-synthetic | synthetic (lab-only)
+source: "Panax ginseng root (Korean/Asian ginseng)"
 status: draft
 evidence_overall: 2
 onset: acute single-dose cognitive/glucoregulatory effects reported ~60 min post-dose; chronic regimens dosed over weeks-to-months

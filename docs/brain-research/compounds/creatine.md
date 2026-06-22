@@ -4,6 +4,8 @@ name: Creatine (creatine monohydrate)
 aliases: [creatine monohydrate, Cr]
 type: compound
 klass: Neuroenergetic
+origin: natural                  # natural | semi-synthetic | synthetic (lab-only)
+source: "Red meat & fish; endogenous synthesis; supplement is synthesized monohydrate"
 status: draft
 evidence_overall: 3
 onset: "Acute (single high dose ~0.35 g/kg shows effects within hours under stress); brain stores saturate slowly over ~2-4 weeks at 5 g/day"

@@ -10,6 +10,8 @@ aliases:
   - Ampamet
 type: compound
 klass: "racetam / AMPA-receptor positive allosteric modulator (ampakine-like)"
+origin: synthetic                  # natural | semi-synthetic | synthetic (lab-only)
+source: "Lab-synthesized racetam (no natural source)"
 status: draft
 evidence_overall: 2
 onset: "~20-40 min (rapid GI absorption); subjective duration ~1-3 h, possibly extended by active metabolites (mostly anecdotal/(unsourced))"

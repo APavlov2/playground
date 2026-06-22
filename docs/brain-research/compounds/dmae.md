@@ -11,6 +11,8 @@ aliases:
   - Deaner
 type: compound
 klass: aminoalcohol (choline analog / putative cholinergic precursor — disputed)
+origin: natural                  # natural | semi-synthetic | synthetic (lab-only)
+source: "Trace in fish (sardines, anchovies); endogenous; supplement as a salt"
 status: draft
 evidence_overall: 1
 onset: not well characterized in humans; trials dosed over days–weeks (unsourced for acute onset)

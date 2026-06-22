@@ -9,6 +9,8 @@ aliases:
   - "CEP-10953"
 type: compound
 klass: "eugeroic (wakefulness-promoting agent); prescription (Rx); R-enantiomer of modafinil"
+origin: synthetic                  # natural | semi-synthetic | synthetic (lab-only)
+source: "Lab-synthesized R-enantiomer of modafinil"
 status: draft
 evidence_overall: 2
 onset: "~2 h to peak plasma (Tmax ~2 h fasted; delayed ~2-4 h with food)"

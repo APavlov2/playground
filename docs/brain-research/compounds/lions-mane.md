@@ -4,6 +4,8 @@ name: Lion's Mane (Hericium erinaceus)
 aliases: [hericium erinaceus, yamabushitake]
 type: compound
 klass: Botanical neurotrophic
+origin: natural                  # natural | semi-synthetic | synthetic (lab-only)
+source: "Hericium erinaceus mushroom"
 status: draft
 evidence_overall: 2  # Strong preclinical NGF mechanism, but human RCTs are few, small, short, and mixed/unreplicated. Graded down to 2 on that basis.
 onset: "weeks (cumulative); a single small RCT reports an acute speed-of-performance effect, unreplicated"

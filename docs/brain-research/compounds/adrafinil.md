@@ -7,6 +7,8 @@ aliases:
   - "(diphenylmethyl)sulfinyl-2-acetohydroxamic acid"
 type: compound
 klass: "eugeroic (wakefulness-promoting); prodrug of modafinil"
+origin: synthetic                  # natural | semi-synthetic | synthetic (lab-only)
+source: "Lab-synthesized prodrug of modafinil (no natural source)"
 status: draft
 evidence_overall: 2
 onset: "Slower than modafinil because hepatic conversion is required; clinical effect over ~1 h but delayed relative to direct modafinil (mechanistic; exact human onset unsourced)"

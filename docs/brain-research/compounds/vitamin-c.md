@@ -7,6 +7,8 @@ aliases:
   - L-ascorbic acid
 type: compound
 klass: "Water-soluble vitamin / antioxidant / enzymatic cofactor"
+origin: natural                  # natural | semi-synthetic | synthetic (lab-only)
+source: "Fruits & vegetables (citrus, peppers); supplements synthesized"
 status: draft
 evidence_overall: 2
 onset: "Repletion of depleted tissue stores over days to weeks; brain/plasma ascorbate are homeostatically buffered, so acute dosing in replete people changes little."

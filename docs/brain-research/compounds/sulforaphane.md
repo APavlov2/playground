@@ -8,6 +8,8 @@ aliases:
   - "broccoli sprout extract"
 type: compound
 klass: "phytochemical / Nrf2 pathway activator (isothiocyanate)"
+origin: natural                  # natural | semi-synthetic | synthetic (lab-only)
+source: "Broccoli sprouts & cruciferous vegetables (from glucoraphanin)"
 status: draft
 evidence_overall: 2
 onset: "Single-dose plasma Cmax ~1-3 h after sprout/extract ingestion; clinical behavioral/cognitive effects (where seen) accrue over weeks of daily dosing (~4-18 weeks in trials)."

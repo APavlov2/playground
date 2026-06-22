@@ -4,6 +4,11 @@ name: Example Compound (Alias)
 aliases: [other-name]
 type: compound                   # compound | habit
 klass: Cholinergic               # short category label
+origin: natural                  # natural | semi-synthetic | synthetic (lab-only)
+                                 #   natural = occurs in food/plants/the body (even if the product is synthesized)
+                                 #   semi-synthetic = chemically derived from a natural precursor
+                                 #   synthetic = lab-only, does not occur in nature
+source: ""                       # short common/natural source, e.g. "Green tea (Camellia sinensis)" or "Lab-synthesized (no natural source)"
 status: draft                    # draft | reviewed | verified
 evidence_overall: 2              # 1–4, see rubric.md; the badge value
 onset: ""                        # e.g. "1–3 hours (acute); weeks (cumulative)"

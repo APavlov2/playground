@@ -8,6 +8,8 @@ aliases:
   - eleutherosides
 type: compound
 klass: adaptogen (herbal extract; not Panax ginseng)
+origin: natural                  # natural | semi-synthetic | synthetic (lab-only)
+source: "Eleutherococcus senticosus root (Siberian ginseng)"
 status: draft
 evidence_overall: 2
 onset: single-dose stimulant-type effects reported within ~2 h for adaptogen blends; chronic adaptogenic claims over weeks (unsourced for isolated eleuthero)
